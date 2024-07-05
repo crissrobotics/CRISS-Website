@@ -7,16 +7,29 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    background-color: #001625;
+    /* background-color: #00275B; */
+    /* background-color: rgb(237, 237, 237, 0.1);
+    backdrop-filter: blur(10px); */
     color: #fff;
     padding-left: 6vw;
     padding-right: 6vw;
+    animation: nav  ease-in forwards;
+    animation-delay: 1s;
 
+}
+
+@keyframes nav {
+    0% {
+        z-index: 0;
+    }
+    100% {
+        z-index: 5;
+    }
 }
 
 .logo {
     height: 6rem;
-    width: 25rem;
+    width: 21rem;
 }
 
 .logo img {
@@ -54,10 +67,11 @@ a {
 
 .links ul li a {
     /* font-family: Inter; */
-    font-family: Inter;
+    font-family: "Inter";
+    font-weight: 600;
     color: #fff;
     font-size: 16px;
-    font-weight: 400;
+   
     position: relative;
     z-index: 3; 
     
@@ -112,29 +126,36 @@ a {
 /* hero section   */
 
 .hero-section {
+    height: 100vh;
+    width: 100vw;
     position: relative;
-    top: 10rem;
-    height: 80vh;
+    /* top: 10rem;
+    height: 80vh; */
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    font-family: Inter;
+    font-family: "Inter", sans-serif;
+    overflow: hidden;
 }
 
 .hero-section video {
-    height: 80vh;
-    width: 120vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
 }
 
 .hero-section p {
     font-size: 3rem;
-    text-transform: capitalize;
+    /* text-transform: capitalize; */
 }
 
 .hero-section h1 {
     font-size: 5rem;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     text-align: center;
 }
 

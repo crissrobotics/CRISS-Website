@@ -3,15 +3,17 @@ import './App.css';
 import { Routes, Route } from "react-router-dom";
 
 import Navbar from "./components/Navbar/Navbar";
+import bgVideo from "./assets/images/Homepage/bgvideo.mp4";
 
 const Home = () => {
   return (
     <>
       <Navbar />
       <section className="hero-section">
-        {/* <video autoPlay muted src="https://www.stag4.mydemoview.com/spros/wp-content/uploads/2022/08/Space-Robotics-Society.m4v"></video> */}
-        <p>Welcome to </p>
-        <h1>Home Page</h1>
+        {/* <video autoPlay loop muted src="https://www.stag4.mydemoview.com/spros/wp-content/uploads/2022/08/Space-Robotics-Society.m4v"></video> */}
+        {/* <p>Welcome to </p>
+        <h1>Home Page</h1> */}
+        <video src={bgVideo} autoPlay muted loop></video>
       </section>
     </>
   );
