@@ -1,4 +1,4 @@
-import React, {useEffect} from "react";
+import React, { useEffect } from "react";
 import "./home.scss";
 import Marquee from "react-fast-marquee";
 import Typewriter from 'typewriter-effect';
@@ -7,6 +7,9 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger';
 gsap.registerPlugin(ScrollTrigger);
 
 import Navbar from "../Header/Navbar/Navbar";
+import About from "./About/About";
+import Mission from "./Mission/Mission";
+import Contact from "./Contact/Contact";
 
 import SponsorCard from "./SponsorCard/SponsorCard";
 import bits from "../../assets/images/Homepage/bits.png";
@@ -25,15 +28,12 @@ export default function Home() {
 
 
     useEffect(() => {
-        // Set the initial position of the footer
-        gsap.set('.sponsorContainer', { yPercent: -70 });
+        gsap.set('.aboutContainer', { yPercent: -50 });
 
-        // Create the timeline for the uncover animation
         const uncover = gsap.timeline({ paused: true });
 
-        uncover.to('.sponsorContainer', { yPercent: 0, ease: 'none' });
+        uncover.to('.aboutContainer', { yPercent: 0, ease: 'none' });
 
-        // Create the ScrollTrigger
         ScrollTrigger.create({
             trigger: '.heroContainer',
             start: 'bottom bottom',
@@ -66,8 +66,17 @@ export default function Home() {
                     </h6>
                 </div>
             </div>
+
+            <div className="aboutContainer">
+                <About></About>
+            </div>
+
+            <div className="missionContainer">
+                <Mission></Mission>
+            </div>
+
             <div className="sponsorContainer">
-                <h2>Sponsors</h2>
+                <h2>Our<span>Sponsors</span></h2>
                 <div className="sponsoreCard">
                     <div className="sponsorCardUpperRow">
                         <Marquee>
@@ -92,6 +101,10 @@ export default function Home() {
                         </Marquee>
                     </div>
                 </div>
+            </div>
+
+            <div className="contactContainer">
+                <Contact></Contact>
             </div>
 
         </>
