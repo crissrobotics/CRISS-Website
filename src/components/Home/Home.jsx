@@ -10,6 +10,7 @@ import Navbar from "../Header/Navbar/Navbar";
 import About from "./About/About";
 import Mission from "./Mission/Mission";
 import Contact from "./Contact/Contact";
+import Footer from "./Footer/Footer";
 
 import SponsorCard from "./SponsorCard/SponsorCard";
 import bits from "../../assets/images/Homepage/bits.png";
@@ -107,6 +108,8 @@ export default function Home() {
             <div className="contactContainer">
                 <Contact></Contact>
             </div>
+
+            <Footer></Footer>
 
         </>
     )
