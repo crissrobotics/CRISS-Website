@@ -23,6 +23,7 @@ import solidworks from "../../assets/images/Homepage/solidworks.jpg";
 import speedacc from "../../assets/images/Homepage/speedacc.png";
 
 import bgVideo from "../../assets/images/Homepage/bgvideo.mp4";
+import backImg from "../../assets/images/Homepage/background.jpg";
 
 export default function Home() {
 
@@ -67,7 +68,7 @@ export default function Home() {
                 </div>
             </div>
 
-            <div className="aboutContainer">
+            <div className="aboutContainer"  style={{backgroundImage: `url(${backImg})`}}>
                 <About></About>
             </div>
 

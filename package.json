@@ -16,6 +16,7 @@
     "react-fast-marquee": "^1.6.5",
     "react-router-dom": "^6.24.1",
     "sass": "^1.77.6",
+    "sweetalert2": "^11.6.13",
     "typewriter-effect": "^2.21.0"
   },
   "devDependencies": {

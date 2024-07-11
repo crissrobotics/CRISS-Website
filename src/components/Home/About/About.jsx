@@ -1,7 +1,7 @@
 import React from "react";
 import "./about.scss";
 
-import aboutPic from "../../../assets/images/Homepage/about.jpeg"
+import aboutPic from "../../../assets/images/Homepage/about.jpeg";
 
 export default function About() {
 
