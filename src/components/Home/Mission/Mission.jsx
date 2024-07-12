@@ -1,7 +1,7 @@
 import React from "react";
 import "./mission.scss";
 
-import missionImg from "../../../assets/images/Homepage/mission1.jpeg";
+import missionImg from "../../../assets/images/Homepage/mission.jpeg";
 export default function Mission() {
 
     return (
