@@ -5,6 +5,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  animation: starting 2s ease-in-out;
 
   h2 {
     width: 1050px;
@@ -57,4 +58,16 @@
       }
     }
   }
+}
+
+@keyframes starting {
+
+  0%{
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+  
 }
