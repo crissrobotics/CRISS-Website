@@ -1,0 +1,117 @@
+.footerContainer {
+    position: relative;
+    height: 27rem;
+    width: 100%;
+    background-color: #00275B;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    .logoContainer {
+        margin-left: 3rem;
+        align-self: center;
+        height: 13rem;
+
+        a {
+            text-decoration: none;
+
+            img {
+                height: 100%;
+                width: 100%;
+            }
+        }
+    }
+
+    .socialMedia {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 1rem;
+
+        .link {
+            height: 7rem;
+            width: 7rem;
+            background-color: #fff;
+            border-radius: 50%;
+
+            a {
+                text-decoration: none;
+                display: flex;
+                justify-content: center;
+                padding-top: 10px;
+                font-size: 4rem;
+
+                svg {
+                    fill: #00275B;
+                    height: 4.5rem;
+                    width: 4.5rem;
+                    transition: all 0.2s ease;
+                }
+            }
+
+            &:hover {
+                background-color: #0176D3;
+            }
+
+            &:hover svg {
+                transform: scale(1.1);
+                fill: white;
+            }
+
+        }
+        #insta {
+
+            a {
+                padding-top: 8px;
+
+                svg {
+                    height: 5.2rem;
+                    width: 5.2rem;
+                }
+            }
+        }
+
+    }
+
+    .right {
+        align-self: flex-end;
+        height: 100px;
+        width: 300px;
+
+        a {
+            text-decoration: none;
+
+            img {
+                height: 100%;
+                width: 100%;
+            }
+        }
+    }
+
+    
+    .scrollTop {
+        position: absolute;
+        top: 2rem;
+        right: 4rem;
+        cursor: pointer;
+        height: 7rem;
+        width: 7rem;
+        background-color: #0176D3;
+        border-radius: 50%;
+        text-decoration: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: 0.1s ease-in-out;
+
+        svg {
+            fill: #fff;
+            transition: 0.1s ease-in-out;
+        }
+
+        &:hover svg {
+            transform: translateY(-6px);
+        }
+    }
+    
+}

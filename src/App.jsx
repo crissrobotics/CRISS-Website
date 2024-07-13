@@ -40,7 +40,7 @@ const Support = () => {
   );
 };
 
-const Contact = () => {
+const Competitions = () => {
   return (
     <>
       <Navbar color="#00275B" />
@@ -58,7 +58,7 @@ function App() {
     <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/sponsorship" element={<Support />} />
-      <Route path="/competitions" element={<Contact />} />
+      <Route path="/competitions" element={<Competitions />} />
       <Route path="/team" element={<Team />} />
       <Route path="/alumni" element={<OurAlumni />} />
     </Routes>

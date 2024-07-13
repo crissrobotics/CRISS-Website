@@ -35,7 +35,7 @@ export default function Contact() {
     };
 
     return (
-        <div className="contactContainer">
+        <div className="contactContainer" id="contact">
             <h2>Connect<span>With Us</span></h2>
             <div className="details">
                 <div className="left">
