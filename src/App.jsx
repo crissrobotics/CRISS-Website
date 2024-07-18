@@ -2,19 +2,8 @@ import React from "react";
 import { Routes, Route } from "react-router-dom";
 
 import Navbar from "./components/Header/Navbar/Navbar";
+import Team from "./components/Team/Team";
 import Home from "./components/Home/Home";
-
-const Team = () => {
-  return (
-    <>
-      <Navbar color="#00275B" />
-      <section className="hero-section">
-        <p>Welcome to </p>
-        <h1>Team Page</h1>
-      </section>
-    </>
-  );
-};
 
 const OurAlumni = () => {
   return (
