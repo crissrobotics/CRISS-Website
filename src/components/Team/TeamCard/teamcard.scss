@@ -7,7 +7,7 @@
     position: relative;
 
     &:hover {
-        // border: 1px solid #00275B;
+        box-shadow: 0px 3.08px 8.34px 0px #00000029;
         transform: scale(1.1);
     }
 
@@ -35,7 +35,8 @@
     .details {
         padding-top: 5px;
         margin: 7px;
-        min-height: 120px;
+        padding-bottom: 5px;
+        height: fit-content;
 
         .name {
             line-height: normal;
