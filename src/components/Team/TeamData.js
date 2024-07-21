@@ -1,3 +1,33 @@
+import l1 from "../../assets/images/Team/2022/Boards/l1.jpg";
+import l2 from "../../assets/images/Team/2022/Boards/l2.jpg";
+
+export const BoardLead = [
+    {
+        id: "1",
+        name: "Nikhil Handa",
+        img: l1,
+        position1: "Team Captain",
+        position2: null,
+        position3: null,
+        linkedin: "https://www.linkedin.com/in/nikhil-handa-6b42b2257/",
+        github: "https://github.com/infinitecoder1729",
+        insta: "https://instagram.com/nikhi_handa",
+    },
+    {
+        id: "1",
+        name: "Chaitanya Agrawal",
+        img: l2,
+        position1: "Team Manager",
+        position2: "APOGEE Joint-Coordinator",
+        position3: "BOSM Joint-Coordinator",
+        linkedin: "https://www.linkedin.com/in/chaitanya-agrawal-8332aa27a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+        github: "https://github.com/chaitanyaa932",
+        insta: "https://www.instagram.com/chaitanya_agrawal_?igsh=bzZhOG84czd4dmht",
+    },
+
+]
+
+
 import b1 from "../../assets/images/Team/2022/Boards/b1.jpg";
 import b2 from "../../assets/images/Team/2022/Boards/b2.jpeg";
 import b3 from "../../assets/images/Team/2022/Boards/b3.jpeg";
@@ -196,19 +226,6 @@ export const BoardTeam = [
         team: "tech"
     }
 ];
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 import manaschoudhary from "../../assets/images/Team/2023/Management/manaschoudhary.png";
