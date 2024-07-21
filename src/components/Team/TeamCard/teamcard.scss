@@ -1,0 +1,75 @@
+.teamCard {
+    height: fit-content;
+    width: 200px;
+    font-family: Inter;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+    position: relative;
+
+    &:hover {
+        // border: 1px solid #00275B;
+        transform: scale(1.1);
+    }
+
+    &:hover .details .social{
+        visibility: visible;
+    }
+
+    // &:hover .imgContainer img {
+    //     filter: grayscale(0);
+    // }
+
+
+    .imgContainer {
+        height: 225px;
+        width: 200px;
+
+        img {
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+            // filter: grayscale(1);
+        }
+    }
+
+    .details {
+        padding-top: 5px;
+        margin: 7px;
+        min-height: 120px;
+
+        .name {
+            line-height: normal;
+            font-size: 20px;
+            color: #00275B;
+            font-weight: 550;
+            text-transform: uppercase;
+        }
+    
+        .position {
+            line-height: normal;
+            padding-top: 5px;
+            color: #000;
+            font-size: 16px;
+        }
+    
+        .social {
+            padding-top: 5px;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            gap: 8px;
+            transition: all 0.3s ease-in-out;
+            visibility: hidden;
+    
+            a {
+                text-decoration: none;
+                height: 30px;
+                width: 30px;
+                cursor: pointer;
+            }
+            #linkedin svg{
+                fill: #0A66C2;    
+            }
+        }
+    }
+}

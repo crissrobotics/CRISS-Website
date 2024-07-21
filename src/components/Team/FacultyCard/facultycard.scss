@@ -1,0 +1,29 @@
+.facultyCard {
+    color: black;
+    font-family: Inter;
+    text-align: center;
+    height: 300px;
+    width: 280px;
+
+    .front {
+        background-color: #00275B;
+        height: 300px;
+        width: 280px;
+        transition: transform 1s ease-in-out;
+    }
+
+    .back {
+        background-color: #00275B;
+        height: 300px;
+        width: 280px;
+        transition: transform 1s ease-in-out;
+    }
+
+    .name {
+        font-size: 20px;
+    }
+    .team {
+        color: green;
+        font-size: 16px;
+    }
+}

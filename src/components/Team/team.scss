@@ -1,7 +1,12 @@
+header {
+    height: 8rem;
+}
+
 main {
-    position: relative;
-    top: 10rem;
-    height: 100vh;
+    background-color: #F1F8FF;
+    height: fit-content;
+    padding-top: 3rem;
+    padding-bottom: 6rem;
     width: 100%;
 
     h2 {
@@ -26,13 +31,35 @@ main {
     }
 
     menu {
-        // padding-left: 2rem;
-        // padding-right: 2rem;
         display: flex;
         flex-direction: row;
         justify-content: center;
         flex-wrap: wrap;
-        gap: 2rem 2vw ;
+        gap: 2rem 2vw;
+    }
+
+    .memberContainer {
+        margin-top: 4rem;
+        display: flex;
+        flex-direction: column;
+
+        h6 {
+            font-size: 30px;
+            margin-bottom: 30px;
+            color: #00275B;
+            font-weight: 700;
+            font-family: Inter;
+            text-align: center;
+        }
+
+        .members {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 3rem 7rem;
+        }
     }
 
 }
