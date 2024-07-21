@@ -4,6 +4,7 @@ import "./team.scss";
 import Navbar from "../Header/Navbar/Navbar";
 import Footer from "../Footer/Footer";
 import TabButton from "./TabButton/TabButton";
+import Board from "./Board/Board";
 import Management from "./Management/Management";
 import Software from "./Software/Software"
 import Mechanical from "./Mechanical/Mechanical";
@@ -89,7 +90,7 @@ export default function Team() {
 
                 </div> */}
                 <div>
-                {/* {selectedteam === 'board' && <Board />} */}
+                {selectedteam === 'board' && <Board />}
                 {selectedteam === 'management' && <Management />}
                 {selectedteam === 'software' && <Software />}
                 {selectedteam === 'mechanical' && <Mechanical />}
