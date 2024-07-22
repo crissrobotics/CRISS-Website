@@ -4,7 +4,13 @@
     font-family: Inter;
     text-align: center;
     transition: all 0.3s ease-in-out;
-    position: relative;
+    background-color: #00275B;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 260px;
+    height: 260px;
+    padding-top: 10px;
 
     &:hover {
         box-shadow: 0px 3.08px 8.34px 0px #00000029;
@@ -16,13 +22,15 @@
     }
 
     .imgContainer {
-        height: 225px;
-        width: 200px;
+        height: 95px;
+        width: 95px;
+        border-radius: 50%;
 
         img {
             height: 100%;
             width: 100%;
             object-fit: cover;
+            border-radius: 50%;
         }
     }
 
@@ -35,7 +43,7 @@
         .name {
             line-height: normal;
             font-size: 20px;
-            color: #00275B;
+            color: #fff;
             font-weight: 550;
             text-transform: uppercase;
         }
@@ -45,10 +53,11 @@
             flex-direction: column;
             gap: 4px;
             padding-top: 5px;
+            min-height: 60px;
 
             p{
                 font-size: 16px;
-                color: #000;
+                color: #14A1E8;
             }
         }
     
@@ -59,7 +68,7 @@
             justify-content: center;
             gap: 8px;
             transition: all 0.3s ease-in-out;
-            visibility: hidden;
+            // visibility: hidden;
     
             a {
                 text-decoration: none;
