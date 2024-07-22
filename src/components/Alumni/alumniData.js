@@ -13,6 +13,12 @@ import a13 from "../../assets/images/Alumni/2021/a13.jpeg";
 import a14 from "../../assets/images/Alumni/2021/a14.jpg";
 import a15 from "../../assets/images/Alumni/2021/a15.jpg";
 import a16 from "../../assets/images/Alumni/2021/a16.jpg";
+import a17 from "../../assets/images/Alumni/2021/a17.jpg";
+import a18 from "../../assets/images/Alumni/2021/a18.jpg";
+import a19 from "../../assets/images/Alumni/2021/a19.jpg";
+import a20 from "../../assets/images/Alumni/2021/a20.jpg";
+import a21 from "../../assets/images/Alumni/2021/a21.jpg";
+import a22 from "../../assets/images/Alumni/2021/a22.jpg";
 
 export const Alumnis = [
 
@@ -160,13 +166,58 @@ export const Alumnis = [
         team: "",
         batch: "2021"
     },
-    // {
-    //     id: "16",
-    //     name: "",
-    //     img: "",
-    //     position: "",
-    //     linkedin: "",
-    //     team: "",
-    //     batch: "2021"
-    // }
+    {
+        id: "17",
+        name: "Arkya Aditya",
+        img: a17,
+        position: "Powers Lead",
+        linkedin: null,
+        team: "",
+        batch: "2021"
+    },
+    {
+        id: "18",
+        name: "Dhruv Garg",
+        img: a18,
+        position: "Management Team",
+        linkedin: "https://www.linkedin.com/in/dhruv-garg-32262a224/",
+        team: "",
+        batch: "2021"
+    },
+    {
+        id: "19",
+        name: "Vansh Agrawal",
+        img: a19,
+        position: "Management Team",
+        linkedin: "https://www.linkedin.com/in/vansh-agrawal-aba7a8224/",
+        team: "",
+        batch: "2021"
+    },
+    {
+        id: "20",
+        name: "Nek Manchanda",
+        img: a20,
+        position: "Management Team",
+        linkedin: "https://www.linkedin.com/in/nek-manchanda-59b18b26b",
+        team: "",
+        batch: "2021"
+    },
+    {
+        id: "21",
+        name: "Pranav Malaiya",
+        img: a21,
+        position: "Management Team",
+        linkedin: "https://www.linkedin.com/in/pranavmalaiya",
+        team: "",
+        batch: "2021"
+    },
+    {
+        id: "22",
+        name: "Joshua Joseph John",
+        img: a22,
+        position: "Science Team",
+        linkedin: "https://www.linkedin.com/in/joshua-john-534671254/",
+        team: "",
+        batch: "2021"
+    }
 ]

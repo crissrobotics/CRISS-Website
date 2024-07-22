@@ -252,6 +252,7 @@ import aditiagarwal from "../../assets/images/Team/2023/Management/aditiagarwal.
 import advaitshukla from "../../assets/images/Team/2022/Management/advaitshukla.jpg";
 import deepaksaini from "../../assets/images/Team/2022/Management/deepaksaini.jpeg";
 import shivtiwari from "../../assets/images/Team/2022/Management/shivtiwari.jpg";
+import kashishbansal from "../../assets/images/Team/2023/Management/kashishbansal.jpg";
 
 export const ManagementTeam = [
     {
@@ -492,6 +493,16 @@ export const ManagementTeam = [
         linkedin: "https://www.linkedin.com/in/aditi-agarwal-6012142a3?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
         github: null,
         insta: "https://www.instagram.com/aditiag_07?igsh=aHIyNTQ4aGFqejE0",
+        batch: "2023"
+    },
+    {
+        id: "24",
+        name: "Kashish Bansal",
+        img: kashishbansal,
+        position: "Member",
+        linkedin: "https://www.linkedin.com/in/kashish-bansal-26b45b280/",
+        github: null,
+        insta: "https://www.instagram.com/kash_.u/",
         batch: "2023"
     }
    
