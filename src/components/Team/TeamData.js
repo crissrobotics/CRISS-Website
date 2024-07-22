@@ -914,4 +914,165 @@ export const PayloadTeam = [
 ];
 
 
+import fl1 from "../../assets/images/Team/Faculty/fl1.jpg";
+import fl2 from "../../assets/images/Team/Faculty/fl2.jpg";
+
+export const FacultyLead = [
+    {
+        id: "1",
+        name: "DR M S DASGUPTA",
+        img: fl1,
+        position: "FACULTY IN-CHARGE",
+        dept: "Hod, Mechanical Dept, BITS Pilani",
+        email: "mailto: dasgupta@pilani.bits-pilani.ac.in",
+        website: "https://www.bits-pilani.ac.in/pilani/dasgupta/Profile"
+    },
+    {
+        id: "2",
+        name: "DR KAUSHAL KISHORE",
+        img: fl2,
+        position: "SOFTWARE & ELECTRICAL ADVISOR",
+        dept: "Senior Scientist at CEERI,Pilani",
+        email: "mailto: kaushal@ceeri.res.in",
+        website: "https://www.ceeri.res.in/profiles/kaushal-kishore/"
+    },
+]
+
+
+import f1 from "../../assets/images/Team/Faculty/f1.jpg";
+import f2 from "../../assets/images/Team/Faculty/f2.jpg";
+import f3 from "../../assets/images/Team/Faculty/f3.jpg";
+import f4 from "../../assets/images/Team/Faculty/f4.jpg";
+import f5 from "../../assets/images/Team/Faculty/f5.jpg";
+import f6 from "../../assets/images/Team/Faculty/f6.jpg";
+import f7 from "../../assets/images/Team/Faculty/f7.jpg";
+import f8 from "../../assets/images/Team/Faculty/f8.jpg";
+import f9 from "../../assets/images/Team/Faculty/f9.jpg";
+import f10 from "../../assets/images/Team/Faculty/f10.jpg";
+import f11 from "../../assets/images/Team/Faculty/f11.jpg";
+import f12 from "../../assets/images/Team/Faculty/f12.jpg";
+import f13 from "../../assets/images/Team/Faculty/f13.jpg";
+
+export const FacultyTeam = [
+    {
+        id: "8",
+        name: "Dr. Divyansh Patel",
+        img: f8,
+        position: "Mechanical Advisor",
+        dept: "Assistant Professor, Mechanical Department",
+        email: "mailto:divyansh.patel@pilani.bits-pilani.ac.in",
+        website: "https://www.bits-pilani.ac.in/pilani/divyanshpatel/profile"
+    },
+    {
+        id: "9",
+        name: "Dr. Arun Jalan",
+        img: f9,
+        position: "Mechanical Advisor",
+        dept: "Associate Professor, Mechanical Department",
+        email: "mailto:arunjalan@pilani.bits-pilani.ac.in",
+        website: "https://www.bits-pilani.ac.in/pilani/arunjalan/profile"
+    },
+    {
+        id: "10",
+        name: "Dr. Gaurav Watts",
+        img: f10,
+        position: "Mechanical Advisor",
+        dept: "Assistant Professor, Mechanical Department",
+        email: "mailto:gaurav.watts@pilani.bits-pilani.ac.in",
+        website: "https://www.bits-pilani.ac.in/pilani/gauravwatts/profile"
+    },
+    {
+        id: "11",
+        name: "Dr. Prateek Kala",
+        img: f11,
+        position: "Mechanical Advisor",
+        dept: "Assistant Professor, Mechanical Department",
+        email: "mailto:prateek.kala@pilani.bits-pilani.ac.in",
+        website: "https://www.bits-pilani.ac.in/pilani/prateekkala/profile"
+    },
+    {
+        id: "12",
+        name: "Dr. Radha Raman Mishra",
+        img: f12,
+        position: "Mechanical Advisor",
+        dept: "Assistant Professor, Mechanical Department",
+        email: "mailto:rraman.mishra@pilani.bits-pilani.ac.in",
+        website: "https://www.bits-pilani.ac.in/pilani/rramanmishra/Profile"
+    },
+    {
+        id: "4",
+        name: "Dr. Kuldeep Singh Sangwan",
+        img: f4,
+        position: "Mechanical Advisor",
+        dept: "Professor, Mechanical Department",
+        email: "mailto:kss@pilani.bits-pilani.ac.in",
+        website: "https://www.bits-pilani.ac.in/pilani/kss/profile"
+    },
+    {
+        id: "5",
+        name: "Dr. Meetha V Shenoy",
+        img: f5,
+        position: "Electrical Advisor",
+        dept: "Assistant Professor, Electrical Department",
+        email: "mailto:meetha.shenoy@pilani.bits-pilani.ac.in",
+        website: "https://www.bits-pilani.ac.in/pilani/meethashenoy/profile"
+    },
+    {
+        id: "1",
+        name: "Dr. H D Mathur",
+        img: f1,
+        position: "Electrical Advisor",
+        dept: "HOD, Electrical Department",
+        email: "mailto:mathurhd@pilani.bits-pilani.ac.in",
+        website: "https://www.bits-pilani.ac.in/Pilani/mathurhd/profile"
+    },
+    {
+        id: "2",
+        name: "Dr. Prabhat Jha",
+        img: f2,
+        position: "Science Advisor",
+        dept: "Prof (Ex-HOD), Biological Sciences Department",
+        email: "mailto:prabhatjha@pilani.bits-pilani.ac.in",
+        website: "https://universe.bits-pilani.ac.in/pilani/prabhatjha/profile"
+    },
+    {
+        id: "3",
+        name: "Dr. P R Deepa",
+        img: f3,
+        position: "Science Advisor",
+        dept: "Prof, Biological Science Department",
+        email: "mailto:deepa@pilani.bits-pilani.ac.in",
+        website: "https://www.bits-pilani.ac.in/pilani/deepa/profile"
+    },
+    {
+        id: "7",
+        name: "Dr. Balakumaram Chandrasekhar",
+        img: f7,
+        position: "Science Advisor",
+        dept: "Assistant Professor, Biological Science Department",
+        email: "mailto:balakumaran.c@pilani.bits-pilani.ac.in",
+        website: "https://www.bits-pilani.ac.in/pilani/balakumaranc/profile"
+    },
+    {
+        id: "13",
+        name: "Dr. Meghna Tare",
+        img: f13,
+        position: "Science Advisor",
+        dept: "Assistant Professor, Biological Science Department",
+        email: "mailto:meghana.tare@pilani.bits-pilani.ac.in",
+        website: ""
+    },
+    {
+        id: "6",
+        name: "Dr. Avinash Gautam",
+        img: f6,
+        position: "Software Advisor",
+        dept: "Assistant Professor, Computer Science & Information Systems Department",
+        email: "mailto:avinash@pilani.bits-pilani.ac.in",
+        website: "https://universe.bits-pilani.ac.in/pilani/avinash/profile"
+    }
+];
+
+
+
 

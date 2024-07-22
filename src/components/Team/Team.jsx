@@ -10,6 +10,7 @@ import Software from "./Software/Software"
 import Mechanical from "./Mechanical/Mechanical";
 import Electrical from "./Electrical/Electrical";
 import Payload from "./Payload/Payload";
+import Faculty from "./Faculty/Faculty";
 
 export default function Team() {
 
@@ -96,7 +97,7 @@ export default function Team() {
                 {selectedteam === 'mechanical' && <Mechanical />}
                 {selectedteam === 'electrical' && <Electrical />}
                 {selectedteam === 'payload' && <Payload />}
-                {/* {selectedteam === 'faculty' && <Faculty />} */}
+                {selectedteam === 'faculty' && <Faculty />}
             </div>
             </main>
             <Footer />
