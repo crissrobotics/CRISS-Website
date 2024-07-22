@@ -31,7 +31,7 @@ export default function Navbar({color}){
     <>
       <nav className="navbar" style={{ backgroundColor: navbar ? '#00275B' : color }}>
         <div className="logo">
-          <img src={crissLogo}></img>  
+          <NavLink to="/"><img src={crissLogo}></img>  </NavLink>
         </div>
 
         <div className="links">
