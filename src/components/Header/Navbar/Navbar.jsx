@@ -49,7 +49,7 @@ export default function Navbar({color}){
               <NavLink to="/team" activeClassName="active">Team</NavLink>
             </li>
             <li>
-              <NavLink to="/alumni" activeClassName="active">Our Alumni</NavLink>
+              <NavLink to="/alumni" activeClassName="active">Alumni</NavLink>
             </li>
           </ul>
         </div>

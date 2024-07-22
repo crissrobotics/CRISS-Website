@@ -1,0 +1,78 @@
+.alumniCard {
+    height: fit-content;
+    width: 200px;
+    font-family: Inter;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+    position: relative;
+
+    &:hover {
+        box-shadow: 0px 3.08px 8.34px 0px #00000029;
+        transform: scale(1.1);
+    }
+
+    &:hover .details .social{
+        visibility: visible;
+    }
+
+    .team {
+        padding-bottom: 5px;
+        color: #14A1E8;
+        font-size: 16px;
+        text-transform: uppercase;
+        font-weight: 550;
+    }
+
+    .imgContainer {
+        height: 225px;
+        width: 200px;
+
+        img {
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+        }
+    }
+
+    .details {
+        padding-top: 5px;
+        margin: 7px;
+        padding-bottom: 5px;
+        height: fit-content;
+
+        .name {
+            line-height: normal;
+            font-size: 20px;
+            color: #00275B;
+            font-weight: 550;
+            text-transform: uppercase;
+        }
+    
+        .position {
+            line-height: normal;
+            padding-top: 5px;
+            color: #000;
+            font-size: 16px;
+        }
+    
+        .social {
+            padding-top: 5px;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            gap: 8px;
+            transition: all 0.3s ease-in-out;
+            visibility: hidden;
+    
+            a {
+                text-decoration: none;
+                height: 30px;
+                width: 30px;
+                cursor: pointer;
+            }
+            #linkedin svg{
+                fill: #0A66C2;    
+            }
+        }
+    }
+}
