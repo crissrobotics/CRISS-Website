@@ -219,5 +219,23 @@ export const Alumnis = [
         linkedin: "https://www.linkedin.com/in/joshua-john-534671254/",
         team: "",
         batch: "2021"
+    },
+    {
+        id: "23",
+        name: "Aryan Dilliwar",
+        img: a8,
+        position: "Mechanical Team",
+        linkedin: "https://www.linkedin.com/in/aryan-dilliwar-002862252/",
+        team: "",
+        batch: "2021"
+    },
+    {
+        id: "24",
+        name: "Tejas sriganesh ",
+        img: a8,
+        position: "Mechanical Team",
+        linkedin: null,
+        team: "",
+        batch: "2021"
     }
 ]
