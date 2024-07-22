@@ -926,16 +926,7 @@ export const FacultyLead = [
         dept: "Hod, Mechanical Dept, BITS Pilani",
         email: "mailto: dasgupta@pilani.bits-pilani.ac.in",
         website: "https://www.bits-pilani.ac.in/pilani/dasgupta/Profile"
-    },
-    {
-        id: "2",
-        name: "DR KAUSHAL KISHORE",
-        img: fl2,
-        position: "SOFTWARE & ELECTRICAL ADVISOR",
-        dept: "Senior Scientist at CEERI,Pilani",
-        email: "mailto: kaushal@ceeri.res.in",
-        website: "https://www.ceeri.res.in/profiles/kaushal-kishore/"
-    },
+    }
 ]
 
 
@@ -954,6 +945,15 @@ import f12 from "../../assets/images/Team/Faculty/f12.jpg";
 import f13 from "../../assets/images/Team/Faculty/f13.jpg";
 
 export const FacultyTeam = [
+    {
+        id: "14",
+        name: "DR KAUSHAL KISHORE",
+        img: fl2,
+        position: "SOFTWARE & ELECTRICAL ADVISOR",
+        dept: "Senior Scientist at CEERI,Pilani",
+        email: "mailto: kaushal@ceeri.res.in",
+        website: "https://www.ceeri.res.in/profiles/kaushal-kishore/"
+    },
     {
         id: "8",
         name: "Dr. Divyansh Patel",
