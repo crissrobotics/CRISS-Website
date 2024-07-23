@@ -15,16 +15,16 @@ export default function FlippingCard({link, photo}) {
     };
 
     return (
-      <Link to={link}><div className="flipCard">
+      <Link to={link}><div className="flipCardd">
             <ReactCardFlip isFlipped={isFlipped} flipDirection="horizontal">
-                <div className="front" key="front" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
+                <div className="frontt" key="frontt" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
                     <div className="imgContainer">
                         <img src={photo}></img>
                     </div>
                 </div>
 
-                <div className="back" key="back" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
-                <div class="content">
+                <div className="backk" key="backk" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
+                <div className="contentt">
     <h2>VISIT</h2>
     <h2>VISIT</h2>
   </div>
