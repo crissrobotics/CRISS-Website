@@ -1,0 +1,89 @@
+label.hamburger {
+    display: block;
+    background: transparent;
+    width: 35px;
+    height: 60px;
+    position: relative;
+    cursor: pointer;
+}
+
+input#hamburger {
+    display: none
+}
+
+.line {
+    position: absolute;
+    height: 5px;
+    width: 100%;
+    background: white;
+    transition: 0.5s;
+    border-radius: 5px;
+}
+
+/* steps of 12 are optional, could also be 10, 13 etc */
+.line:nth-child(1) {
+    top: 10px;
+}
+
+.line:nth-child(2) {
+    top: 20px;
+}
+
+.line:nth-child(3) {
+    top: 30px;
+}
+
+/* translateY must be same as */
+#hamburger:checked+.hamburger .line:nth-child(1) {
+    transform: translateY(10px) rotate(-45deg);
+}
+
+#hamburger:checked+.hamburger .line:nth-child(2) {
+    opacity: 0;
+}
+
+#hamburger:checked+.hamburger .line:nth-child(3) {
+    transform: translateY(-10px) rotate(45deg);
+}
+
+.ham-menu{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    right: -100%;
+    z-index: 11;
+    background-color: #00275B;
+    justify-content: center;
+    transition: all 0.5s;
+    overflow-x: hidden;
+}
+
+.open{
+    right: 0;
+    overflow-x: hidden;
+}
+
+.ham-list{
+    list-style-type: none;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 5vh;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.ham-list li a{
+    font-family: Inter;
+    text-decoration: none;
+    font-weight: 580;
+    color: #fff;
+    font-size: 20px;
+}
+
+.row{
+    z-index: 999;
+}

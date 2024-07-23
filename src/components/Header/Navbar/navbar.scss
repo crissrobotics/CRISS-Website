@@ -80,6 +80,9 @@
         }
 
     }
+    .ham {
+        display: none;
+    }
 
 }
 
@@ -112,4 +115,20 @@
     font-size: 5rem;
     /* text-transform: uppercase; */
     text-align: center;
+}
+
+@media(max-width:1000px){
+    .navbar {
+        padding: 0 3rem;
+
+        .links {
+            display: none;
+        }
+        
+        .ham {
+            position: absolute;
+            right: 3rem;
+            display: block;
+        }
+    }
 }
