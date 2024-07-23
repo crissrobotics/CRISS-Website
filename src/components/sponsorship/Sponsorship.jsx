@@ -20,6 +20,7 @@ import skf from "../../assets/images/Homepage/skf.png";
 import solidworks from "../../assets/images/Homepage/solidworks.jpg";
 import speedacc from "../../assets/images/Homepage/speedacc.png";
 
+import Header from "../Header/Navbar/Navbar";
 import Footer from "../Footer/Footer";
 
 export default function sponsorship() {
@@ -54,7 +55,8 @@ export default function sponsorship() {
     return (
     <div className="sponsorshipContainer">
 
-
+             <Header color="#00275B"></Header>
+        
             <h1 className="texttt" data-text="SPONSORSHIP"></h1>
 
             <div className="teamPic">
