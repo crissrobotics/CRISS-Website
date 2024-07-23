@@ -1,7 +1,8 @@
 import React from "react";
+import { Helmet } from 'react-helmet';
 import FacultyCard from "../FacultyCard/FacultyCard";
 import FlippingCard1 from "../FlippingCard1/FlippingCard1";
-import { FacultyTeam ,FacultyLead } from "../TeamData";
+import { FacultyTeam, FacultyLead } from "../TeamData";
 import "./faculty.scss";
 
 export default function Faculty() {
@@ -9,8 +10,11 @@ export default function Faculty() {
 
     return (
         <>
-           <h3>Meet Our Mentors</h3>
-           <div className="leadContainer">
+            <Helmet>
+                <title>Criss Robotics | Mentors</title>
+            </Helmet>
+            <h3>Meet Our Mentors</h3>
+            <div className="leadContainer">
                 {FacultyLead.map(data => (
                     <FlippingCard1
                         key={data.id}

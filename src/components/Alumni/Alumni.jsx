@@ -1,5 +1,6 @@
 import React from "react";
 import "./alumni.scss";
+import { Helmet } from 'react-helmet';
 
 import Navbar from "../Header/Navbar/Navbar";
 import AlumniCard from "./AlumniCard/AlumniCard";
@@ -10,6 +11,9 @@ export default function Alumni() {
 
     return (
         <>
+            <Helmet>
+                <title>Criss Robotics | Alumni</title>
+            </Helmet>
             <header>
                 <Navbar color="#00275B" />
             </header>

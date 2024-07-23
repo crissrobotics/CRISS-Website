@@ -1,12 +1,13 @@
 import React, { useState, useEffect } from "react";
 import "./navbar.scss";
-import { NavLink } from "react-router-dom";
+import { NavLink, useLocation } from "react-router-dom";
 
 import crissLogo from "../../../assets/images/Navbar/logo.png";
 
 export default function Navbar({color}){
 
   const[navbar, setNavbar] = useState(false);
+  const location = useLocation();
 
   const changeBackground = () => {
     if(window.scrollY >= 80) {
@@ -19,13 +20,14 @@ export default function Navbar({color}){
 
   useEffect(() => {
     window.addEventListener("scroll", changeBackground);
-    // Cleanup event listener on component unmount
     return () => {
       window.removeEventListener("scroll", changeBackground);
     };
   }, []);
 
-  // window.addEventListener('scroll', changeBackground);
+  useEffect(() => {
+    window.scrollTo(0, 0); // Scroll to top on route change
+  }, [location]);
 
   return (
     <>

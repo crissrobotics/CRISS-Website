@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import "./home.scss";
+import { Helmet } from 'react-helmet';
 import Marquee from "react-fast-marquee";
 import Typewriter from 'typewriter-effect';
 import { gsap } from 'gsap';
@@ -48,6 +49,9 @@ export default function Home() {
 
     return (
         <>
+            <Helmet>
+                <title>Criss Robotics</title>
+            </Helmet>
             <Navbar color="transparent" />
             <div className="heroContainer">
                 <video src={bgVideo} autoPlay muted loop ></video>
@@ -69,7 +73,7 @@ export default function Home() {
                 </div>
             </div>
 
-            <div className="aboutContainer"  style={{backgroundImage: `url(${backImg})`}}>
+            <div className="aboutContainer" style={{ backgroundImage: `url(${backImg})` }}>
                 <About></About>
             </div>
 

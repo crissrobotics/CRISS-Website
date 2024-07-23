@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Helmet } from 'react-helmet';
 import "./team.scss";
 
 import Navbar from "../Header/Navbar/Navbar";
@@ -43,6 +44,9 @@ export default function Team() {
 
     return (
         <>
+            <Helmet>
+                <title>Criss Robotics | Team</title>
+            </Helmet>
             <header>
                 <Navbar color="#00275B" />
             </header>
