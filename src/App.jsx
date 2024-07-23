@@ -5,18 +5,7 @@ import Navbar from "./components/Header/Navbar/Navbar";
 import Team from "./components/Team/Team";
 import Home from "./components/Home/Home";
 import Alumni from "./components/Alumni/Alumni";
-
-const Support = () => {
-  return (
-    <>
-      <Navbar color="#00275B" />
-      <section className="hero-section">
-        <p>Welcome to </p>
-        <h1>Support US Page</h1>
-      </section>
-    </>
-  );
-};
+import Sponsorship from "./components/sponsorship/Sponsorship";
 
 const Competitions = () => {
   return (
@@ -35,7 +24,7 @@ function App() {
   return (
     <Routes>
       <Route path="/" element={<Home />} />
-      <Route path="/sponsorship" element={<Support />} />
+      <Route path="/sponsorship" element={<Sponsorship />} />
       <Route path="/competitions" element={<Competitions />} />
       <Route path="/team" element={<Team />} />
       <Route path="/alumni" element={<Alumni />} />
