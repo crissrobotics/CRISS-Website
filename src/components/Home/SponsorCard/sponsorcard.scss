@@ -30,3 +30,11 @@
     // width: 100%;
   }
 }
+
+@media screen and (max-width:1800px) and (min-width:1400px) {
+
+  .card {
+    height: 200px;
+    width: 250px;
+  }
+}

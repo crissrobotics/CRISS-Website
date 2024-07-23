@@ -160,6 +160,7 @@
                 }
             }
             iframe {
+                width: 100%;
                 text-align: center;
                 border-radius: 7px;
                 margin-top: 8px;
@@ -167,8 +168,15 @@
             }
         }
     }
+}
 
+@media screen and (max-width: 1150px) {
 
-
-
+    .contactContainer {
+        .details {
+            .right {
+                width: 500px;
+            }
+        }
+    }
 }
