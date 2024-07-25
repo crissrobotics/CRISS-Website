@@ -616,6 +616,7 @@ import m9 from "../../assets/images/Team/2023/Mechanical/m9.jpg";
 import m10 from "../../assets/images/Team/2023/Mechanical/m10.jpg";
 import m11 from "../../assets/images/Team/2023/Mechanical/m11.jpg";
 import m12 from "../../assets/images/Team/2023/Mechanical/m12.jpg";
+import m13 from "../../assets/images/Team/2023/Mechanical/m13.jpg";
 
 export const MechanicalTeam = [
     {
@@ -736,6 +737,16 @@ export const MechanicalTeam = [
         linkedin: "https://www.linkedin.com/in/parth-uppal-06b588297",
         github: null,
         insta: "https://www.instagram.com/parth_uppal08/",
+        batch: "2023"
+    },
+    {
+        id: "13",
+        name: "Pranav Girish Morab",
+        img: m13,
+        position: "Probationer",
+        linkedin: "https://www.linkedin.com/in/pranav-g-m-5b807b287",
+        github: null,
+        insta: "https://www.instagram.com/ayopranav__?igsh=MTdzMjB3NGRqMHQ1Ng%3D%3D&utm_source=qr",
         batch: "2023"
     }
 ]
