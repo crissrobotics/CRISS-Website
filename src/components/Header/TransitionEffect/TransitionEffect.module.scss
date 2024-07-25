@@ -1,0 +1,25 @@
+.first,
+.second,
+.third {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 100%;
+}
+
+.first {
+    z-index: 90;
+    background-color: #00275B;
+}
+
+.second {
+    z-index: 88;
+    background-color: #f0f0f0;
+}
+
+.third {
+    z-index: 86;
+    background-color: #14A1E8;
+}

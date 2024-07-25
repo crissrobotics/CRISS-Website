@@ -9,6 +9,7 @@ gsap.registerPlugin(ScrollTrigger);
 
 import Navbar from "../Header/Navbar/Navbar";
 import About from "./About/About";
+import TransitionEffect from "../Header/TransitionEffect/TransitionEffect";
 import Mission from "./Mission/Mission";
 import Contact from "./Contact/Contact";
 import Footer from "../Footer/Footer";
@@ -54,6 +55,7 @@ export default function Home() {
             </Helmet>
             <Navbar color="transparent" />
             <div className="heroContainer">
+                <TransitionEffect></TransitionEffect>
                 <video src={bgVideo} autoPlay muted loop ></video>
                 <div className="heading">
                     <h1>CRISS</h1>

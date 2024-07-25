@@ -3,6 +3,7 @@ import { Helmet } from 'react-helmet';
 import "./team.scss";
 
 import Navbar from "../Header/Navbar/Navbar";
+import TransitionEffect from "../Header/TransitionEffect/TransitionEffect";
 import Footer from "../Footer/Footer";
 import TabButton from "./TabButton/TabButton";
 import Board from "./Board/Board";
@@ -47,6 +48,7 @@ export default function Team() {
             <Helmet>
                 <title>Criss Robotics | Team</title>
             </Helmet>
+            <TransitionEffect></TransitionEffect>
             <header>
                 <Navbar color="#00275B" />
             </header>

@@ -3,6 +3,7 @@ import "./alumni.scss";
 import { Helmet } from 'react-helmet';
 
 import Navbar from "../Header/Navbar/Navbar";
+import TransitionEffect from "../Header/TransitionEffect/TransitionEffect";
 import AlumniCard from "./AlumniCard/AlumniCard";
 import Footer from "../Footer/Footer";
 import { Alumnis } from "./alumniData";
@@ -14,6 +15,7 @@ export default function Alumni() {
             <Helmet>
                 <title>Criss Robotics | Alumni</title>
             </Helmet>
+            <TransitionEffect></TransitionEffect>
             <header>
                 <Navbar color="#00275B" />
             </header>
