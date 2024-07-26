@@ -56,8 +56,10 @@ export default function sponsorship() {
     <div className="sponsorshipContainer">
 
              <Header color="#00275B"></Header>
-        
-            <h1 className="texttt" data-text="SPONSORSHIP"></h1>
+
+
+                    <h1 className="heading1" >Sponsor<span>ship</span></h1>
+
 
             <div className="teamPic">
             <img src={SponsorshipPic1} className="Pic1" />
@@ -78,7 +80,7 @@ export default function sponsorship() {
             </div>
             
             <div className="OurSponsors">
-                <h1 className="textt" data-text="OUR SPONSORS" ref={imgRef3}></h1>
+                <h1 className="heading2" >Our <span>Sponsors</span></h1>
                 <p>Sponsors play a crucial role in the success story of CRISS Robotics. Their steadfast support, providing essential financial and technical resources, has been pivotal in driving our team forward towards achieving our objectives. We deeply appreciate the commitment and partnership of all our sponsors and look forward to nurturing and expanding these relationships in the pursuit of continued excellence and innovation. </p>
             </div>
 
@@ -95,7 +97,7 @@ export default function sponsorship() {
                    </div>
 
             <div className="Brochure">
-                <h1 className="text" data-text="BROCHURE"></h1>
+                <h1 className="heading3" >Bro<span>chure</span></h1>
             
             </div>
 
