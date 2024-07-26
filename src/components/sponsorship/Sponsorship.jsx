@@ -64,11 +64,8 @@ export default function sponsorship() {
                 <title>Criss Robotics | Sponsorship</title>
             </Helmet>
             <TransitionEffect></TransitionEffect>
+            <Header color="#00275B"></Header>
             <div className="sponsorshipContainer">
-
-                <Header color="#00275B"></Header>
-
-
                 <h1 className="heading1" >Sponsor<span>ship</span></h1>
 
 
@@ -109,10 +106,9 @@ export default function sponsorship() {
 
                 <div className="Brochure">
                     <h1 className="heading3" >Bro<span>chure</span></h1>
-                </div>
-
-                <Footer></Footer>  
+                </div> 
             </div>
+            <Footer></Footer> 
         </>
 
     )
