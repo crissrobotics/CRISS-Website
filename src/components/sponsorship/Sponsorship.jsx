@@ -68,7 +68,9 @@ export default function sponsorship() {
 
                 <Header color="#00275B"></Header>
 
-                <h1 className="texttt" data-text="SPONSORSHIP"></h1>
+
+                <h1 className="heading1" >Sponsor<span>ship</span></h1>
+
 
                 <div className="teamPic">
                     <img src={SponsorshipPic1} className="Pic1" />
@@ -79,22 +81,22 @@ export default function sponsorship() {
                 </div>
 
                 <div className="text2">
-                    <img src={SponsorshipPic2} className="Pic2" ref={imgRef1} />
+                    <img src={SponsorshipPic2} className="Pic2" ref={imgRef1}/>
                     <p>Sponsoring CRISS Robotics presents a unique opportunity to align your brand with cutting-edge research and development at one of the world's most prestigious engineering institutions, <span className="three">BITS Pilani</span>. With a proud legacy of producing top-tier talent, our club exemplifies excellence in innovation and technical prowess. Your support will enable us to continue participating in international competitions, further enhance our technical capabilities, and realize groundbreaking solutions.</p>
                 </div>
 
                 <div className="text3">
                     <p>By <span className="three">partnering with us</span>, your company will gain significant visibility among bright engineering students who represent the future workforce. Sponsorship benefits include prominent placement of your company's logo on our latest rover, extensive exposure through our active social media channels, and collaborative events during major festivals. These initiatives not only enhance your brand's visibility but also position your company as a forward-thinking leader committed to driving technological advancements.</p>
-                    <img src={SponsorshipPic3} className="Pic3" ref={imgRef2} />
+                    <img src={SponsorshipPic3} className="Pic3" ref={imgRef2}/>
                 </div>
 
                 <div className="OurSponsors">
-                    <h1 className="textt" data-text="OUR SPONSORS" ref={imgRef3}></h1>
+                    <h1 className="heading2" >Our <span>Sponsors</span></h1>
                     <p>Sponsors play a crucial role in the success story of CRISS Robotics. Their steadfast support, providing essential financial and technical resources, has been pivotal in driving our team forward towards achieving our objectives. We deeply appreciate the commitment and partnership of all our sponsors and look forward to nurturing and expanding these relationships in the pursuit of continued excellence and innovation. </p>
                 </div>
 
                 <div className="total">
-                    <FlippingCard photo={bits} link="https://www.bits-pilani.ac.in/"></FlippingCard>
+                    <FlippingCard photo={bits} link="https://www.bits-pilani.ac.in/"></FlippingCard> 
                     <FlippingCard photo={altium} link="https://www.altium.com/"></FlippingCard>
                     <FlippingCard photo={ansys} link="https://www.ansys.com/"></FlippingCard>
                     <FlippingCard photo={autodesk} link="https://www.autodesk.com/in?mktvar002=afc_in_nmpi_ppc&AID=13084956&PID=8206971&gclsrc=3p.ds&ds_rl=1232455&ds_rl=1232461&ds_rl=1233896&gclid=a415b36419b312da0589d5fad647a89c&gclsrc=3p.ds&ds_rl=1232455&ds_rl=1232461&ds_rl=1233896&&cjevent=a415b36419b312da0589d5fad647a89c&click_id=a415b36419b312da0589d5fad647a89c&gclid=a415b36419b312da0589d5fad647a89c&gclsrc=3p.ds&msclkid=a415b36419b312da0589d5fad647a89c"></FlippingCard>
@@ -106,11 +108,10 @@ export default function sponsorship() {
                 </div>
 
                 <div className="Brochure">
-                    <h1 className="text" data-text="BROCHURE"></h1>
-
+                    <h1 className="heading3" >Bro<span>chure</span></h1>
                 </div>
 
-                <Footer></Footer>
+                <Footer></Footer>  
             </div>
         </>
 
