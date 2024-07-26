@@ -13,6 +13,8 @@ import TransitionEffect from "../Header/TransitionEffect/TransitionEffect";
 import Mission from "./Mission/Mission";
 import Contact from "./Contact/Contact";
 import Footer from "../Footer/Footer";
+import { motion } from "framer-motion";
+import { slideAnimation } from "../Header/Motion/Motion";
 
 import SponsorCard from "./SponsorCard/SponsorCard";
 import bits from "../../assets/images/Homepage/bits.png";
@@ -75,13 +77,13 @@ export default function Home() {
                 </div>
             </div>
 
-            <div className="aboutContainer" style={{ backgroundImage: `url(${backImg})` }}>
+            <motion.div className="aboutContainer" style={{ backgroundImage: `url(${backImg})` }}>
                 <About></About>
-            </div>
+            </motion.div>
 
-            <div className="missionContainer">
+            <motion.div className="missionContainer" {...slideAnimation("right", 0.5)}>
                 <Mission></Mission>
-            </div>
+            </motion.div>
 
             <div className="sponsorContainer">
                 <h2>Our<span>Sponsors</span></h2>

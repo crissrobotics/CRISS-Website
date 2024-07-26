@@ -1,6 +1,8 @@
 import React from "react";
 import "./contact.scss";
 import Swal from 'sweetalert2'
+import { motion } from "framer-motion";
+import { slideAnimation } from "../../Header/Motion/Motion";
 
 import email from "../../../assets/images/Homepage/email.png";
 import call from "../../../assets/images/Homepage/call.png"
@@ -38,7 +40,7 @@ export default function Contact() {
         <div className="contactContainer" id="contact">
             <h2>Connect<span>With Us</span></h2>
             <div className="details">
-                <div className="left">
+                <motion.div className="left" {...slideAnimation("left", 0.5)}>
                     <h4>Contact Us</h4>
                     <p>Fill out the form below and we'll get back to you as soon as possible.</p>
                     <form onSubmit={onSubmit}>
@@ -56,8 +58,8 @@ export default function Contact() {
                         </div>
                         <button type="submit">Send Message</button>
                     </form>
-                </div>
-                <div className="right">
+                </motion.div>
+                <motion.div className="right" {...slideAnimation("right", 0.5)}>
                     <h4>Contact Information</h4>
                     <p>Feel free to reach out to us for any queries or collaborations.</p>
                     <div className="email">
@@ -76,7 +78,7 @@ export default function Contact() {
                         loading="lazy"
                         referrerPolicy="no-referrer-when-downgrade"
                     ></iframe>
-                </div>
+                </motion.div>
             </div>
         </div>
     )
