@@ -56,65 +56,67 @@ export default function Home() {
                 <title>Criss Robotics</title>
             </Helmet>
             <Navbar color="transparent" />
-            <div className="heroContainer">
-                <TransitionEffect></TransitionEffect>
-                <video src={bgVideo} autoPlay muted loop ></video>
-                <div className="heading">
-                    <h1>CRISS</h1>
-                    {/* <h6>Consortium for Research in Space Systems</h6> */}
-                    <h6>
-                        <Typewriter
-                            onInit={(typewriter) => {
-                                typewriter
-                                    .typeString("Consortium for Research in Space Systems")
-                                    .pauseFor(1000)
-                                    // .deleteAll()
-                                    // .typeString("Welcomes You")
-                                    .start();
-                            }}
-                        />
-                    </h6>
-                </div>
-            </div>
-
-            <motion.div className="aboutContainer" style={{ backgroundImage: `url(${backImg})` }}>
-                <About></About>
-            </motion.div>
-
-            <motion.div className="missionContainer" {...slideAnimation("right", 0.5)}>
-                <Mission></Mission>
-            </motion.div>
-
-            <div className="sponsorContainer">
-                <h2>Our<span>Sponsors</span></h2>
-                <div className="sponsoreCard">
-                    <div className="sponsorCardUpperRow">
-                        <Marquee>
-                            <SponsorCard sponsorImg={bits}></SponsorCard>
-                            <SponsorCard sponsorImg={altium}></SponsorCard>
-                            <SponsorCard sponsorImg={ansys}></SponsorCard>
-                            <SponsorCard sponsorImg={autodesk}></SponsorCard>
-                            <SponsorCard sponsorImg={pcb}></SponsorCard>
-                            <SponsorCard sponsorImg={sigma}></SponsorCard>
-                            <SponsorCard sponsorImg={skf}></SponsorCard>
-                        </Marquee>
-                    </div>
-                    <div className="sponsorCardLowerRow">
-                        <Marquee direction="right">
-                            <SponsorCard sponsorImg={skf}></SponsorCard>
-                            <SponsorCard sponsorImg={sigma}></SponsorCard>
-                            <SponsorCard sponsorImg={solidworks}></SponsorCard>
-                            <SponsorCard sponsorImg={speedacc}></SponsorCard>
-                            <SponsorCard sponsorImg={pcb}></SponsorCard>
-                            <SponsorCard sponsorImg={ansys}></SponsorCard>
-                            <SponsorCard sponsorImg={altium}></SponsorCard>
-                        </Marquee>
+            <div className="homepageContainer">
+                <div className="heroContainer">
+                    <TransitionEffect></TransitionEffect>
+                    <video src={bgVideo} autoPlay muted loop ></video>
+                    <div className="heading">
+                        <h1>CRISS</h1>
+                        {/* <h6>Consortium for Research in Space Systems</h6> */}
+                        <h6>
+                            <Typewriter
+                                onInit={(typewriter) => {
+                                    typewriter
+                                        .typeString("Consortium for Research in Space Systems")
+                                        .pauseFor(1000)
+                                        // .deleteAll()
+                                        // .typeString("Welcomes You")
+                                        .start();
+                                }}
+                            />
+                        </h6>
                     </div>
                 </div>
-            </div>
 
-            <div className="contactContainer">
-                <Contact></Contact>
+                <motion.div className="aboutContainer" style={{ backgroundImage: `url(${backImg})` }}>
+                    <About></About>
+                </motion.div>
+
+                <motion.div className="missionContainer" {...slideAnimation("right", 0.5)}>
+                    <Mission></Mission>
+                </motion.div>
+
+                <div className="sponsorContainer">
+                    <h2>Our<span>Sponsors</span></h2>
+                    <div className="sponsoreCard">
+                        <div className="sponsorCardUpperRow">
+                            <Marquee>
+                                <SponsorCard sponsorImg={bits}></SponsorCard>
+                                <SponsorCard sponsorImg={altium}></SponsorCard>
+                                <SponsorCard sponsorImg={ansys}></SponsorCard>
+                                <SponsorCard sponsorImg={autodesk}></SponsorCard>
+                                <SponsorCard sponsorImg={pcb}></SponsorCard>
+                                <SponsorCard sponsorImg={sigma}></SponsorCard>
+                                <SponsorCard sponsorImg={skf}></SponsorCard>
+                            </Marquee>
+                        </div>
+                        <div className="sponsorCardLowerRow">
+                            <Marquee direction="right">
+                                <SponsorCard sponsorImg={skf}></SponsorCard>
+                                <SponsorCard sponsorImg={sigma}></SponsorCard>
+                                <SponsorCard sponsorImg={solidworks}></SponsorCard>
+                                <SponsorCard sponsorImg={speedacc}></SponsorCard>
+                                <SponsorCard sponsorImg={pcb}></SponsorCard>
+                                <SponsorCard sponsorImg={ansys}></SponsorCard>
+                                <SponsorCard sponsorImg={altium}></SponsorCard>
+                            </Marquee>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="contactContainer">
+                    <Contact></Contact>
+                </div>
             </div>
 
             <Footer></Footer>
