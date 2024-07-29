@@ -112,3 +112,56 @@
     margin-top: 6rem;
   }
 }
+
+@media screen and (max-width: 600px) {
+
+  .aboutContainer {
+    width: 100%;
+    margin-bottom: 3rem;
+
+    h2 {
+      font-size: 32px;
+      font-weight: 650;
+      text-align: left;
+      width: calc(100% - 8rem);
+      margin-left: 4rem;
+      margin-right: 4rem;
+    }
+
+    .details {
+      width: calc(100% - 8rem);
+      margin-left: 4rem;
+      margin-right: 4rem;
+
+      .imgContainer {
+        width: 100%;
+      }
+
+      p {
+        text-align: center;
+        width: 100%;
+        font-size: 16px;
+        line-height: 24px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 400px) {
+
+  .aboutContainer {
+
+    h2 {
+      width: calc(100% - 6rem);
+      margin-left: 3rem;
+      margin-right: 3rem;
+    }
+
+    .details {
+      width: calc(100% - 6rem);
+      margin-left: 3rem;
+      margin-right: 3rem;
+    }
+  }
+}
+

@@ -107,9 +107,59 @@
       h1 {
         font-size: 100px;
       }
+
       h6 {
         font-size: 40px;
       }
+    }
+  }
+}
+
+@media(max-width: 600px) {
+
+  .heroContainer {
+    .heading {
+      h1 {
+        font-size: 80px;
+        font-weight: 700;
+      }
+
+      h6 {
+        font-size: 36px;
+        font-weight: 500;
+      }
+    }
+  }
+
+  .sponsorContainer {
+    margin-bottom: 6rem;
+
+    h2 {
+      font-size: 32px;
+      margin-bottom: 20px;
+      font-weight: 650;
+      text-align: left;
+      width: calc(100% - 8rem);
+      margin-left: 4rem;
+      margin-right: 4rem;
+    }
+  }
+}
+
+
+@media(max-width: 400px) {
+
+  .sponsorContainer {
+    margin-bottom: 6rem;
+
+    h2 {
+      font-size: 32px;
+      margin-bottom: 20px;
+      font-weight: 650;
+      text-align: left;
+      width: calc(100% - 6rem);
+      margin-left: 3rem;
+      margin-right: 3rem;
     }
   }
 }

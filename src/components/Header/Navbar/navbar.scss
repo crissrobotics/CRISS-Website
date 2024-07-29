@@ -118,3 +118,25 @@
         }
     }
 }
+
+@media(max-width:400px) {
+    
+    .navbar {
+        padding: 0 2rem;
+
+        .ham {
+            right: 2rem;
+        }
+    }
+}
+
+@media(max-width:350px) {
+    
+    .navbar {
+
+        .logo {
+            width: 18rem;
+            height: 5rem;
+        }
+    }
+}
