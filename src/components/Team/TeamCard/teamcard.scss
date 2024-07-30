@@ -74,3 +74,101 @@
         }
     }
 }
+
+@media(max-width :600px) {
+
+    .teamCard {
+        height: fit-content;
+        width: 185px;
+        box-shadow: 0px 3.08px 8.34px 0px #00000029;
+    
+        &:hover {
+            transform: scale(1.1);
+        }
+    
+        &:hover .details .social{
+            visibility: visible;
+        }
+    
+        .imgContainer {
+            height: 200px;
+            width: 185px;
+        }
+    
+        .details {
+            width: 185px;
+            padding: 5px;
+            margin: 0px;
+            height: fit-content;
+            padding-bottom: 10px;
+    
+            .name {
+                font-size: 16px;
+            }
+        
+            .position {
+                padding-top: 3px;
+                font-size: 13px;
+            }
+        
+            .social {
+                padding-top: 3px;
+                visibility: visible;
+                justify-content: space-around;
+        
+                a {
+                    height: 25px;
+                    width: 25px;
+                }
+            }
+        }
+    }
+}
+
+@media(max-width :450px) {
+
+    .teamCard {
+        width: 42vw;
+    
+        &:hover {
+            transform: scale(1.1);
+        }
+    
+        &:hover .details .social{
+            visibility: visible;
+        }
+    
+        .imgContainer {
+            height: 200px;
+            width: 100%;
+        }
+    
+        .details {
+            width: 100%;
+            padding: 5px;
+            margin: 0px;
+            height: fit-content;
+            padding-bottom: 10px;
+    
+            .name {
+                font-size: 16px;
+            }
+        
+            .position {
+                padding-top: 3px;
+                font-size: 13px;
+            }
+        
+            .social {
+                padding-top: 3px;
+                visibility: visible;
+                justify-content: space-around;
+        
+                a {
+                    height: 25px;
+                    width: 25px;
+                }
+            }
+        }
+    }
+}

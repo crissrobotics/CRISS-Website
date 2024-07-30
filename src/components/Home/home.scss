@@ -149,6 +149,13 @@
 
 @media(max-width: 400px) {
 
+  .heroContainer {
+    .heading {
+      bottom: 10%;
+      left: 5%;
+    }
+  }
+
   .sponsorContainer {
     margin-bottom: 6rem;
 

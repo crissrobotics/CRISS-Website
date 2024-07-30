@@ -1,16 +1,20 @@
 header {
     height: 8rem;
+
+    @media screen and (max-width: 1000px) {
+        height: 7rem;
+    }
 }
 
 main {
     background-color: #F1F8FF;
     height: fit-content;
-    padding-top: 3rem;
+    padding-top: 0rem;
     padding-bottom: 6rem;
     width: 100%;
 
     .alumniContainer {
-        margin-top: 4rem;
+        margin-top: 3rem;
         display: flex;
         flex-direction: column;
     
@@ -31,4 +35,53 @@ main {
             gap: 3rem 7rem;
         }
     }
-}    
+} 
+
+@media(max-width: 650px) {
+
+    main {
+        .alumniContainer {
+
+            h6 {
+                font-size: 28px;
+                font-weight: 600;
+            }
+        }
+    }
+}
+
+@media (max-width : 500px) {
+
+    main {
+        .alumniContainer {
+
+            .members {
+                gap: 4rem 3rem;
+            }
+        }
+    }
+}
+
+@media (max-width : 450px) {
+
+    main {
+        .alumniContainer {
+
+            .members {
+                gap: 4rem 3rem;
+            }
+        }
+    }
+}
+
+@media (max-width : 400px) {
+
+    main {
+        .alumniContainer {
+
+            .members {
+                gap: 4rem 2rem;
+            }
+        }
+    }
+}
