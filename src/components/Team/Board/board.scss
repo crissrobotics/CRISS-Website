@@ -13,3 +13,13 @@
         justify-content: space-evenly;
     }
 }
+
+@media(max-width: 580px) {
+
+    .leadContainer {
+        gap: 4rem;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+}

@@ -79,3 +79,79 @@
         }
     }
 }
+
+@media(max-width: 600px) {
+
+    .facultyCard {
+        height: fit-content;
+        width: 185px;
+        box-shadow: 0px 3.08px 8.34px 0px #00000029;
+    
+        &:hover {
+            transform: scale(1.1);
+        }
+    
+        &:hover .details .social{
+            visibility: visible;
+        }
+    
+            
+        .position {
+            padding-bottom: 3px;
+            font-size: 14px;
+        }
+    
+        .imgContainer {
+            height: 200px;
+            width: 185px;
+        }
+    
+        .details {
+            width: 185px;
+            padding: 5px;
+            margin: 0px;
+            height: fit-content;
+            padding-bottom: 10px;
+    
+            .name {
+                font-size: 16px;
+            }
+    
+            .dept {
+                padding-top: 3px;
+                font-size: 13px;
+            }
+    
+            .social {
+                padding-top: 3px;
+                justify-content: space-evenly;
+                visibility: visible;
+        
+                a {
+                    height: 30px;
+                    width: 30px;
+                }
+            }
+        }
+    }
+}
+
+@media(max-width: 450px) {
+
+    .facultyCard {
+        width: 42vw;
+        
+        .imgContainer {
+            height: 200px;
+            width: 100%;
+        }
+    
+        .details {
+            width: 100%;
+            padding: 5px;
+            margin: 0px;
+            height: fit-content;
+            padding-bottom: 10px;
+        }
+    }
+}
