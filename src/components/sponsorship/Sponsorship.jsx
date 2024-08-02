@@ -3,9 +3,6 @@ import "./sponsorship.scss";
 import { Helmet } from 'react-helmet';
 import FlippingCard from "../sponsorship/FlippingCard";
 import "./FlippingCard.scss";
-import { gsap } from 'gsap';
-import { ScrollTrigger } from 'gsap/ScrollTrigger';
-gsap.registerPlugin(ScrollTrigger);
 import { motion } from "framer-motion";
 import { fadeAnimation, HeadAnimation, slideAnimation } from "../Header/Motion/Motion";
 
