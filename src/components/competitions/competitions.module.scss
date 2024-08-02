@@ -1,0 +1,35 @@
+
+section {
+    background-color: #ffffff;
+    height: fit-content;
+    padding-bottom: 6rem;
+    width: 100%;
+        span {
+            color: #14A1E8;
+        }
+
+        @media screen and (max-width: 820px) {
+            font-size: 23px;
+            margin-top: 0;
+            margin-bottom: 40px;
+        }
+
+    }
+
+menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem 2vw;
+}
+
+ .topHeading{
+    text-align: center;
+    font-family: Inter;
+    color: #000;
+    font-size: 50px;
+    font-weight: 800;
+    margin-bottom: 40px;
+    padding-top: 11rem;
+ }

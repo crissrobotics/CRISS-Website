@@ -1,0 +1,50 @@
+.ERClogo{
+    width: 400px;
+    height: 400px;
+}
+
+.ercIntro{
+    margin-top: 2rem;
+    display: flex;
+    padding-left:10%;
+    align-items: center;
+    span{
+        font-weight: 700;
+        color:rgb(0,39,91);
+    }
+}
+
+.ercText{
+    padding-left:10%;
+    padding-right: 5%;
+    align-self: center;
+    width: 810px;
+    text-align: left;
+    font-family: Inter;
+    font-size: 20px;
+    color: #000;
+    font-weight: 500;
+    text-overflow: ellipsis;
+    @media screen and (max-width: 1200px) {
+        font-size: 18px;
+    }
+
+}
+
+.videoMain{
+    margin-left: 5%;
+    margin-right:5%;
+    border-radius: 20px;
+    height:80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+    font-size: xx-large;
+    font-weight: bolder;
+    color:#000;
+}
+
+.The2023Container{
+    padding-bottom:5rem;
+}
