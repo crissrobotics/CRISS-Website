@@ -71,15 +71,15 @@ export default function Home() {
                                     // .deleteAll()
                                     // .typeString("Welcomes You")
                                     .start();
-                            }}
+                           }}
                         />
                     </h6>
                 </div>
             </div>
 
-            <motion.div className="aboutContainer" style={{ backgroundImage: `url(${backImg})` }}>
+            <div className="aboutContainer" style={{ backgroundImage: `url(${backImg})` }}>
                 <About></About>
-            </motion.div>
+            </div>
 
             <motion.div className="missionContainer" {...slideAnimation("right", 0.5)}>
                 <Mission></Mission>

@@ -6,19 +6,7 @@ import Team from "./components/Team/Team";
 import Home from "./components/Home/Home";
 import Alumni from "./components/Alumni/Alumni";
 import Sponsorship from "./components/sponsorship/Sponsorship";
-
-const Competitions = () => {
-  return (
-    <>
-      <Navbar color="#00275B" />
-      <section className="hero-section">
-        <p>Welcome to </p>
-        <h1>Contact Page</h1>
-      </section>
-    </>
-  );
-};
-
+import Competitions from "./components/competitions/Competitions";
 
 function App() {
   return (
