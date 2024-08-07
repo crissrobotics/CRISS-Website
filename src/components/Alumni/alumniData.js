@@ -239,3 +239,34 @@ export const Alumnis = [
         batch: "2021"
     }
 ]
+
+
+
+import fd1 from "../../assets/images/Alumni/Founding/fd1.jpeg";
+import fd2 from "../../assets/images/Alumni/Founding/fd2.jpg";
+import fd3 from "../../assets/images/Alumni/Founding/fd3.jpg";
+import fd4 from "../../assets/images/Alumni/Founding/fd4.png";
+
+export const FoundingMembers = [
+
+    {
+        id: "1",
+        name: "",
+        img: fd1
+    },
+    {
+        id: "2",
+        name: "",
+        img: fd2
+    },
+    {
+        id: "3",
+        name: "",
+        img: fd3
+    },
+    {
+        id: "4",
+        name: "",
+        img: fd4
+    },
+]

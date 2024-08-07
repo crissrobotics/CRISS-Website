@@ -6,7 +6,8 @@ import Navbar from "../Header/Navbar/Navbar";
 import TransitionEffect from "../Header/TransitionEffect/TransitionEffect";
 import AlumniCard from "./AlumniCard/AlumniCard";
 import Footer from "../Footer/Footer";
-import { Alumnis } from "./alumniData";
+import { Alumnis, FoundingMembers } from "./alumniData";
+import FoundingCard from "./FoundingCard/FoundingCard";
 
 export default function Alumni() {
 
@@ -21,6 +22,16 @@ export default function Alumni() {
             </header>
             <main>
                 <div className="alumniContainer">
+                    <h6>Founding Members</h6>
+                    <div className="members">
+                        {FoundingMembers.map(data => (
+                            <FoundingCard
+                                key={data.id}
+                                name={data.name}
+                                profile={data.img}
+                            />
+                        ))}
+                    </div>
                     <h6>Batch of 2021</h6>
                     <div className="members">
                         {Alumnis.map(data => (

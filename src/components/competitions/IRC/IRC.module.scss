@@ -1,0 +1,49 @@
+.IRClogo{
+    width: 400px;
+    height: 400px;
+}
+
+.ircIntro{
+    margin-top: 2rem;
+    display: flex;
+    padding-left:10%;
+    align-items: center;
+    span{
+        font-weight: 700;
+        color:rgb(0,39,91);
+    }
+}
+
+.ircText{
+    padding-left:10%;
+    padding-right: 5%;
+    align-self: center;
+    width: 810px;
+    text-align: left;
+    font-family: Inter;
+    font-size: 20px;
+    color: #000;
+    font-weight: 500;
+    text-overflow: ellipsis;
+    @media screen and (max-width: 1200px) {
+        font-size: 18px;
+    }
+
+}
+
+.marquee{
+    margin-top: 8rem;
+    height: 80vh;
+    margin-bottom:8rem;
+    font-size: xx-large;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#14A1E8;
+    font-family: Inter;
+    font-weight: bolder;
+}
+
+.The2023Container{
+    padding-bottom:5rem;
+}

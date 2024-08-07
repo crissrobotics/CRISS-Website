@@ -6,6 +6,7 @@ import Navbar from "../Header/Navbar/Navbar";
 import TransitionEffect from "../Header/TransitionEffect/TransitionEffect";
 import Footer from "../Footer/Footer";
 import TabButton from "./TabButton/TabButton";
+import DropMenu from "./DropMenu/DropMenu";
 import Board from "./Board/Board";
 import Management from "./Management/Management";
 import Software from "./Software/Software"
@@ -63,6 +64,9 @@ export default function Team() {
                     <TabButton isSelected={selectedteam === 'payload'} onSelect={() => handleSelect('payload')}>Payload</TabButton>
                     <TabButton isSelected={selectedteam === 'faculty'} onSelect={() => handleSelect('faculty')}>Faculty Advisor</TabButton>
                 </menu>
+                <div className="dropmenuContainer">
+                    <DropMenu selectedteam={selectedteam} handleSelect={handleSelect} />
+                </div>
                 {/* <div className="memberContainer">
                     <h6 style={{ display: TeamComponent === TeamCard ? null : "none" }}>Batch of 2022</h6>
                     <div className="members">
@@ -97,14 +101,14 @@ export default function Team() {
 
                 </div> */}
                 <div>
-                {selectedteam === 'board' && <Board />}
-                {selectedteam === 'management' && <Management />}
-                {selectedteam === 'software' && <Software />}
-                {selectedteam === 'mechanical' && <Mechanical />}
-                {selectedteam === 'electrical' && <Electrical />}
-                {selectedteam === 'payload' && <Payload />}
-                {selectedteam === 'faculty' && <Faculty />}
-            </div>
+                    {selectedteam === 'board' && <Board />}
+                    {selectedteam === 'management' && <Management />}
+                    {selectedteam === 'software' && <Software />}
+                    {selectedteam === 'mechanical' && <Mechanical />}
+                    {selectedteam === 'electrical' && <Electrical />}
+                    {selectedteam === 'payload' && <Payload />}
+                    {selectedteam === 'faculty' && <Faculty />}
+                </div>
             </main>
             <Footer />
         </>

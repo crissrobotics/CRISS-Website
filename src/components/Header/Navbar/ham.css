@@ -1,8 +1,8 @@
 label.hamburger {
     display: block;
     background: transparent;
-    width: 35px;
-    height: 60px;
+    width: 30px;
+    height: 45px;
     position: relative;
     cursor: pointer;
 }
@@ -13,7 +13,7 @@ input#hamburger {
 
 .line {
     position: absolute;
-    height: 5px;
+    height: 3.3px;
     width: 100%;
     background: white;
     transition: 0.5s;

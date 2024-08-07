@@ -1,0 +1,93 @@
+.dropMenu {
+    position: relative;
+    width: 100%;
+    height: fit-content;
+    
+}
+
+.select-selected {
+    background-color: #00275B;
+    color: #fff;
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 1.6rem;
+    display: flex;
+    padding: 15px;
+    cursor: pointer;
+    align-items: center;
+    border-bottom: 2px solid #0050A0;
+    justify-content: space-between;
+    position: relative;
+    z-index: 1;
+    text-transform: uppercase;
+}
+
+.select-selected:after {
+    content: "";
+    position: absolute;
+    right: 10px;
+    width: 0;
+    height: 0;
+    top: 22px;
+    border: 6px solid transparent;
+    border-color: #fff transparent transparent transparent;
+}
+
+.select-selected.select-arrow-active:after {
+    border-color: transparent transparent #fff transparent;
+    top: 9.5px;
+}
+
+.select-items {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    z-index: 99;
+    border-bottom: 1px solid #0050A0;
+    max-height: 200px;
+    overflow-y: auto;
+}
+
+.select-team {
+    background-color: #00275B;
+    color: #fff;
+    font-family: Inter;
+    font-size: 1.6rem;
+    display: flex;
+    padding: 15px;
+    cursor: pointer;
+    align-items: center;
+    border-bottom: 1px solid #0050A0;
+}
+
+.select-team.selected {
+    background-color: #fff;
+    color: #14A1E8;
+}
+
+.select-team:hover,
+.same-as-selected {
+    background-color: #fff;
+    color: #14A1E8;
+}
+
+@media(max-width : 600px) {
+
+    .select-selected {
+        font-size: 1.6rem;
+        padding: 10px;
+        padding-left: 15px;
+        font-weight: 550;
+    }
+
+    .select-selected:after {
+        top: 18px;
+    }
+
+    .select-team {
+        font-size: 1.5rem;
+        padding: 10px;
+        padding-left: 15px;
+    }
+}

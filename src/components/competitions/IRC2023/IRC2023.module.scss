@@ -1,0 +1,81 @@
+.The2023Container {
+    height: fit-content;
+    margin-bottom: 6rem;
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    animation: starting 2s ease-in-out;
+  
+    h2 {
+      width: 1050px;
+      font-family: Inter;
+      align-items: start;
+      color: #000;
+      font-size: 55px;
+      font-weight: 800;
+      margin-bottom: 40px;
+  
+      span {
+        padding-left: 15px;
+        color: #14A1E8;
+      }
+  
+      @media screen and (max-width: 820px) {
+        font-size: 23px;
+        margin-top: 0;
+        margin-bottom: 40px;
+      }
+  
+    }
+  
+    .details {
+      display: flex;
+      gap: 7rem;
+  
+      .imgContainer {
+        width: 580px;
+        border-radius: 20px;
+        overflow: hidden;
+        transition: all 0.2s ease-in-out;
+  
+        img {
+          border-radius: 20px;
+          transition: all 0.2s ease-in-out;
+  
+          &:hover {
+            transform: scale(1.1);
+        }
+        }
+      }
+  
+      p {
+        align-self: center;
+        width: 600px;
+        line-height: 30px;
+        text-align: left;
+        font-family: Inter;
+        font-size: 18px;
+        color: #000;
+        font-weight: 500;
+        padding-right: 5%;
+  
+        span{
+          color: #00275B;
+          font-weight: bold;
+        }
+      }
+    }
+  }
+  
+  @keyframes starting {
+  
+    0%{
+      opacity: 0;
+    }
+  
+    100% {
+      opacity: 1;
+    }
+    
+  }

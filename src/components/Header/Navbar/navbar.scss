@@ -12,6 +12,7 @@
     // backdrop-filter: blur(10px);
     color: #fff;
     padding: 0 16px;
+    transition: background-color 0.3s ease;
     
     .logo {
         height: 6rem;
@@ -51,27 +52,6 @@
                 }
             }
 
-            // & ::after {
-            //     content: "";
-            //     position: absolute;
-            //     background-color: #14A1E8;
-            //     left: 0;
-            //     height: 3.1px;
-            //     width: 0%;
-            //     border-radius: 2px;
-            //     bottom: -14px;
-            //     transition: 0.3s ease-in-out;
-
-            // }
-
-            // & :hover::after {
-            //     width: 70%;
-            //     transition: width 0.5s ease-in-out;
-            // }
-
-            // & :hover a {
-            //     color: #14A1E8
-            // }
             & :hover {
                 background-color: #14A1E8;
             }
@@ -119,7 +99,13 @@
 
 @media(max-width:1000px){
     .navbar {
+        height: 7rem;
         padding: 0 3rem;
+
+        .logo {
+            height: 5.5rem;
+            width: 20rem;
+        }
 
         .links {
             display: none;
@@ -129,6 +115,28 @@
             position: absolute;
             right: 3rem;
             display: block;
+        }
+    }
+}
+
+@media(max-width:400px) {
+    
+    .navbar {
+        padding: 0 2rem;
+
+        .ham {
+            right: 2rem;
+        }
+    }
+}
+
+@media(max-width:350px) {
+    
+    .navbar {
+
+        .logo {
+            width: 18rem;
+            height: 5rem;
         }
     }
 }

@@ -115,3 +115,114 @@
     }
     
 }
+
+@media(max-width:900px) {
+
+    .footerContainer {
+        height: fit-content;
+        flex-direction: column;
+        gap: 3rem;
+        padding-top: 2rem;
+
+        .logoContainer {
+            margin-left: 0;
+            height: 11rem;
+        }
+
+        .socialMedia {
+            align-items: normal;
+            align-self: center;
+            gap: 16px;
+
+            .link {
+                height: 6rem;
+                width: 6rem;
+
+                a {
+                    svg {
+                        height: 4rem;
+                        width: 4rem;
+                    }
+                }
+            }
+
+            #insta {
+                a {
+                    svg {
+                        height: 4.6rem;
+                        width: 4.6rem;
+                    }
+                }
+            }
+        }
+
+        .right {
+            align-self: center;
+            height: 95px;
+            width: 290px;
+        }
+
+        .scrollTop {
+            height: 6rem;
+            width: 6rem;
+        }
+    }
+}
+
+@media(max-width:500px) {
+
+    .footerContainer {
+
+        .logoContainer {
+            margin-left: 0;
+            height: 9rem;
+        }
+
+        .socialMedia {
+            align-items: normal;
+            align-self: center;
+            gap: 16px;
+
+            .link {
+                height: 5rem;
+                width: 5rem;
+
+                a {
+                    padding-top: 8px;
+                    svg {
+                        height: 3.2rem;
+                        width: 3.2rem;
+                    }
+                }
+            }
+
+            #insta {
+                a {
+                    padding-top: 6px;
+                    svg {
+                        height: 3.8rem;
+                        width: 3.8rem;
+                    }
+                }
+            }
+        }
+
+        .right {
+            height: 75px;
+            width: 260px;
+        }
+
+        .scrollTop {
+            height: 5rem;
+            width: 5rem;
+            top: 1rem;
+            right: 1rem;
+
+            svg {
+                height: 3.8rem;
+                width: 3.8rem;
+            }
+        }
+    }
+}
+
