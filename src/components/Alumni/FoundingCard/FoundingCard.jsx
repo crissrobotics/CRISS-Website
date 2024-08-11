@@ -4,7 +4,7 @@ import ReactCardFlip from 'react-card-flip';
 import { motion } from "framer-motion";
 import { HeadAnimation } from "../../Header/Motion/Motion";
 
-export default function FlippingCard({ profile, name, line, linkedin }) {
+export default function FoundingCard({ profile, name, line, linkedin }) {
     const [isFlipped, setIsFlipped] = useState(false);
 
     const handleMouseEnter = () => {
