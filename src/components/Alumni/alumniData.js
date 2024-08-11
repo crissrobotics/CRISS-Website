@@ -1,3 +1,39 @@
+import a23 from "../../assets/images/Alumni/2020/a23.jpg";
+import a24 from "../../assets/images/Alumni/2020/a24.jpg";
+import a25 from "../../assets/images/Alumni/2020/a25.jpg";
+
+export const Alumnis20 = [
+
+    {
+        id: "1",
+        name: "Ayush Firodiya",
+        img: a23,
+        position: "Team Lead",
+        linkedin: "https://www.linkedin.com/in/ayush-firodiya-074432219/?trk=public_profile_browsemap&originalSubdomain=in",
+        team: "",
+        batch: "2022"
+    },
+    {
+        id: "2",
+        name: "Vedang Nadkarni",
+        img: a24,
+        position: "Vice Team Lead and Software Lead",
+        linkedin: "https://www.linkedin.com/in/vedang-nadkarni/",
+        team: "",
+        batch: "2022"
+    },
+    {
+        id: "3",
+        name: "Hrishit Das",
+        img: a25,
+        position: "Lead Subsystem Engineer",
+        linkedin: "https://www.linkedin.com/in/hrishit-das/",
+        team: "",
+        batch: "2022"
+    }
+]
+
+
 import a1 from "../../assets/images/Alumni/2021/a1.jpeg";
 import a2 from "../../assets/images/Alumni/2021/a2.jpg";
 import a3 from "../../assets/images/Alumni/2021/a3.png";
@@ -20,7 +56,7 @@ import a20 from "../../assets/images/Alumni/2021/a20.jpg";
 import a21 from "../../assets/images/Alumni/2021/a21.jpg";
 import a22 from "../../assets/images/Alumni/2021/a22.jpg";
 
-export const Alumnis = [
+export const Alumnis21 = [
 
     {
         id: "1",
@@ -51,19 +87,19 @@ export const Alumnis = [
     },
     {
         id: "4",
-        name: "Shubham Gupta",
-        img: a4,
-        position: "Science Lead",
-        linkedin: "https://www.linkedin.com/in/shubham-gupta-389491230/",
+        name: "Shobhit Rathi",
+        img: a5,
+        position: "Operations Lead",
+        linkedin: "https://www.linkedin.com/in/shobhit-rathi-826216240/",
         team: "",
         batch: "2021"
     },
     {
         id: "5",
-        name: "Shobhit Rathi",
-        img: a5,
-        position: "Operations Lead",
-        linkedin: "https://www.linkedin.com/in/shobhit-rathi-826216240/",
+        name: "Shubham Gupta",
+        img: a4,
+        position: "Science Lead",
+        linkedin: "https://www.linkedin.com/in/shubham-gupta-389491230/",
         team: "",
         batch: "2021"
     },
@@ -251,22 +287,30 @@ export const FoundingMembers = [
 
     {
         id: "1",
-        name: "",
-        img: fd1
+        name: "Swapnil Padhi",
+        img: fd3,
+        line: "Successful maiden submission of irdc 21 and IRC 22 reports. I don't remember the exact ranks, but ig 18 for irdc, 13 for irc. Irdc collab in team was conducted fully remotely due to COVID, it was a huge milestone in establishing team. Instrumental in getting 9.7L funds in total during my period from AUGDD project funds (6L), auto desk, swd (1L each), (1.7 L from team contribution) ",
+        linkedin: "https://www.linkedin.com/in/swapnil18800/" 
     },
     {
         id: "2",
-        name: "",
-        img: fd2
-    },
-    {
-        id: "3",
-        name: "",
-        img: fd3
+        name: "UTTANK JHA",
+        img: fd2,
+        line: "Competitions will come and go but it is far more important to cherish the long, cold nights you will spend inside ICE Lab grinding, cutting, soldering, drilling, wiring, coding, breaking,fixing. In the end, the numerous opportunities to express my creativity and talent is what made joining CRISS so special to me, and I hope the team carries this spirit forward. ",
+        linkedin: "https://www.linkedin.com/in/uttank-jha/"
     },
     {
         id: "4",
-        name: "",
-        img: fd4
+        name: "Abin Asokan",
+        img: fd4,
+        line: "My time at CRISS taught me how combining multiple engineering fields is key to designing great products, which  ultimately is the key for solving real world problems which don't come with a disciplinary tag.",
+        linkedin: "https://www.linkedin.com/in/abin-asokan-01720a19b/"
+    },
+    {
+        id: "3",
+        name: "Sashank Krishna Sriram",
+        img: fd1,
+        line: "Keep trying new stuff folks! Won’t get a chance to attack problems from so many angles all at once ever again. Start from scratch each time, and take us farther than ever before.",
+        linkedin: "https://www.linkedin.com/in/sashankkrishnas/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
     },
 ]
