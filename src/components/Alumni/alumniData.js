@@ -16,7 +16,7 @@ export const Alumnis20 = [
         position: "Team Lead",
         linkedin: "https://www.linkedin.com/in/ayush-firodiya-074432219/?trk=public_profile_browsemap&originalSubdomain=in",
         team: "",
-        batch: "2022"
+        batch: "2020"
     },
     {
         id: "2",
@@ -25,7 +25,7 @@ export const Alumnis20 = [
         position: "Vice Team Lead and Software Lead",
         linkedin: "https://www.linkedin.com/in/vedang-nadkarni/",
         team: "",
-        batch: "2022"
+        batch: "2020"
     },
     {
         id: "3",
@@ -34,7 +34,7 @@ export const Alumnis20 = [
         position: "Lead Subsystem Engineer",
         linkedin: "https://www.linkedin.com/in/hrishit-das/",
         team: "",
-        batch: "2022"
+        batch: "2020"
     },
     {
         id: "4",
@@ -43,7 +43,7 @@ export const Alumnis20 = [
         position: "Team Manager",
         linkedin: null,
         team: "",
-        batch: "2022"
+        batch: "2020"
     },
     {
         id: "5",
@@ -61,7 +61,7 @@ export const Alumnis20 = [
         position: "Electrical Team Lead",
         linkedin: "https://www.linkedin.com/in/aditya-bhalerao-968a0a214/",
         team: "",
-        batch: "2022"
+        batch: "2020"
     },
     {
         id: "7",
@@ -70,7 +70,7 @@ export const Alumnis20 = [
         position: "Mechanical Team Lead",
         linkedin: "https://www.linkedin.com/in/aditya-verma-156147212/",
         team: "",
-        batch: "2022"
+        batch: "2020"
     },
     {
         id: "8",
@@ -79,7 +79,7 @@ export const Alumnis20 = [
         position: "Science Team Lead",
         linkedin: "https://www.linkedin.com/in/saketh-pinapati/",
         team: "",
-        batch: "2022"
+        batch: "2020"
     },
 ]
 
