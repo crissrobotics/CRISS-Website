@@ -52,7 +52,7 @@ export const Alumnis20 = [
         position: "Team Manager",
         linkedin: "https://www.linkedin.com/in/keshav-mittal-496890210/",
         team: "",
-        batch: "2022"
+        batch: "2020"
     },
     {
         id: "6",
