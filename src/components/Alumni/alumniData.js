@@ -1,13 +1,18 @@
-import a23 from "../../assets/images/Alumni/2020/a23.jpg";
-import a24 from "../../assets/images/Alumni/2020/a24.jpg";
-import a25 from "../../assets/images/Alumni/2020/a25.jpg";
+import a31 from "../../assets/images/Alumni/2020/a31.jpg";
+import a32 from "../../assets/images/Alumni/2020/a32.jpg";
+import a33 from "../../assets/images/Alumni/2020/a33.jpg";
+import a34 from "../../assets/images/Alumni/2020/a34.jpg";
+import a35 from "../../assets/images/Alumni/2020/a35.jpg";
+import a36 from "../../assets/images/Alumni/2020/a36.jpg";
+import a37 from "../../assets/images/Alumni/2020/a37.jpg";
+import a38 from "../../assets/images/Alumni/2020/a38.jpg";
 
 export const Alumnis20 = [
 
     {
         id: "1",
         name: "Ayush Firodiya",
-        img: a23,
+        img: a31,
         position: "Team Lead",
         linkedin: "https://www.linkedin.com/in/ayush-firodiya-074432219/?trk=public_profile_browsemap&originalSubdomain=in",
         team: "",
@@ -16,7 +21,7 @@ export const Alumnis20 = [
     {
         id: "2",
         name: "Vedang Nadkarni",
-        img: a24,
+        img: a32,
         position: "Vice Team Lead and Software Lead",
         linkedin: "https://www.linkedin.com/in/vedang-nadkarni/",
         team: "",
@@ -25,12 +30,57 @@ export const Alumnis20 = [
     {
         id: "3",
         name: "Hrishit Das",
-        img: a25,
+        img: a33,
         position: "Lead Subsystem Engineer",
         linkedin: "https://www.linkedin.com/in/hrishit-das/",
         team: "",
         batch: "2022"
-    }
+    },
+    {
+        id: "4",
+        name: "Shreyash Singh",
+        img: a34,
+        position: "Team Manager",
+        linkedin: null,
+        team: "",
+        batch: "2022"
+    },
+    {
+        id: "5",
+        name: "Keshav Mittal",
+        img: a35,
+        position: "Team Manager",
+        linkedin: "https://www.linkedin.com/in/keshav-mittal-496890210/",
+        team: "",
+        batch: "2022"
+    },
+    {
+        id: "6",
+        name: "Aditya Bhalerao",
+        img: a36,
+        position: "Electrical Team Lead",
+        linkedin: "https://www.linkedin.com/in/aditya-bhalerao-968a0a214/",
+        team: "",
+        batch: "2022"
+    },
+    {
+        id: "7",
+        name: "Aditya Verma",
+        img: a37,
+        position: "Mechanical Team Lead",
+        linkedin: "https://www.linkedin.com/in/aditya-verma-156147212/",
+        team: "",
+        batch: "2022"
+    },
+    {
+        id: "8",
+        name: "Pinapati Saketh",
+        img: a38,
+        position: "Science Team Lead",
+        linkedin: "https://www.linkedin.com/in/saketh-pinapati/",
+        team: "",
+        batch: "2022"
+    },
 ]
 
 
@@ -55,6 +105,7 @@ import a19 from "../../assets/images/Alumni/2021/a19.jpg";
 import a20 from "../../assets/images/Alumni/2021/a20.jpg";
 import a21 from "../../assets/images/Alumni/2021/a21.jpg";
 import a22 from "../../assets/images/Alumni/2021/a22.jpg";
+import a23 from "../../assets/images/Alumni/2021/a23.jpg";
 
 export const Alumnis21 = [
 
@@ -125,7 +176,7 @@ export const Alumnis21 = [
         id: "8",
         name: "Aryaman Agrawal",
         img: a8,
-        position: "Astrobio Lead",
+        position: "Astro-Biology Lead",
         linkedin: "https://www.linkedin.com/in/aryaman-agrawal-6100a7261/",
         team: "",
         batch: "2021"
@@ -258,6 +309,15 @@ export const Alumnis21 = [
     },
     {
         id: "23",
+        name: "Aditya Sharma",
+        img: a23,
+        position: "Drive Systems Leads",
+        linkedin: null,
+        team: "",
+        batch: "2021"
+    },
+    {
+        id: "24",
         name: "Aryan Dilliwar",
         img: a8,
         position: "Mechanical Team",
@@ -266,8 +326,8 @@ export const Alumnis21 = [
         batch: "2021"
     },
     {
-        id: "24",
-        name: "Tejas sriganesh ",
+        id: "25",
+        name: "Tejas sriganesh",
         img: a8,
         position: "Mechanical Team",
         linkedin: null,
