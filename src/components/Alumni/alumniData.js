@@ -1,11 +1,11 @@
-import a31 from "../../assets/images/Alumni/2020/a31.jpg";
-import a32 from "../../assets/images/Alumni/2020/a32.jpg";
-import a33 from "../../assets/images/Alumni/2020/a33.jpg";
-import a34 from "../../assets/images/Alumni/2020/a34.jpg";
-import a35 from "../../assets/images/Alumni/2020/a35.jpg";
-import a36 from "../../assets/images/Alumni/2020/a36.jpg";
-import a37 from "../../assets/images/Alumni/2020/a37.jpg";
-import a38 from "../../assets/images/Alumni/2020/a38.jpg";
+import a31 from "../../assets/images/Alumni/2020/a31.webp";
+import a32 from "../../assets/images/Alumni/2020/a32.webp";
+import a33 from "../../assets/images/Alumni/2020/a33.webp";
+import a34 from "../../assets/images/Alumni/2020/a34.webp";
+import a35 from "../../assets/images/Alumni/2020/a35.webp";
+import a36 from "../../assets/images/Alumni/2020/a36.webp";
+import a37 from "../../assets/images/Alumni/2020/a37.webp";
+import a38 from "../../assets/images/Alumni/2020/a38.webp";
 
 export const Alumnis20 = [
 
@@ -84,28 +84,28 @@ export const Alumnis20 = [
 ]
 
 
-import a1 from "../../assets/images/Alumni/2021/a1.jpeg";
-import a2 from "../../assets/images/Alumni/2021/a2.jpg";
-import a3 from "../../assets/images/Alumni/2021/a3.png";
-import a4 from "../../assets/images/Alumni/2021/a4.jpg";
-import a5 from "../../assets/images/Alumni/2021/a5.jpg";
-import a6 from "../../assets/images/Alumni/2021/a6.jpg";
-import a7 from "../../assets/images/Alumni/2021/a7.jpg";
-import a8 from "../../assets/images/Alumni/2021/a8.png";
-import a9 from "../../assets/images/Alumni/2021/a9.jpg";
-import a11 from "../../assets/images/Alumni/2021/a11.jpg";
-import a12 from "../../assets/images/Alumni/2021/a12.jpeg";
-import a13 from "../../assets/images/Alumni/2021/a13.jpeg";
-import a14 from "../../assets/images/Alumni/2021/a14.jpg";
-import a15 from "../../assets/images/Alumni/2021/a15.jpg";
-import a16 from "../../assets/images/Alumni/2021/a16.jpg";
-import a17 from "../../assets/images/Alumni/2021/a17.jpg";
-import a18 from "../../assets/images/Alumni/2021/a18.jpg";
-import a19 from "../../assets/images/Alumni/2021/a19.jpg";
-import a20 from "../../assets/images/Alumni/2021/a20.jpg";
-import a21 from "../../assets/images/Alumni/2021/a21.jpg";
-import a22 from "../../assets/images/Alumni/2021/a22.jpg";
-import a23 from "../../assets/images/Alumni/2021/a23.jpg";
+import a1 from "../../assets/images/Alumni/2021/a1.webp";
+import a2 from "../../assets/images/Alumni/2021/a2.webp";
+import a3 from "../../assets/images/Alumni/2021/a3.webp";
+import a4 from "../../assets/images/Alumni/2021/a4.webp";
+import a5 from "../../assets/images/Alumni/2021/a5.webp";
+import a6 from "../../assets/images/Alumni/2021/a6.webp";
+import a7 from "../../assets/images/Alumni/2021/a7.webp";
+import a8 from "../../assets/images/Alumni/2021/a8.webp";
+import a9 from "../../assets/images/Alumni/2021/a9.webp";
+import a11 from "../../assets/images/Alumni/2021/a11.webp";
+import a12 from "../../assets/images/Alumni/2021/a12.webp";
+import a13 from "../../assets/images/Alumni/2021/a13.webp";
+import a14 from "../../assets/images/Alumni/2021/a14.webp";
+import a15 from "../../assets/images/Alumni/2021/a15.webp";
+import a16 from "../../assets/images/Alumni/2021/a16.webp";
+import a17 from "../../assets/images/Alumni/2021/a17.webp";
+import a18 from "../../assets/images/Alumni/2021/a18.webp";
+import a19 from "../../assets/images/Alumni/2021/a19.webp";
+import a20 from "../../assets/images/Alumni/2021/a20.webp";
+import a21 from "../../assets/images/Alumni/2021/a21.webp";
+import a22 from "../../assets/images/Alumni/2021/a22.webp";
+import a23 from "../../assets/images/Alumni/2021/a23.webp";
 
 export const Alumnis21 = [
 
@@ -338,11 +338,11 @@ export const Alumnis21 = [
 
 
 
-import fd1 from "../../assets/images/Alumni/Founding/fd1.jpeg";
-import fd2 from "../../assets/images/Alumni/Founding/fd2.jpg";
-import fd3 from "../../assets/images/Alumni/Founding/fd3.jpg";
-import fd4 from "../../assets/images/Alumni/Founding/fd4.png";
-import fd5 from "../../assets/images/Alumni/Founding/fd5.jpg";
+import fd1 from "../../assets/images/Alumni/Founding/fd1.webp";
+import fd2 from "../../assets/images/Alumni/Founding/fd2.webp";
+import fd3 from "../../assets/images/Alumni/Founding/fd3.webp";
+import fd4 from "../../assets/images/Alumni/Founding/fd4.webp";
+import fd5 from "../../assets/images/Alumni/Founding/fd5.webp";
 
 export const FoundingMembers = [
 
