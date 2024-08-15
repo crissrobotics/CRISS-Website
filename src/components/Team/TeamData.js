@@ -504,7 +504,17 @@ export const ManagementTeam = [
         github: null,
         insta: "https://www.instagram.com/kash_.u/",
         batch: "2023"
-    }
+    },
+    {
+        id: "25",
+        name: "Shrey Thakkar",
+        img: m10,
+        position: "Member",
+        linkedin: "https://www.linkedin.com/in/shrey-thakkar-27867228b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+        github: null,
+        insta: "https://www.instagram.com/shretz_t20?igsh=cW5ydDQ4b2Z2NHp1",
+        batch: "2023"
+    },
    
 ];
 
@@ -612,7 +622,6 @@ import m5 from "../../assets/images/Team/2023/Mechanical/m5.jpg";
 import m6 from "../../assets/images/Team/2023/Mechanical/m6.jpeg";
 import m7 from "../../assets/images/Team/2023/Mechanical/m7.jpg";
 import m8 from "../../assets/images/Team/2023/Mechanical/m8.jpg";
-import m9 from "../../assets/images/Team/2023/Mechanical/m9.jpg";
 import m10 from "../../assets/images/Team/2023/Mechanical/m10.jpg";
 import m11 from "../../assets/images/Team/2023/Mechanical/m11.jpg";
 import m12 from "../../assets/images/Team/2023/Mechanical/m12.jpg";
@@ -697,16 +706,6 @@ export const MechanicalTeam = [
         linkedin: null,
         github: null,
         insta: "https://www.instagram.com/uditooooo?igsh=bXo2cDZjYTZhbTBi",
-        batch: "2023"
-    },
-    {
-        id: "9",
-        name: "Neerav Krishna",
-        img: m9,
-        position: "Probationer",
-        linkedin: "http://www.linkedin.com/in/neeravkrishna",
-        github: "https://github.com/Neerav-Krishna",
-        insta: "https://www.instagram.com/neerav.krish",
         batch: "2023"
     },
     {

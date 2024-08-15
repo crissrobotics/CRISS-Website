@@ -349,7 +349,7 @@ export const FoundingMembers = [
         id: "1",
         name: "Swapnil Padhi",
         img: fd3,
-        line: "Successful maiden submission of irdc 21 and IRC 22 reports. I don't remember the exact ranks, but ig 18 for irdc, 13 for irc. Irdc collab in team was conducted fully remotely due to COVID, it was a huge milestone in establishing team. Instrumental in getting 9.7L funds in total during my period from AUGDD project funds (6L), auto desk, swd (1L each), (1.7 L from team contribution) ",
+        line: "Successful maiden submission of irdc 21 and IRC 22 reports. I don't remember the exact ranks, but ig 18 for irdc, 13 for irc. Irdc collab in team was conducted fully remotely due to COVID, it was a huge milestone in establishing team. Ideated the workshop-based recruitment pedagogy along with Vice Cap Uttank to minimize the barrier of entry and attract the best talents who are genuinely interested in the team.",
         linkedin: "https://www.linkedin.com/in/swapnil18800/" 
     },
     {
