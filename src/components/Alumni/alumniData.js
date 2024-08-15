@@ -342,6 +342,7 @@ import fd1 from "../../assets/images/Alumni/Founding/fd1.jpeg";
 import fd2 from "../../assets/images/Alumni/Founding/fd2.jpg";
 import fd3 from "../../assets/images/Alumni/Founding/fd3.jpg";
 import fd4 from "../../assets/images/Alumni/Founding/fd4.png";
+import fd5 from "../../assets/images/Alumni/Founding/fd5.jpg";
 
 export const FoundingMembers = [
 
@@ -372,5 +373,12 @@ export const FoundingMembers = [
         img: fd1,
         line: "Keep trying new stuff folks! Won’t get a chance to attack problems from so many angles all at once ever again. Start from scratch each time, and take us farther than ever before.",
         linkedin: "https://www.linkedin.com/in/sashankkrishnas/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+    },
+    {
+        id: "5",
+        name: "Tanishq Duhan",
+        img: fd5,
+        line: "",
+        linkedin: "https://www.linkedin.com/in/tanishqduhan/"
     },
 ]
