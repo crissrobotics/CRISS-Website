@@ -1,0 +1,96 @@
+header {
+    height: 8rem;
+
+    @media screen and (max-width: 1000px) {
+        height: 7rem;
+    }
+}
+
+.mainContainer {
+    background-color: #F1F8FF;
+    height: fit-content;
+    padding-top: 3rem;
+    padding-bottom: 6rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+    .alumniContainer {
+        max-width: 1200px;
+        margin-top: 0rem;
+        display: flex;
+        flex-direction: column;
+    
+        h6 {
+            font-size: 30px;
+            margin-bottom: 30px;
+            color: #00275B;
+            font-weight: 700;
+            font-family: Inter;
+            text-align: center;
+            margin-top: 30px;
+
+            @media screen and (max-width: 820px) {
+                font-size: 32px;
+                margin-top: 20px;
+            }
+        }
+    
+        .members {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 3rem 7rem;
+        }
+    }
+} 
+
+@media(max-width: 650px) {
+
+    .mainContainer {
+        .alumniContainer {
+
+            h6 {
+                font-size: 28px;
+                font-weight: 600;
+            }
+        }
+    }
+}
+
+@media (max-width : 500px) {
+
+    .mainContainer {
+        .alumniContainer {
+
+            .members {
+                gap: 4rem 3rem;
+            }
+        }
+    }
+}
+
+@media (max-width : 450px) {
+
+    .mainContainer {
+        .alumniContainer {
+
+            .members {
+                gap: 4rem 3rem;
+            }
+        }
+    }
+}
+
+@media (max-width : 400px) {
+
+    .mainContainer {
+        .alumniContainer {
+
+            .members {
+                gap: 4rem 2rem;
+            }
+        }
+    }
+}

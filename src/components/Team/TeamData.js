@@ -1,5 +1,5 @@
-import l1 from "../../assets/images/Team/2022/Boards/l1.jpg";
-import l2 from "../../assets/images/Team/2022/Boards/l2.jpg";
+import l1 from "../../assets/images/Team/2022/Boards/l1.webp";
+import l2 from "../../assets/images/Team/2022/Boards/l2.webp";
 
 export const BoardLead = [
     {
@@ -28,21 +28,21 @@ export const BoardLead = [
 ]
 
 
-import b1 from "../../assets/images/Team/2022/Boards/b1.jpg";
-import b2 from "../../assets/images/Team/2022/Boards/b2.jpeg";
-import b3 from "../../assets/images/Team/2022/Boards/b3.jpeg";
-import b4 from "../../assets/images/Team/2022/Boards/b4.jpg";
-import b5 from "../../assets/images/Team/2022/Boards/b5.jpg";
-import b6 from "../../assets/images/Team/2022/Boards/b6.jpg";
-import b7 from "../../assets/images/Team/2022/Boards/b7.jpg";
-import b8 from "../../assets/images/Team/2022/Boards/b8.jpeg";
-import b9 from "../../assets/images/Team/2022/Boards/b9.jpg";
-import b10 from "../../assets/images/Team/2022/Boards/b10.jpg";
-import b11 from "../../assets/images/Team/2022/Boards/b11.jpg";
-import b12 from "../../assets/images/Team/2022/Boards/b12.jpeg";
-import b13 from "../../assets/images/Team/2022/Boards/b13.jpg";
-import b14 from "../../assets/images/Team/2022/Boards/b14.jpg";
-import b15 from "../../assets/images/Team/2022/Boards/b15.jpg";
+import b1 from "../../assets/images/Team/2022/Boards/b1.webp";
+import b2 from "../../assets/images/Team/2022/Boards/b2.webp";
+import b3 from "../../assets/images/Team/2022/Boards/b3.webp";
+import b4 from "../../assets/images/Team/2022/Boards/b4.webp";
+import b5 from "../../assets/images/Team/2022/Boards/b5.webp";
+import b6 from "../../assets/images/Team/2022/Boards/b6.webp";
+import b7 from "../../assets/images/Team/2022/Boards/b7.webp";
+import b8 from "../../assets/images/Team/2022/Boards/b8.webp";
+import b9 from "../../assets/images/Team/2022/Boards/b9.webp";
+import b10 from "../../assets/images/Team/2022/Boards/b10.webp";
+import b11 from "../../assets/images/Team/2022/Boards/b11.webp";
+import b12 from "../../assets/images/Team/2022/Boards/b12.webp";
+import b13 from "../../assets/images/Team/2022/Boards/b13.webp";
+import b14 from "../../assets/images/Team/2022/Boards/b14.webp";
+import b15 from "../../assets/images/Team/2022/Boards/b15.webp";
 
 export const BoardTeam = [
     {
@@ -228,31 +228,31 @@ export const BoardTeam = [
 ];
 
 
-import manaschoudhary from "../../assets/images/Team/2023/Management/manaschoudhary.png";
-import aayushdhingra from "../../assets/images/Team/2023/Management/aayushdhingra.jpeg";
-import vanshikaagarwal from "../../assets/images/Team/2023/Management/vanshikaagarwal.jpg";
-import yashwanthvarma from "../../assets/images/Team/2023/Management/yashwanthvarma.jpg";
-import aishwarya from "../../assets/images/Team/2023/Management/aishwarya.jpg";
-import lakshayjain from "../../assets/images/Team/2023/Management/lakshayjain.jpg";
-import aditikamal from "../../assets/images/Team/2023/Management/aditikamal.jpg";
-import niharikasharma from "../../assets/images/Team/2023/Management/niharikasharma.jpg";
-import sujayshrestha from "../../assets/images/Team/2023/Management/sujayshrestha.jpg";
-import vanshjain from "../../assets/images/Team/2023/Management/vanshjain.jpg";
-import sannidhkumar from "../../assets/images/Team/2023/Management/sannidhkumar.jpeg";
-import vanshikabansal from "../../assets/images/Team/2023/Management/vanshikabansal.jpg";
-import arnavsahoo from "../../assets/images/Team/2023/Management/arnavsahoo.jpeg";
-import khushibodhwani from "../../assets/images/Team/2023/Management/khushibodhwani.jpg";
-import ayushpatel from "../../assets/images/Team/2023/Management/ayushpatel.jpeg";
-import bhoomimotihar from "../../assets/images/Team/2023/Management/bhoomimotihar.jpg";
-import nimitgarg from "../../assets/images/Team/2023/Management/nimitgarg.jpeg";
-import govindbhageria from "../../assets/images/Team/2023/Management/govindbhageria.jpeg";
-import rushabhshah from "../../assets/images/Team/2023/Management/rushabhshah.jpeg";
-import navyamgoyal from "../../assets/images/Team/2023/Management/navyamgoyal.jpg";
-import aditiagarwal from "../../assets/images/Team/2023/Management/aditiagarwal.jpg";
-import advaitshukla from "../../assets/images/Team/2022/Management/advaitshukla.jpg";
-import deepaksaini from "../../assets/images/Team/2022/Management/deepaksaini.jpeg";
-import shivtiwari from "../../assets/images/Team/2022/Management/shivtiwari.jpg";
-import kashishbansal from "../../assets/images/Team/2023/Management/kashishbansal.jpg";
+import manaschoudhary from "../../assets/images/Team/2023/Management/manaschoudhary.webp";
+import aayushdhingra from "../../assets/images/Team/2023/Management/aayushdhingra.webp";
+import vanshikaagarwal from "../../assets/images/Team/2023/Management/vanshikaagarwal.webp";
+import yashwanthvarma from "../../assets/images/Team/2023/Management/yashwanthvarma.webp";
+import aishwarya from "../../assets/images/Team/2023/Management/aishwarya.webp";
+import lakshayjain from "../../assets/images/Team/2023/Management/lakshayjain.webp";
+import aditikamal from "../../assets/images/Team/2023/Management/aditikamal.webp";
+import niharikasharma from "../../assets/images/Team/2023/Management/niharikasharma.webp";
+import sujayshrestha from "../../assets/images/Team/2023/Management/sujayshrestha.webp";
+import vanshjain from "../../assets/images/Team/2023/Management/vanshjain.webp";
+import sannidhkumar from "../../assets/images/Team/2023/Management/sannidhkumar.webp";
+import vanshikabansal from "../../assets/images/Team/2023/Management/vanshikabansal.webp";
+import arnavsahoo from "../../assets/images/Team/2023/Management/arnavsahoo.webp";
+import khushibodhwani from "../../assets/images/Team/2023/Management/khushibodhwani.webp";
+import ayushpatel from "../../assets/images/Team/2023/Management/ayushpatel.webp";
+import bhoomimotihar from "../../assets/images/Team/2023/Management/bhoomimotihar.webp";
+import nimitgarg from "../../assets/images/Team/2023/Management/nimitgarg.webp";
+import govindbhageria from "../../assets/images/Team/2023/Management/govindbhageria.webp";
+import rushabhshah from "../../assets/images/Team/2023/Management/rushabhshah.webp";
+import navyamgoyal from "../../assets/images/Team/2023/Management/navyamgoyal.webp";
+import aditiagarwal from "../../assets/images/Team/2023/Management/aditiagarwal.webp";
+import advaitshukla from "../../assets/images/Team/2022/Management/advaitshukla.webp";
+import deepaksaini from "../../assets/images/Team/2022/Management/deepaksaini.webp";
+import shivtiwari from "../../assets/images/Team/2022/Management/shivtiwari.webp";
+import kashishbansal from "../../assets/images/Team/2023/Management/kashishbansal.webp";
 
 export const ManagementTeam = [
     {
@@ -504,19 +504,29 @@ export const ManagementTeam = [
         github: null,
         insta: "https://www.instagram.com/kash_.u/",
         batch: "2023"
-    }
+    },
+    {
+        id: "25",
+        name: "Shrey Thakkar",
+        img: m10,
+        position: "Member",
+        linkedin: "https://www.linkedin.com/in/shrey-thakkar-27867228b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+        github: null,
+        insta: "https://www.instagram.com/shretz_t20?igsh=cW5ydDQ4b2Z2NHp1",
+        batch: "2023"
+    },
    
 ];
 
 
-import s1 from "../../assets/images/Team/2022/Software/s1.jpg";
-import s2 from "../../assets/images/Team/2023/Software/s2.jpeg";
-import s3 from "../../assets/images/Team/2023/Software/s3.jpg";
-import s4 from "../../assets/images/Team/2023/Software/s4.jpg";
-import s5 from "../../assets/images/Team/2023/Software/s5.jpeg";
-import s6 from "../../assets/images/Team/2023/Software/s6.jpg";
-import s7 from "../../assets/images/Team/2023/Software/s7.jpg";
-import s8 from "../../assets/images/Team/2023/Software/s8.jpg";
+import s1 from "../../assets/images/Team/2022/Software/s1.webp";
+import s2 from "../../assets/images/Team/2023/Software/s2.webp";
+import s3 from "../../assets/images/Team/2023/Software/s3.webp";
+import s4 from "../../assets/images/Team/2023/Software/s4.webp";
+import s5 from "../../assets/images/Team/2023/Software/s5.webp";
+import s6 from "../../assets/images/Team/2023/Software/s6.webp";
+import s7 from "../../assets/images/Team/2023/Software/s7.webp";
+import s8 from "../../assets/images/Team/2023/Software/s8.webp";
 
 export const SoftwareTeam = [
     {
@@ -604,19 +614,18 @@ export const SoftwareTeam = [
 
 
 
-import m1 from "../../assets/images/Team/2022/Mechanical/m1.jpg";
-import m2 from "../../assets/images/Team/2023/Mechanical/m2.jpg";
-import m3 from "../../assets/images/Team/2023/Mechanical/m3.jpg";
-import m4 from "../../assets/images/Team/2023/Mechanical/m4.jpg";
-import m5 from "../../assets/images/Team/2023/Mechanical/m5.jpg";
-import m6 from "../../assets/images/Team/2023/Mechanical/m6.jpeg";
-import m7 from "../../assets/images/Team/2023/Mechanical/m7.jpg";
-import m8 from "../../assets/images/Team/2023/Mechanical/m8.jpg";
-import m9 from "../../assets/images/Team/2023/Mechanical/m9.jpg";
-import m10 from "../../assets/images/Team/2023/Mechanical/m10.jpg";
-import m11 from "../../assets/images/Team/2023/Mechanical/m11.jpg";
-import m12 from "../../assets/images/Team/2023/Mechanical/m12.jpg";
-import m13 from "../../assets/images/Team/2023/Mechanical/m13.jpg";
+import m1 from "../../assets/images/Team/2022/Mechanical/m1.webp";
+import m2 from "../../assets/images/Team/2023/Mechanical/m2.webp";
+import m3 from "../../assets/images/Team/2023/Mechanical/m3.webp";
+import m4 from "../../assets/images/Team/2023/Mechanical/m4.webp";
+import m5 from "../../assets/images/Team/2023/Mechanical/m5.webp";
+import m6 from "../../assets/images/Team/2023/Mechanical/m6.webp";
+import m7 from "../../assets/images/Team/2023/Mechanical/m7.webp";
+import m8 from "../../assets/images/Team/2023/Mechanical/m8.webp";
+import m10 from "../../assets/images/Team/2023/Mechanical/m10.webp";
+import m11 from "../../assets/images/Team/2023/Mechanical/m11.webp";
+import m12 from "../../assets/images/Team/2023/Mechanical/m12.webp";
+import m13 from "../../assets/images/Team/2023/Mechanical/m13.webp";
 
 export const MechanicalTeam = [
     {
@@ -700,16 +709,6 @@ export const MechanicalTeam = [
         batch: "2023"
     },
     {
-        id: "9",
-        name: "Neerav Krishna",
-        img: m9,
-        position: "Probationer",
-        linkedin: "http://www.linkedin.com/in/neeravkrishna",
-        github: "https://github.com/Neerav-Krishna",
-        insta: "https://www.instagram.com/neerav.krish",
-        batch: "2023"
-    },
-    {
         id: "10",
         name: "Shrey Thakkar",
         img: m10,
@@ -751,16 +750,16 @@ export const MechanicalTeam = [
     }
 ]
 
-import e1 from "../../assets/images/Team/2022/Electrical/e1.jpg";
-import e2 from "../../assets/images/Team/2023/Electrical/e2.jpg";
-import e3 from "../../assets/images/Team/2023/Electrical/e3.jpg";
-import e4 from "../../assets/images/Team/2023/Electrical/e4.jpg";
-import e5 from "../../assets/images/Team/2023/Electrical/e5.jpg";
-import e6 from "../../assets/images/Team/2023/Electrical/e6.jpg";
-import e7 from "../../assets/images/Team/2023/Electrical/e7.jpeg";
-import e8 from "../../assets/images/Team/2023/Electrical/e8.jpg";
-import e9 from "../../assets/images/Team/2023/Electrical/e9.jpg";
-import e10 from "../../assets/images/Team/2023/Electrical/e10.jpg";
+import e1 from "../../assets/images/Team/2022/Electrical/e1.webp";
+import e2 from "../../assets/images/Team/2023/Electrical/e2.webp";
+import e3 from "../../assets/images/Team/2023/Electrical/e3.webp";
+import e4 from "../../assets/images/Team/2023/Electrical/e4.webp";
+import e5 from "../../assets/images/Team/2023/Electrical/e5.webp";
+import e6 from "../../assets/images/Team/2023/Electrical/e6.webp";
+import e7 from "../../assets/images/Team/2023/Electrical/e7.webp";
+import e8 from "../../assets/images/Team/2023/Electrical/e8.webp";
+import e9 from "../../assets/images/Team/2023/Electrical/e9.webp";
+import e10 from "../../assets/images/Team/2023/Electrical/e10.webp";
 
 export const ElectricalTeam = [
     {
@@ -865,12 +864,12 @@ export const ElectricalTeam = [
     }
 ]
 
-import p1 from "../../assets/images/Team/2022/Payload/p1.jpeg";
-import p2 from "../../assets/images/Team/2023/Payload/p2.jpg";
-import p3 from "../../assets/images/Team/2023/Payload/p3.jpg";
-import p4 from "../../assets/images/Team/2023/Payload/p4.jpg";
-import p5 from "../../assets/images/Team/2023/Payload/p5.jpg";
-import p6 from "../../assets/images/Team/2023/Payload/p6.jpg";
+import p1 from "../../assets/images/Team/2022/Payload/p1.webp";
+import p2 from "../../assets/images/Team/2023/Payload/p2.webp";
+import p3 from "../../assets/images/Team/2023/Payload/p3.webp";
+import p4 from "../../assets/images/Team/2023/Payload/p4.webp";
+import p5 from "../../assets/images/Team/2023/Payload/p5.webp";
+import p6 from "../../assets/images/Team/2023/Payload/p6.webp";
 
 export const PayloadTeam = [
     {
@@ -936,8 +935,8 @@ export const PayloadTeam = [
 ];
 
 
-import fl1 from "../../assets/images/Team/Faculty/fl1.jpg";
-import fl2 from "../../assets/images/Team/Faculty/fl2.jpg";
+import fl1 from "../../assets/images/Team/Faculty/fl1.webp";
+import fl2 from "../../assets/images/Team/Faculty/fl2.webp";
 
 export const FacultyLead = [
     {
@@ -952,19 +951,19 @@ export const FacultyLead = [
 ]
 
 
-import f1 from "../../assets/images/Team/Faculty/f1.jpg";
-import f2 from "../../assets/images/Team/Faculty/f2.jpg";
-import f3 from "../../assets/images/Team/Faculty/f3.jpg";
-import f4 from "../../assets/images/Team/Faculty/f4.jpg";
-import f5 from "../../assets/images/Team/Faculty/f5.jpg";
-import f6 from "../../assets/images/Team/Faculty/f6.jpg";
-import f7 from "../../assets/images/Team/Faculty/f7.jpg";
-import f8 from "../../assets/images/Team/Faculty/f8.jpg";
-import f9 from "../../assets/images/Team/Faculty/f9.jpg";
-import f10 from "../../assets/images/Team/Faculty/f10.jpg";
-import f11 from "../../assets/images/Team/Faculty/f11.jpg";
-import f12 from "../../assets/images/Team/Faculty/f12.jpg";
-import f13 from "../../assets/images/Team/Faculty/f13.jpg";
+import f1 from "../../assets/images/Team/Faculty/f1.webp";
+import f2 from "../../assets/images/Team/Faculty/f2.webp";
+import f3 from "../../assets/images/Team/Faculty/f3.webp";
+import f4 from "../../assets/images/Team/Faculty/f4.webp";
+import f5 from "../../assets/images/Team/Faculty/f5.webp";
+import f6 from "../../assets/images/Team/Faculty/f6.webp";
+import f7 from "../../assets/images/Team/Faculty/f7.webp";
+import f8 from "../../assets/images/Team/Faculty/f8.webp";
+import f9 from "../../assets/images/Team/Faculty/f9.webp";
+import f10 from "../../assets/images/Team/Faculty/f10.webp";
+import f11 from "../../assets/images/Team/Faculty/f11.webp";
+import f12 from "../../assets/images/Team/Faculty/f12.webp";
+import f13 from "../../assets/images/Team/Faculty/f13.webp";
 
 export const FacultyTeam = [
     {

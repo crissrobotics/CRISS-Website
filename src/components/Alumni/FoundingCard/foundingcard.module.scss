@@ -1,147 +1,141 @@
 .foundingCard {
-    height: fit-content;
-    width: 200px;
+    perspective: 1000px;
     font-family: Inter;
-    text-align: center;
-    transition: all 0.3s ease-in-out;
-    position: relative;
+    margin-bottom: 2rem;
 
-    &:hover {
-        box-shadow: 0px 3.08px 8.34px 0px #00000029;
-        transform: scale(1.1);
-    }
+    .front {
+        width: 300px;
+        height: 300px;
+        transition: transform 0.6s ease-in-out;
+        backface-visibility: hidden;
+        box-shadow: 0px 3.08px 8.34px 0px #00275B;
+        background-color: #00275B;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
 
-    &:hover .details .social{
-        visibility: visible;
-    }
-
-    .imgContainer {
-        height: 225px;
-        width: 200px;
-
-        img {
-            height: 100%;
-            width: 100%;
-            object-fit: cover;
+        .imgContainer {
+            height: 215px;
+            width: 215px;
+            border: 5px solid #fff;
+            border-radius: 50%;
+    
+            img {
+                height: 100%;
+                width: 100%;
+                border-radius: 50%;
+                object-fit: cover;
+            }
         }
-    }
-
-    .details {
-        padding-top: 5px;
-        margin: 7px;
-        padding-bottom: 5px;
-        height: fit-content;
 
         .name {
+            margin-top: 1.8rem;
             line-height: normal;
-            font-size: 20px;
-            color: #00275B;
-            font-weight: 550;
+            font-size: 22px;
+            color: #fff;
+            font-weight: 600;
+            text-align: center;
             text-transform: uppercase;
         }
-    
-        button {
-            background-color: #0176D3;
-            border: none;
-            padding: 12px 32px;
-            border-radius: 5px;
-            font-weight: 650;
-            font-family: Inter;
-            color: #fff;
-            font-size: 16px;
-            transition: all 0.3s ease-in-out;
-            cursor: pointer;
+    }
 
-            &:hover {
-                background-color: #032D60;
-            }
+    .back {
+        width: 300px;
+        height: 300px;
+        border: 4px solid #14A1E8;
+        transition: transform 0.6s ease-in-out;
+        backface-visibility: hidden;
+        // box-shadow: 0px 3.08px 8.34px 0px #00275B;
+        background-color: #00275B;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        .position {
+            line-height: normal;
+            padding-top: 5px;
+            color: #fff;
+            font-size: 14px;
+            min-height: 70px;
+            text-align: center;
+            line-height: 20px;
+            padding-left: 5px;
+            padding-right: 5px;
+            // display: flex;
+            // flex-direction: column;
+            // gap: 10px;
+
+            // #position1 {
+            //     color: #fff;
+            //     text-transform: uppercase;
+            //     font-size: 24px;
+            //     text-align: center;
+            //     font-weight: 600;
+            //     padding-bottom: 10px;
+            // }
         }
     
         .social {
-            padding-top: 5px;
+            padding-top: 15px;
             display: flex;
             flex-direction: row;
             justify-content: center;
-            gap: 8px;
-            transition: all 0.3s ease-in-out;
-            visibility: hidden;
+            gap: 12px;
     
             a {
                 text-decoration: none;
-                height: 30px;
-                width: 30px;
+                height: 48px;
+                width: 48px;
                 cursor: pointer;
             }
-            #linkedin svg{
-                fill: #0A66C2;    
+            svg{
+                fill: #fff;    
             }
         }
     }
 }
 
-@media(max-width: 600px) {
+@media(max-width: 650px) {
 
-    .alumniCard {
-        height: fit-content;
-        width: 185px;
-        box-shadow: 0px 3.08px 8.34px 0px #00000029;
+    .foundingCard {
     
-        &:hover {
-            transform: scale(1.1);
-        }
+        .front {
+            width: 270px;
+            height: 270px;
     
-        &:hover .details .social{
-            visibility: visible;
-        }
-    
-        .imgContainer {
-            height: 200px;
-            width: 185px;
-        }
-    
-        .details {
-            width: 185px;
-            padding: 5px;
-            margin: 0px;
-            height: fit-content;
-            padding-bottom: 10px;
+            .imgContainer {
+                height: 180px;
+                width: 180px;
+                border: 4px solid #fff;
+            }
     
             .name {
-                font-size: 16px;
+                margin-top: 1.6rem;
+                font-size: 17px;
+            }
+        }
+    
+        .back {
+            width: 270px;
+            height: 270px;
+            border: 3px solid #14A1E8;
+    
+            .position {
+                font-size: 13.5px;
+                line-height: normal;
             }
         
             .social {
-                padding-top: 3px;
-                visibility: visible;
-                justify-content: space-around;
+                padding-top: 15px;
+                gap: 15px;
         
                 a {
-                    height: 25px;
-                    width: 25px;
+                    height: 40px;
+                    width: 40px;
                 }
             }
-        }
-    }
-}
-
-@media(max-width:450px) {
-
-    .alumniCard {
-        width: 42vw;
-
-    
-        .imgContainer {
-            height: 200px;
-            width: 100%;
-        }
-    
-        .details {
-            width: 100%;
-            padding: 5px;
-            margin: 0px;
-            height: fit-content;
-            padding-bottom: 10px;
-           
         }
     }
 }

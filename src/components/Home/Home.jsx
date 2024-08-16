@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import "./home.scss";
 import { Helmet } from 'react-helmet';
 import Marquee from "react-fast-marquee";
@@ -13,6 +13,7 @@ import TransitionEffect from "../Header/TransitionEffect/TransitionEffect";
 import Mission from "./Mission/Mission";
 import Contact from "./Contact/Contact";
 import Footer from "../Footer/Footer";
+import Loader from "../Loader/Loader";
 import { motion } from "framer-motion";
 import { slideAnimation } from "../Header/Motion/Motion";
 
@@ -32,7 +33,7 @@ import backImg from "../../assets/images/Homepage/background.jpg";
 
 export default function Home() {
 
-
+    const [isVideoLoaded, setIsVideoLoaded] = useState(false);
     useEffect(() => {
         gsap.set('.aboutContainer', { yPercent: -50 });
 
@@ -49,28 +50,39 @@ export default function Home() {
         });
     }, []);
 
+    const handleVideoLoad = () => {
+        setIsVideoLoaded(true);
+    };
 
     return (
         <>
             <Helmet>
                 <title>Criss Robotics</title>
             </Helmet>
-            <Navbar color="transparent" />
-            <div className="homepageContainer">
+            {!isVideoLoaded && (
+                <Loader />
+            )}
+            <div className={`homepageContainer ${!isVideoLoaded ? 'hidden' : ''}`}>
+                <Navbar color="transparent" />
                 <div className="heroContainer">
-                    <TransitionEffect></TransitionEffect>
-                    <video src={bgVideo} autoPlay muted loop ></video>
+                    <TransitionEffect />
+
+                    <video
+                        src={bgVideo}
+                        autoPlay
+                        muted
+                        loop
+                        onCanPlay={handleVideoLoad}
+                    />
+
                     <div className="heading">
                         <h1>CRISS</h1>
-                        {/* <h6>Consortium for Research in Space Systems</h6> */}
                         <h6>
                             <Typewriter
                                 onInit={(typewriter) => {
                                     typewriter
                                         .typeString("Consortium for Research in Space Systems")
                                         .pauseFor(1000)
-                                        // .deleteAll()
-                                        // .typeString("Welcomes You")
                                         .start();
                                 }}
                             />
@@ -79,48 +91,47 @@ export default function Home() {
                 </div>
 
                 <motion.div className="aboutContainer" style={{ backgroundImage: `url(${backImg})` }}>
-                    <About></About>
+                    <About />
                 </motion.div>
 
                 <motion.div className="missionContainer" {...slideAnimation("right", 0.5)}>
-                    <Mission></Mission>
+                    <Mission />
                 </motion.div>
 
                 <div className="sponsorContainer">
                     <h2>Our<span>Sponsors</span></h2>
-                    <div className="sponsoreCard">
+                    <div className="sponsorCard">
                         <div className="sponsorCardUpperRow">
                             <Marquee>
-                                <SponsorCard sponsorImg={bits}></SponsorCard>
-                                <SponsorCard sponsorImg={altium}></SponsorCard>
-                                <SponsorCard sponsorImg={ansys}></SponsorCard>
-                                <SponsorCard sponsorImg={autodesk}></SponsorCard>
-                                <SponsorCard sponsorImg={pcb}></SponsorCard>
-                                <SponsorCard sponsorImg={sigma}></SponsorCard>
-                                <SponsorCard sponsorImg={skf}></SponsorCard>
+                                <SponsorCard sponsorImg={bits} />
+                                <SponsorCard sponsorImg={altium} />
+                                <SponsorCard sponsorImg={ansys} />
+                                <SponsorCard sponsorImg={autodesk} />
+                                <SponsorCard sponsorImg={pcb} />
+                                <SponsorCard sponsorImg={sigma} />
+                                <SponsorCard sponsorImg={skf} />
                             </Marquee>
                         </div>
                         <div className="sponsorCardLowerRow">
                             <Marquee direction="right">
-                                <SponsorCard sponsorImg={skf}></SponsorCard>
-                                <SponsorCard sponsorImg={sigma}></SponsorCard>
-                                <SponsorCard sponsorImg={solidworks}></SponsorCard>
-                                <SponsorCard sponsorImg={speedacc}></SponsorCard>
-                                <SponsorCard sponsorImg={pcb}></SponsorCard>
-                                <SponsorCard sponsorImg={ansys}></SponsorCard>
-                                <SponsorCard sponsorImg={altium}></SponsorCard>
+                                <SponsorCard sponsorImg={skf} />
+                                <SponsorCard sponsorImg={sigma} />
+                                <SponsorCard sponsorImg={solidworks} />
+                                <SponsorCard sponsorImg={speedacc} />
+                                <SponsorCard sponsorImg={pcb} />
+                                <SponsorCard sponsorImg={ansys} />
+                                <SponsorCard sponsorImg={altium} />
                             </Marquee>
                         </div>
                     </div>
                 </div>
 
                 <div className="contactContainer">
-                    <Contact></Contact>
+                    <Contact />
                 </div>
             </div>
 
-            <Footer></Footer>
-
+            <Footer />
         </>
-    )
+    );
 }
