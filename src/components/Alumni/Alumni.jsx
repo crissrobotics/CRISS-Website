@@ -1,5 +1,5 @@
 import React from "react";
-import "./alumni.scss";
+import styles from "./alumni.module.scss";
 import { Helmet } from 'react-helmet';
 
 import Navbar from "../Header/Navbar/Navbar";
@@ -20,10 +20,10 @@ export default function Alumni() {
             <header>
                 <Navbar color="#00275B" />
             </header>
-            <main>
-                <div className="alumniContainer">
+            <main className={styles.mainContainer}>
+                <div className={styles.alumniContainer}>
                     <h6>Founding Members</h6>
-                    <div className="members">
+                    <div className={styles.members}>
                         {FoundingMembers.map(data => (
                             <FoundingCard
                                 key={data.id}
@@ -35,7 +35,7 @@ export default function Alumni() {
                         ))}
                     </div>
                     <h6>Batch of 2020</h6>
-                    <div className="members">
+                    <div className={styles.members}>
                         {Alumnis20.map(data => (
                             <AlumniCard
                                 key={data.id}
@@ -48,7 +48,7 @@ export default function Alumni() {
                         ))}
                     </div>
                     <h6>Batch of 2021</h6>
-                    <div className="members">
+                    <div className={styles.members}>
                         {Alumnis21.map(data => (
                             <AlumniCard
                                 key={data.id}

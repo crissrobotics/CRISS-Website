@@ -100,7 +100,7 @@ export default function Team() {
                     </div>
 
                 </div> */}
-                <div>
+                <div className="memberContainer">
                     {selectedteam === 'board' && <Board />}
                     {selectedteam === 'management' && <Management />}
                     {selectedteam === 'software' && <Software />}

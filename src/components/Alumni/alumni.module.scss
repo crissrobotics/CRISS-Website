@@ -6,14 +6,17 @@ header {
     }
 }
 
-main {
+.mainContainer {
     background-color: #F1F8FF;
     height: fit-content;
     padding-top: 3rem;
     padding-bottom: 6rem;
     width: 100%;
+    display: flex;
+    justify-content: center;
 
     .alumniContainer {
+        max-width: 1200px;
         margin-top: 0rem;
         display: flex;
         flex-direction: column;
@@ -45,7 +48,7 @@ main {
 
 @media(max-width: 650px) {
 
-    main {
+    .mainContainer {
         .alumniContainer {
 
             h6 {
@@ -58,7 +61,7 @@ main {
 
 @media (max-width : 500px) {
 
-    main {
+    .mainContainer {
         .alumniContainer {
 
             .members {
@@ -70,7 +73,7 @@ main {
 
 @media (max-width : 450px) {
 
-    main {
+    .mainContainer {
         .alumniContainer {
 
             .members {
@@ -82,7 +85,7 @@ main {
 
 @media (max-width : 400px) {
 
-    main {
+    .mainContainer {
         .alumniContainer {
 
             .members {
