@@ -34,21 +34,37 @@ import backImg from "../../assets/images/Homepage/background.jpg";
 export default function Home() {
 
     const [isVideoLoaded, setIsVideoLoaded] = useState(false);
+    const [windowWidth, setWindowWidth] = useState(window.innerWidth);
+
     useEffect(() => {
-        gsap.set('.aboutContainer', { yPercent: -50 });
+        gsap.registerPlugin(ScrollTrigger);
 
-        const uncover = gsap.timeline({ paused: true });
+        const handleResize = () => {
+            setWindowWidth(window.innerWidth);
+        };
 
-        uncover.to('.aboutContainer', { yPercent: 0, ease: 'none' });
+        window.addEventListener('resize', handleResize);
 
-        ScrollTrigger.create({
-            trigger: '.heroContainer',
-            start: 'bottom bottom',
-            end: '+=100%',
-            animation: uncover,
-            scrub: true,
-        });
-    }, []);
+        if (windowWidth >= 500) {
+            gsap.set('.aboutContainer', { yPercent: -50 });
+
+            const uncover = gsap.timeline({ paused: true });
+            uncover.to('.aboutContainer', { yPercent: 0, ease: 'none' });
+
+            ScrollTrigger.create({
+                trigger: '.heroContainer',
+                start: 'bottom bottom',
+                end: '+=100%',
+                animation: uncover,
+                scrub: true,
+            });
+        }
+
+        return () => {
+            ScrollTrigger.getAll().forEach(trigger => trigger.kill());
+            window.removeEventListener('resize', handleResize);
+        };
+    }, [windowWidth]);
 
     const handleVideoLoad = () => {
         setIsVideoLoaded(true);
@@ -90,7 +106,7 @@ export default function Home() {
                     </div>
                 </div>
 
-                <motion.div className="aboutContainer" style={{ backgroundImage: `url(${backImg})` }}>
+                <motion.div className="aboutContainer">
                     <About />
                 </motion.div>
 
