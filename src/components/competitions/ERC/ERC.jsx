@@ -5,6 +5,7 @@ import ERC2023 from "../ERC2023/ERC2023";
 import backImg from "../../../assets/images/Homepage/background.jpg";
 import { motion } from "framer-motion";
 import { fadeAnimation, slideAnimation } from "../../Header/Motion/Motion";
+import ERCVIDEO from "../../../assets/images/Competitions/ERCVIDEO.mp4"; 
 
 export default function erc(){
     return(
@@ -19,7 +20,7 @@ export default function erc(){
         </div>
 
         <motion.div className={styles.videoMain} {...slideAnimation("left", 0.3)}>
-            <p>VIDEO</p>
+            <video className={styles.vid} src={ERCVIDEO} autoPlay loop ></video>
         </motion.div>
 
         {/* <ERC2023></ERC2023> */}

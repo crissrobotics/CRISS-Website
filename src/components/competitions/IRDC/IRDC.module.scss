@@ -40,17 +40,13 @@
 }
 
 .videoMain{
-    margin-left: 5%;
-    margin-right:5%;
-    border-radius: 20px;
-    height:80vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: gray;
-    font-size: xx-large;
-    font-weight: bolder;
-    color:#000;
+}
+
+.vid{
+    border-radius: 20px;
 }
 
 .The2023Container{

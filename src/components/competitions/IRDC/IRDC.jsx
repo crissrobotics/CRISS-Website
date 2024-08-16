@@ -5,6 +5,7 @@ import IRDC2023 from "../IRDC2023/IRDC2023";
 import backImg from "../../../assets/images/Homepage/background.jpg";
 import { motion } from "framer-motion";
 import { fadeAnimation, slideAnimation } from "../../Header/Motion/Motion";
+import IRDCVID from "../../../assets/images/Competitions/IRDCVID.mp4";
 
 export default function irdc(){
     return(
@@ -21,7 +22,7 @@ export default function irdc(){
         </div>
 
         <motion.div className={styles.videoMain} {...slideAnimation("left", 0.5)} >
-            <p>VIDEO</p>
+            <video className={styles.vid} src={IRDCVID} autoPlay muted loop></video>
         </motion.div>
 
         <motion.div className={styles.The2023Container}  style={{ backgroundImage: `url(${backImg})` }} {...slideAnimation("up", 0.5)} >

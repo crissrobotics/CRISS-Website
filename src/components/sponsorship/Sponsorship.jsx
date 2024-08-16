@@ -25,38 +25,6 @@ import Footer from "../Footer/Footer";
 import TransitionEffect from "../Header/TransitionEffect/TransitionEffect";
 
 export default function sponsorship() {
-    // const imgRef1 = useRef(null);
-    // const imgRef2 = useRef(null);
-    // const imgRef3 = useRef(null);
-    // useEffect(() => {
-
-    //     const el = imgRef1.current;
-    //     gsap.fromTo(el, { xPercent: -50, yPercent: -50 }, {
-    //         xPercent: 0, yPercent: 0, scrollTrigger: {
-    //             trigger: el,
-    //             start: "top bottom",
-    //             end: "bottom 90%",
-    //             scrub: true
-    //         }
-    //     })
-
-    //     const ell = imgRef2.current;
-    //     gsap.fromTo(ell, { xPercent: 50, yPercent: -50 }, {
-    //         xPercent: 0, yPercent: 0, scrollTrigger: {
-    //             trigger: ell,
-    //             start: "top bottom",
-    //             end: "bottom 90%",
-    //             scrub: true
-    //         }
-    //     })
-
-        // const elll=imgRef3.current;
-        // gsap.fromTo(elll,{x:0,y:0},{x:-10,y:-10,duration:1,scrollTrigger:{
-        //     trigger:elll,
-        //     scrub:true
-        // }})
-
-    // }, [])
     return (
         <>
             <Helmet>
@@ -106,7 +74,8 @@ export default function sponsorship() {
                 </div>
 
                 <div className="Brochure">
-                    <h1 className="heading3" >Bro<span>chure</span></h1>
+                    <h1 className="heading3" >Brochure</h1>
+                    
                 </div> 
             </div>
             <Footer></Footer> 

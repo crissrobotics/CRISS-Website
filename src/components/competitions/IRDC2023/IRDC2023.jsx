@@ -1,6 +1,6 @@
 import React from "react";
 import styles from  "../IRC2023/IRC2023.module.scss";
-import aboutPic from "../../../assets/images/Homepage/about.jpeg";
+import aboutPic from "../../../assets/images/Competitions/IRDC23PHOTO.png";
 
 export default function IRDC2023() {
 
@@ -9,7 +9,7 @@ export default function IRDC2023() {
             <h2>IRDC<span>2023</span></h2>
             <div className={styles.details}>
                 <div className={styles.imgContainer}><img src={aboutPic}></img></div>
-                <p>Our team had a remarkable showing at the International Rover Challenge (IRC), 2024, held in Coimbatore. With participation from over 22 international and national teams and more than 1200 participants, the competition was fierce. We proudly unveiled '<span>Eklavya</span>' , our latest creation, which surpassed teams from renowned institutions like IIT Bombay and IIT Roorkee. Our achievements include: Best Business Plan Award (<span>Space Entrepreneur Award</span>) 2nd position in Project Implementation and Management (<span>PIMA</span>) 10th Rank overall at the IRC.</p>
+                <p>The <span>International Rover Design Challenge (IRDC)</span> is an annual competition where university students worldwide design, build, and operate <span>Mars rovers</span>. Participants gain practical experience in problem-solving, teamwork, and project management while advancing space exploration technology. Teams must meticulously plan each rover subsystem, considering <span>extraterrestrial conditions</span> and operational constraints. The competition is a platform for students to unleash their creativity and design groundbreaking solutions within practical limits.</p>
             </div>
         </div>
     )
