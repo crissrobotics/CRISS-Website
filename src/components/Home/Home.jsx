@@ -106,7 +106,7 @@ export default function Home() {
                     </div>
                 </div>
 
-                <motion.div className="aboutContainer">
+                <motion.div className="aboutContainer" style={{ backgroundImage: `url(${backImg})` }}>
                     <About />
                 </motion.div>
 
