@@ -94,14 +94,16 @@ export default function Home() {
                     <div className="heading">
                         <h1>CRISS</h1>
                         <h6>
-                            <Typewriter
-                                onInit={(typewriter) => {
-                                    typewriter
-                                        .typeString("Consortium for Research in Space Systems")
-                                        .pauseFor(1000)
-                                        .start();
-                                }}
-                            />
+                            {isVideoLoaded && (
+                                <Typewriter
+                                    onInit={(typewriter) => {
+                                        typewriter
+                                            .typeString("Consortium for Research in Space Systems")
+                                            .pauseFor(1000)
+                                            .start();
+                                    }}
+                                />
+                            )}
                         </h6>
                     </div>
                 </div>
