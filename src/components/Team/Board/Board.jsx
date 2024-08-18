@@ -27,6 +27,8 @@ export default function Board() {
                 ))}
             </div>
             <div className="memberContainer">
+                <br></br>
+                <br></br>
                 <h6>Management Board</h6>
                 <div className="members">
                     {management.map(data => (

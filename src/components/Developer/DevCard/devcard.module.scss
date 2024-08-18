@@ -1,0 +1,157 @@
+.devCard {
+    height: fit-content;
+    width: 200px;
+    font-family: Inter;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+    dev: relative;
+
+    &:hover {
+        box-shadow: 0px 3.08px 8.34px 0px #00000029;
+        transform: scale(1.1);
+    }
+
+    &:hover .details .social{
+        visibility: visible;
+    }
+
+    .team {
+        padding-bottom: 0px;
+        color: #14A1E8;
+        font-size: 16px;
+        text-transform: uppercase;
+        font-weight: 550;
+    }
+
+    .imgContainer {
+        height: 225px;
+        width: 200px;
+
+        img {
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+        }
+    }
+
+    .details {
+        padding-top: 5px;
+        margin: 7px;
+        padding-bottom: 5px;
+        height: fit-content;
+
+        .name {
+            line-height: normal;
+            font-size: 20px;
+            color: #00275B;
+            font-weight: 550;
+            text-transform: uppercase;
+        }
+    
+        .dev {
+            line-height: normal;
+            padding-top: 5px;
+            color: #000;
+            font-size: 16px;
+        }
+    
+        .social {
+            padding-top: 5px;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            gap: 8px;
+            transition: all 0.3s ease-in-out;
+            visibility: hidden;
+    
+            a {
+                text-decoration: none;
+                height: 30px;
+                width: 30px;
+                cursor: pointer;
+            }
+            #linkedin svg{
+                fill: #0A66C2;    
+            }
+        }
+    }
+}
+
+@media(max-width: 600px) {
+
+    .devCard {
+        height: fit-content;
+        width: 185px;
+        box-shadow: 0px 3.08px 8.34px 0px #00000029;
+    
+        &:hover {
+            transform: scale(1.1);
+        }
+    
+        &:hover .details .social{
+            visibility: visible;
+        }
+    
+        .team {
+            font-size: 14px;
+        }
+    
+        .imgContainer {
+            height: 200px;
+            width: 185px;
+        }
+    
+        .details {
+            width: 185px;
+            padding: 5px;
+            margin: 0px;
+            height: fit-content;
+            padding-bottom: 10px;
+    
+            .name {
+                font-size: 16px;
+            }
+        
+            .dev {
+                padding-top: 3px;
+                font-size: 13px;
+            }
+        
+            .social {
+                padding-top: 3px;
+                visibility: visible;
+                justify-content: space-around;
+        
+                a {
+                    height: 25px;
+                    width: 25px;
+                }
+            }
+        }
+    }
+}
+
+@media(max-width:450px) {
+
+    .devCard {
+        width: 42vw;
+    
+        .team {
+            font-size: 14px;
+        }
+    
+        .imgContainer {
+            height: 200px;
+            width: 100%;
+        }
+    
+        .details {
+            width: 100%;
+            padding: 5px;
+            margin: 0px;
+            height: fit-content;
+            padding-bottom: 10px;
+           
+        }
+    }
+}
