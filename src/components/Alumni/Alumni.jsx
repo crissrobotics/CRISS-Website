@@ -29,7 +29,10 @@ export default function Alumni() {
                                 key={data.id}
                                 name={data.name}
                                 profile={data.img}
-                                line={data.line}
+                                para1={data.para1}
+                                para2={data.para2}
+                                para3={data.para3}
+                                para4={data.para4}
                                 linkedin={data.linkedin}
                             />
                         ))}

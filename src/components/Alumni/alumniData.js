@@ -350,35 +350,50 @@ export const FoundingMembers = [
         id: "1",
         name: "Swapnil Padhi",
         img: fd3,
-        line: "Successful maiden submission of irdc 21 and IRC 22 reports. I don't remember the exact ranks, but ig 18 for irdc, 13 for irc. Irdc collab in team was conducted fully remotely due to COVID, it was a huge milestone in establishing team. Ideated the workshop-based recruitment pedagogy along with Vice Cap Uttank to minimize the barrier of entry and attract the best talents who are genuinely interested in the team.",
+        para1: "I am Swapnil Padhi, from the batch of 2019-2023. Currently I am SDE-2 at Amadeus. Founded CRISS team in Jan 21 in fully remote mode during peak COVID era. Single-handedly recruiting the founding core team. Ideated and successfully executed internship-based recruitments for next batch. This batch worked directly on IRDC.",
+        para2: "Successful maiden submission of IRDC 21 and IRC 22 reports. I don't remember the exact ranks, but ig 18 for IRDC, 13 for IRC. IRDC collab in team was conducted fully remotely due to COVID, it was a huge milestone in establishing team. ",
+        para3: "Getting and arranging access to infrastructure such as dedicated workspaces (ICE labs, access to workshops and 3D printing, electrical lab room), onboarding a cohort of professors and Director Barai for mentoring and supporting team, leading the purchasing of all required items for rover manufacturing towards my stint end. Ideated the workshop-based recruitment pedagogy along with vice cap Uttank to minisme barrier of entry and attract best talents who are genuinely interested in team. Ideated and instilled core cultural values of team such as extreme focus on execution, targeting competitions hard, least team formal hierarchy between all batches for open communication, focusing on funds and marketing on campus, etc.",
+        para4: " A small disclaimer: none of these were possible without help from others, I am grateful to all my batchies and juniors of that time who believed in my vision and extended their support.",
         linkedin: "https://www.linkedin.com/in/swapnil18800/" 
     },
     {
         id: "2",
         name: "UTTANK JHA",
         img: fd2,
-        line: "Competitions will come and go but it is far more important to cherish the long, cold nights you will spend inside ICE Lab grinding, cutting, soldering, drilling, wiring, coding, breaking,fixing. In the end, the numerous opportunities to express my creativity and talent is what made joining CRISS so special to me, and I hope the team carries this spirit forward. ",
+        para1: "I am Uttank Jha, from the batch of 2019-2024. I was the Vice Lead and the Mechanical Lead at CRISS from 2021 to 2022 Currently, I am pursuing MBA at IIM Indore. I was a part of the team that participated in IRDC 2021 and 2022 as well as the team that went for its very first on-site competition at IRC 2023 in Bengaluru.",
+        para2: "My message for the team: Competitions will come and go but it is far more important to cherish the long, cold nights you will spend inside ICE Lab grinding, cutting, soldering, drilling, wiring, coding, breaking, fixing. In the end, the numerous opportunities to express my creativity and talent is what made joining CRISS so special to me, and I hope the team carries this spirit forward.",
+        para3: "",
+        para4: "",
         linkedin: "https://www.linkedin.com/in/uttank-jha/"
     },
     {
         id: "4",
         name: "Abin Asokan",
         img: fd4,
-        line: "My time at CRISS taught me how combining multiple engineering fields is key to designing great products, which  ultimately is the key for solving real world problems which don't come with a disciplinary tag.",
+        para1: "I am Abin Asokan, from the batch of 2019-2023.  Founded the Robotic Arm sub-team at CRISS. Currently I am Founding Member and Product lead at Nawgati (Tech Startup).",
+        para2: "My time at CRISS taught me how combining multiple engineering fields is key to designing great products, which ultimately is the key for solving real world problems which don't come with a disciplinary tag.",
+        para3: "",
+        para4: "",
         linkedin: "https://www.linkedin.com/in/abin-asokan-01720a19b/"
     },
     {
         id: "3",
         name: "Sashank Krishna Sriram",
         img: fd1,
-        line: "Keep trying new stuff folks! Won’t get a chance to attack problems from so many angles all at once ever again. Start from scratch each time, and take us farther than ever before.",
+        para1: "In the early days, it was all about collecting information and orienting ourselves in a realistic direction. We would reach out to tonnes of teams from other colleges, countries and whatnot. Some teams would be rather happy to tell us everything about how they do things. There were teams that even did things like custom building motors- stuff we couldn’t do even if we knew it all. Through this process, we learnt what to do, and more importantly, what not to do. We could identify gaps in how other teams operated since we’d seen so many different implementations aiming to solve the same problem.",
+        para2: "At the same time, the early days was when none of us were technically all that sound XD.  We were learning as we progressed. We had to put together training programs for ourselves all while trying to figure out when to recruit juniors. That was an interesting challenge by itself. We’d brainstorm rather endlessly. I personally used to lead a lot of discussions astray at start XD, since some of my concerns were very often too theoretical. That’s actually how I ended up contributing a lot more to IRDC than to IRC.",
+        para3: "However, most of my things were system level concerns, so I used to act as a system engineer despite being the embedded systems lead. Btw, I happened to be the one who pitched the “embedded systems” team within electrical because to me that felt like a role that was taken lightly but was essentially omnipresent. My vision was that every team needed its own member with expertise in embedded systems, and that we needed a centralized team that coordinated them all. Sometime in 3rd year, I had an accident and was bed-rested for about 6 weeks. That was actually when I really made the switch to being a system engineer though.",
+        para4: "I’d coordinate Science and the newly formed “SciMech” teams since they really really had a lot of trouble speaking the same language at the time. This was true for any pair of teams really. Had to put together a lot of these worksheets to help science folks bridge the gap. Back then, the science team was essentially completely disconnected and had a nearly purely theoretical skillset. So I’d spend most of my time here. This was the reason why we came up with the recruitment process that y’all know of today- with the workshops that are (hopefully still being) conducted in LTC. With that, ’21 batch came along and were exposed to all concepts apriori, and electrical actually had a workforce, and stuff fell in place the way y’all know it today.",
         linkedin: "https://www.linkedin.com/in/sashankkrishnas/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
     },
     {
         id: "5",
         name: "Tanishq Duhan",
         img: fd5,
-        line: "",
+        para1: "I am Tanishq Duhan, from the batch of 2019-2024. During the first year of the team, I served as the software lead. Currently, I work as a Research Scientist at the Multi-Agent Robotic Motion Lab at NUS.",
+        para2: "Starting a new tech team is never easy, especially during a COVID lockdown. While the director and many HoDs were supportive of our efforts, obtaining essential resources like lab space, sensors, and even mentors proved difficult. In addition to the technical aspect, my role was to meeting key figures at BITS to negotiate the necessary resources for our team. With guidance from Dasgupta sir and the collective efforts of our team, we overcame most of the hurdles we faced. Although the initial journey was far from easy, it’s heartwarming to see that our efforts have paid off. The following generations have built on what we started, achieving more than we could have ever imagined.",
+        para3: "My message to the team: Do good work, have fun, and strive to make it easier for your juniors to get into robotics. Also, don’t hesitate to reach out—whether you need guidance in robotics, thesis opportunities, or just want to talk about robotics.",
+        para4: "",
         linkedin: "https://www.linkedin.com/in/tanishqduhan/"
     },
 ]
