@@ -16,7 +16,7 @@
 .modalContent {
     background-color: #F1F8FF;
     box-shadow: 0px 3.08px 8.34px 0px #00000029;
-    padding: 16px 30px 32px 24px;
+    padding: 36px 24px 32px 24px;
     position: relative;
     width: 70vw;
     max-height: 80vh;
@@ -59,4 +59,29 @@
     content: "";
     display: table;
     clear: both;
+}
+
+@media(max-width: 800px) {
+    
+    .modalContent {
+        width: 80vw;
+    }
+
+    .content p {
+        margin-right: 0;
+    }
+}
+
+@media(max-width: 500px) {
+
+    .modalContent {
+        padding: 36px 16px 16px 16px;
+        width: 90vw;
+        max-height: 60vh;
+    }
+
+    .content p {
+        font-size: 13px;
+        line-height: 20px;
+    }
 }

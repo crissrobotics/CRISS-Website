@@ -76,13 +76,19 @@
     .foundingCard {
         margin-bottom: 0.5rem;
 
+        &:hover .front .imgContainer{
+            transform: scale(1);
+        }
+
         .front {
             width: 270px;
-            height: 270px;
+            min-height: 275px;
+            justify-content:center;
+            padding-top: 5px;
 
             .imgContainer {
-                height: 180px;
-                width: 180px;
+                height: 170px;
+                width: 170px;
                 border: 4px solid #fff;
             }
 
@@ -90,27 +96,30 @@
                 margin-top: 1.6rem;
                 font-size: 17px;
             }
-        }
 
-        .back {
-            width: 270px;
-            height: 270px;
-            border: 3px solid #14A1E8;
-
-            .position {
-                font-size: 13.5px;
-                line-height: normal;
-            }
-
-            .social {
-                padding-top: 15px;
-                gap: 15px;
-
-                a {
-                    height: 40px;
-                    width: 40px;
+            .button {
+                display: flex;
+                margin-top: 5px;
+                gap: 10px;
+    
+                button {
+                    cursor: pointer;
+                    padding: 10px;
+                    background-color: #00275B;
+                    color: #14A1E8;
+                    border: none;
+                    font-size: 16px;
+        
+                    &:hover {
+                        text-decoration: underline;
+                    }
+                }
+    
+                #linkedin svg{
+                    fill: #0A66C2;    
                 }
             }
         }
+        
     }
 }
