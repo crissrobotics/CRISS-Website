@@ -37,7 +37,7 @@ export const Developers = [
         name: "Saniddh Kumar",
         img: sannidhkumar,
         dev: "UI/UX Designer",
-        linkedin: null,
+        linkedin: "https://www.linkedin.com/in/saniddh-kumar-729069281?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
         github: null,
         insta: "https://www.instagram.com/_saniddh_?igsh=Yjd3djF2dXdmdXNi&utm_source=qr",
     },
