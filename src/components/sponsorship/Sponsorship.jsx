@@ -19,6 +19,7 @@ import sigma from "../../assets/images/Homepage/sigma.png";
 import skf from "../../assets/images/Homepage/skf.png";
 import solidworks from "../../assets/images/Homepage/solidworks.jpg";
 import speedacc from "../../assets/images/Homepage/speedacc.png";
+import optica from "../../assets/images/Competitions/opticaIMAGE.webp";
 import BROIMG from "../../assets/images/Sponsorship/image 22.png";
 
 import Header from "../Header/Navbar/Navbar";
@@ -69,6 +70,7 @@ export default function sponsorship() {
                     <motion.div {...HeadAnimation("up", 0.1)}><FlippingCard photo={skf} link="https://www.skf.com/in"></FlippingCard></motion.div>
                     <motion.div {...HeadAnimation("up", 0.1)}><FlippingCard photo={solidworks} link="https://www.solidworks.com/"></FlippingCard></motion.div>
                     <motion.div {...HeadAnimation("up", 0.1)}><FlippingCard photo={speedacc} link="http://www.speedacc.co.za/about-us"></FlippingCard></motion.div>
+                    <motion.div {...HeadAnimation("up", 0.1)}><FlippingCard photo={optica} link="https://opg.optica.org/optica/home.cfm"></FlippingCard></motion.div>
                 </div>
 
                 <div className="Brochure">
