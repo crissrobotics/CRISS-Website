@@ -19,6 +19,7 @@ import sigma from "../../assets/images/Homepage/sigma.png";
 import skf from "../../assets/images/Homepage/skf.png";
 import solidworks from "../../assets/images/Homepage/solidworks.jpg";
 import speedacc from "../../assets/images/Homepage/speedacc.png";
+import BROIMG from "../../assets/images/Sponsorship/image 22.png";
 
 import Header from "../Header/Navbar/Navbar";
 import Footer from "../Footer/Footer";
@@ -32,10 +33,7 @@ export default function sponsorship() {
             </Helmet>
             <TransitionEffect></TransitionEffect>
             <Header color="#00275B"></Header>
-            <div className="sponsorshipContainer">
-                <h1 className="heading1" >Sponsor<span>ship</span></h1>
-
-
+            <div className="sponsorshipContainer">``
                 <div className="teamPic">
                     <img src={SponsorshipPic1} className="Pic1" />
                 </div>
@@ -74,7 +72,11 @@ export default function sponsorship() {
                 </div>
 
                 <div className="Brochure">
-                    <h1 className="heading3" >Brochure</h1>
+                    <motion.h1 className="heading3" {...slideAnimation("up", 0.1)}>Support <span>Us</span></motion.h1>
+                    <div className="brochureDIV">
+                        <a href="https://online.fliphtml5.com/sqnfd/most/#p=1" target="_blank"><motion.img {...slideAnimation("left", 0.5)} src={BROIMG}></motion.img></a>
+                        <motion.p {...slideAnimation("right", 0.5)}>We are multidisciplinary <span>space engineering and Robotics Research group</span> in BITS Pilani (Pilani campus) consisting of 60+ tech enthusiasts with a vision to innovate and develop <span>space exploration projects</span>. Our objective is to enhance on-board research and improve life-finding technologies in space while maintaining cost efficiency and innovation.</motion.p>
+                    </div>
                     
                 </div> 
             </div>

@@ -10,7 +10,7 @@
     h2 {
       width: 1050px;
       font-family: Inter;
-      align-items: start;
+      align-items: center;
       color: #000;
       font-size: 55px;
       font-weight: 800;
@@ -24,7 +24,7 @@
       @media screen and (max-width: 820px) {
         font-size: 23px;
         margin-top: 0;
-        margin-bottom: 40px;
+        margin-bottom: 30px;
       }
   
     }
@@ -79,3 +79,91 @@
     }
     
   }
+
+  @media(max-width:1100px) {
+
+    .The2023Container {
+      margin-top: 8rem;
+  
+      h2 {
+        width: 100%;
+        text-align: center;
+      }
+  
+      .details {
+        flex-direction: column;
+        align-items: center;
+        gap: 3rem;
+  
+        .imgContainer {
+          width: 80%;
+        }
+  
+        p {
+          text-align: center;
+          width: 80%;
+        }
+      }
+    }
+  }
+  
+  @media screen and (max-width: 900px) {
+  
+    .The2023Container {
+      margin-top: 6rem;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+  
+    .The2023Container {
+      width: 100%;
+      margin-bottom: 3rem;
+  
+      h2 {
+        font-size: 32px;
+        font-weight: 650;
+        text-align: center;
+        width: calc(100% - 8rem);
+        margin-left: 4rem;
+        margin-right: 4rem;
+      }
+  
+      .details {
+        width: calc(100% - 8rem);
+        margin-left: 4rem;
+        margin-right: 4rem;
+  
+        .imgContainer {
+          width: 100%;
+        }
+  
+        p {
+          text-align: center;
+          width: 100%;
+          font-size: 16px;
+          line-height: 24px;
+        }
+      }
+    }
+  }
+  
+  @media screen and (max-width: 400px) {
+  
+    .The2023Container {
+  
+      h2 {
+        width: calc(100% - 6rem);
+        margin-left: 3rem;
+        margin-right: 3rem;
+      }
+  
+      .details {
+        width: calc(100% - 6rem);
+        margin-left: 3rem;
+        margin-right: 3rem;
+      }
+    }
+  }
+  
+  

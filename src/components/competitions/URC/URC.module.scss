@@ -1,0 +1,115 @@
+.imgggcontainer{
+    width: 400px;
+    overflow:hidden;
+}
+
+.urcIntro{
+    margin-top: 2rem;
+    align-items: center;
+    display: flex;
+    gap:50px;
+    justify-content: center;
+    span{
+        font-weight: 700;
+        color:rgb(0,39,91);
+    }
+}
+
+.urcText{
+    align-self: center;
+    width: 700px;
+    text-align: left;
+    font-family: Inter;
+    font-size: 20px;
+    color: #000;
+    font-weight: 500;
+    text-overflow: ellipsis;
+}
+
+.videoMain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:3rem;
+}
+
+.vid{
+    border-radius:20px;
+}
+
+.The2023Container{
+    padding-bottom:5rem;
+}
+
+
+
+@media screen and (max-width: 1200px) {
+    .urcIntro{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .urcText{
+        font-size: 18px;
+    }
+}
+@media screen and (max-width: 1150px){
+    .urcIntro{
+        margin-top:3rem;
+    }
+    .urcText{
+        font-size:17px;
+    }
+}
+@media screen and (max-width: 1000px){
+    .urcText{
+        font-size: 15px;
+    }
+}
+@media screen and (max-width: 850px){
+    .urcIntro{
+        display: flex;
+        flex-direction: column;
+        gap:30px;
+        margin-bottom: 2rem;
+    }
+    .imgggcontainer{
+        width:200px;
+    }
+    .urcText{
+        text-align: center;
+    }
+}
+@media screen and (max-width: 760px){
+    .urcText{
+        width:100%;
+    }
+    
+}
+@media screen and (max-width: 700px){
+    .urcIntro{
+        gap:20px;
+    }
+    .urcText{
+        font-size: 14px;
+        line-height: 18px;
+    }
+}
+@media screen and (max-width: 600px){
+    .urcText{
+        font-size: 12px;
+        line-height: 16px;
+    }
+}
+@media screen and (max-width: 500px){
+    .imgggcontainer{
+        width:150px;
+    }
+    .urcText{
+        line-height: 14px;
+    }
+}
+@media screen and (max-width: 400px){
+    .urcText{
+        line-height: 12px;
+    }
+}

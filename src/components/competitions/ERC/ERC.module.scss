@@ -1,13 +1,14 @@
-.ERClogo{
+.imgggcontainer{
     width: 400px;
-    height: 400px;
+    overflow:hidden;
 }
 
 .ercIntro{
     margin-top: 2rem;
-    display: flex;
-    padding-left:10%;
     align-items: center;
+    display: flex;
+    gap:50px;
+    justify-content: center;
     span{
         font-weight: 700;
         color:rgb(0,39,91);
@@ -15,26 +16,21 @@
 }
 
 .ercText{
-    padding-left:10%;
-    padding-right: 5%;
     align-self: center;
-    width: 810px;
+    width: 700px;
     text-align: left;
     font-family: Inter;
     font-size: 20px;
     color: #000;
     font-weight: 500;
     text-overflow: ellipsis;
-    @media screen and (max-width: 1200px) {
-        font-size: 18px;
-    }
-
 }
 
 .videoMain{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top:3rem;
 }
 
 .vid{
@@ -43,4 +39,77 @@
 
 .The2023Container{
     padding-bottom:5rem;
+}
+
+
+
+@media screen and (max-width: 1200px) {
+    .ercIntro{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .ercText{
+        font-size: 18px;
+    }
+}
+@media screen and (max-width: 1150px){
+    .ercIntro{
+        margin-top:3rem;
+    }
+    .ercText{
+        font-size:17px;
+    }
+}
+@media screen and (max-width: 1000px){
+    .ercText{
+        font-size: 15px;
+    }
+}
+@media screen and (max-width: 850px){
+    .ercIntro{
+        display: flex;
+        flex-direction: column;
+        gap:30px;
+        margin-bottom: 2rem;
+    }
+    .imgggcontainer{
+        width:200px;
+    }
+    .ercText{
+        text-align: center;
+    }
+}
+@media screen and (max-width: 760px){
+    .ercText{
+        width:100%;
+    }
+    
+}
+@media screen and (max-width: 700px){
+    .ercIntro{
+        gap:20px;
+    }
+    .ercText{
+        font-size: 14px;
+        line-height: 18px;
+    }
+}
+@media screen and (max-width: 600px){
+    .ercText{
+        font-size: 12px;
+        line-height: 16px;
+    }
+}
+@media screen and (max-width: 500px){
+    .imgggcontainer{
+        width:150px;
+    }
+    .ercText{
+        line-height: 14px;
+    }
+}
+@media screen and (max-width: 400px){
+    .ercText{
+        line-height: 12px;
+    }
 }

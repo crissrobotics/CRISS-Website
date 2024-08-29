@@ -1,13 +1,14 @@
-.IRClogo{
+.imgggcontainer{
     width: 400px;
-    height: 400px;
+    overflow:hidden;
 }
 
 .ircIntro{
     margin-top: 2rem;
-    display: flex;
-    padding-left:10%;
     align-items: center;
+    display: flex;
+    gap:50px;
+    justify-content: center;
     span{
         font-weight: 700;
         color:rgb(0,39,91);
@@ -15,35 +16,100 @@
 }
 
 .ircText{
-    padding-left:10%;
-    padding-right: 5%;
     align-self: center;
-    width: 810px;
+    width: 700px;
     text-align: left;
     font-family: Inter;
     font-size: 20px;
     color: #000;
     font-weight: 500;
     text-overflow: ellipsis;
-    @media screen and (max-width: 1200px) {
-        font-size: 18px;
-    }
-
 }
 
-.marquee{
-    margin-top: 8rem;
-    height: 80vh;
-    margin-bottom:8rem;
-    font-size: xx-large;
+.videoMain{
     display: flex;
-    align-items: center;
     justify-content: center;
-    background-color:#14A1E8;
-    font-family: Inter;
-    font-weight: bolder;
+    align-items: center;
+    margin-top:3rem;
+}
+
+.vid{
+    border-radius:20px;
 }
 
 .The2023Container{
     padding-bottom:5rem;
+}
+
+
+
+@media screen and (max-width: 1200px) {
+    .ircIntro{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .ircText{
+        font-size: 18px;
+    }
+}
+@media screen and (max-width: 1150px){
+    .ircIntro{
+        margin-top:3rem;
+    }
+    .ircText{
+        font-size:17px;
+    }
+}
+@media screen and (max-width: 1000px){
+    .ircText{
+        font-size: 15px;
+    }
+}
+@media screen and (max-width: 850px){
+    .ircIntro{
+        display: flex;
+        flex-direction: column;
+        gap:30px;
+        margin-bottom: 2rem;
+    }
+    .imgggcontainer{
+        width:200px;
+    }
+    .ircText{
+        text-align: center;
+    }
+}
+@media screen and (max-width: 760px){
+    .ircText{
+        width:100%;
+    }
+    
+}
+@media screen and (max-width: 700px){
+    .ircIntro{
+        gap:20px;
+    }
+    .ircText{
+        font-size: 14px;
+        line-height: 18px;
+    }
+}
+@media screen and (max-width: 600px){
+    .ircText{
+        font-size: 12px;
+        line-height: 16px;
+    }
+}
+@media screen and (max-width: 500px){
+    .imgggcontainer{
+        width:150px;
+    }
+    .ircText{
+        line-height: 14px;
+    }
+}
+@media screen and (max-width: 400px){
+    .ircText{
+        line-height: 12px;
+    }
 }
