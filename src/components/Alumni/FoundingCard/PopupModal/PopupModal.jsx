@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from 'react';
 import styles from './popupmodal.module.css';
 
-export default function PopupModal({ isOpen, onClose, profile1, para1, para2, para3, para4 }) {
+export default function PopupModal({ isOpen, onClose, profile1, para1, para2, para3, para4, para5 }) {
     const modalRef = useRef(null);
 
     useEffect(() => {
@@ -35,6 +35,7 @@ export default function PopupModal({ isOpen, onClose, profile1, para1, para2, pa
                     <p>{para2}</p>
                     <p>{para3}</p>
                     <p>{para4}</p>
+                    <p id={styles.para5}>{para5}</p>
                 </div>
             </div>
         </div>

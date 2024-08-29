@@ -33,6 +33,7 @@ export default function Alumni() {
                                 para2={data.para2}
                                 para3={data.para3}
                                 para4={data.para4}
+                                para5={data.para5}
                                 linkedin={data.linkedin}
                             />
                         ))}

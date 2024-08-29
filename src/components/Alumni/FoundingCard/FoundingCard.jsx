@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import { HeadAnimation } from "../../Header/Motion/Motion";
 import PopupModal from "./PopupModal/PopupModal";
 
-export default function FoundingCard({ profile, name, para1, para2, para3, para4, linkedin }) {
+export default function FoundingCard({ profile, name, para1, para2, para3, para4, para5, linkedin }) {
     const [isModalOpen, setIsModalOpen] = useState(false);
 
     const toggleModal = () => {
@@ -35,6 +35,7 @@ export default function FoundingCard({ profile, name, para1, para2, para3, para4
                     para2={para2}
                     para3={para3}
                     para4={para4}
+                    para5={para5}
                 />
             </motion.div>
         </>
