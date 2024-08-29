@@ -27,6 +27,7 @@ import sigma from "../../assets/images/Homepage/sigma.png";
 import skf from "../../assets/images/Homepage/skf.png";
 import solidworks from "../../assets/images/Homepage/solidworks.jpg";
 import speedacc from "../../assets/images/Homepage/speedacc.png";
+import optica from "../../assets/images/Homepage/optica.webp";
 
 import bgVideo from "../../assets/images/Homepage/bgvideo.mp4";
 import backImg from "../../assets/images/Homepage/background.jpg";
@@ -133,7 +134,7 @@ export default function Home() {
                         <div className="sponsorCardLowerRow">
                             <Marquee direction="right">
                                 <SponsorCard sponsorImg={skf} />
-                                <SponsorCard sponsorImg={sigma} />
+                                <SponsorCard sponsorImg={optica} />
                                 <SponsorCard sponsorImg={solidworks} />
                                 <SponsorCard sponsorImg={speedacc} />
                                 <SponsorCard sponsorImg={pcb} />
