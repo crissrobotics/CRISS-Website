@@ -9,7 +9,9 @@ import TabButton from "../Team/TabButton/TabButton";
 import IRC from "./IRC/IRC";
 import ERC from "./ERC/ERC";
 import IRDC from "./IRDC/IRDC";
+import URC from "./URC/URC";
 import UPCOMING from "./UPCOMING/UPCOMING";
+import DropMenu from "./DropMenu/DropMenu";
 
 export default function competitions(){
 
@@ -19,32 +21,40 @@ export default function competitions(){
         setSelectedteam(selectedButton);
     }
 
-
+    
     return(
-        <>
+        <div>
              <Helmet>
                 <title>Criss Robotics | Competitions</title>
             </Helmet>
             <TransitionEffect></TransitionEffect>
             <Header color="#00275B"></Header>
             
-            <section>
-                <h2 className={styles.topHeading}>Compe<span>titons</span></h2>
-                <menu>
-                    <TabButton isSelected={selectedteam === 'irc'} onSelect={() => handleSelect('irc')}>IRC</TabButton>
-                    <TabButton isSelected={selectedteam === 'erc'} onSelect={() => handleSelect('erc')}>ERC</TabButton>
-                    <TabButton isSelected={selectedteam === 'irdc'} onSelect={() => handleSelect('irdc')}>IRDC</TabButton>
-                    <TabButton isSelected={selectedteam === 'upcoming'} onSelect={() => handleSelect('upcoming')}>UPCOMING</TabButton>
-                </menu>
+            <div class={styles.competitionsContainer}>
+                <section>
+                    <h2 className={styles.topHeading}>Compe<span>titons</span></h2>
+                    <menu>
+                        <TabButton isSelected={selectedteam === 'irc'} onSelect={() => handleSelect('irc')}>IRC</TabButton>
+                        <TabButton isSelected={selectedteam === 'erc'} onSelect={() => handleSelect('erc')}>ERC</TabButton>
+                        <TabButton isSelected={selectedteam === 'irdc'} onSelect={() => handleSelect('irdc')}>IRDC</TabButton>
+                        <TabButton isSelected={selectedteam === 'urc'} onSelect={() => handleSelect('urc')}>URC</TabButton>
+                        {/* <TabButton isSelected={selectedteam === 'upcoming'} onSelect={() => handleSelect('upcoming')}>UPCOMING</TabButton> */}
+                    </menu>
 
-                <div>
-                {selectedteam === 'irc' && <IRC />}
-                {selectedteam === 'erc' && <ERC />}
-                {selectedteam === 'irdc' && <IRDC />}
-                {selectedteam === 'upcoming' && <UPCOMING />}
+                    <div className={styles.dropmenuContainer}>
+                        <DropMenu selectedteam={selectedteam} handleSelect={handleSelect} />
+                    </div>
+
+                    <div>
+                        {selectedteam === 'irc' && <IRC />}
+                        {selectedteam === 'erc' && <ERC />}
+                        {selectedteam === 'irdc' && <IRDC />}
+                        {selectedteam === 'urc' && <URC />}
+                        {/* {selectedteam === 'upcoming' && <UPCOMING />} */}
+                    </div>
+                </section>
             </div>
-            </section>
             <Footer></Footer>
-        </>
+        </div>
     );
 }

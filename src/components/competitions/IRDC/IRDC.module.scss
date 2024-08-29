@@ -1,21 +1,14 @@
-.img{
-    width:400px;
-    height:400px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.IRDClogo{
-    width: 250px;
-    height: 250px;
+.imgggcontainer{
+    width: 400px;
+    overflow:hidden;
 }
 
 .irdcIntro{
     margin-top: 2rem;
-    display: flex;
-    padding-left:10%;
     align-items: center;
+    display: flex;
+    gap:50px;
+    justify-content: center;
     span{
         font-weight: 700;
         color:rgb(0,39,91);
@@ -23,32 +16,100 @@
 }
 
 .irdcText{
-    padding-left:10%;
-    padding-right: 5%;
     align-self: center;
-    width: 810px;
+    width: 700px;
     text-align: left;
     font-family: Inter;
     font-size: 20px;
     color: #000;
     font-weight: 500;
     text-overflow: ellipsis;
-    @media screen and (max-width: 1200px) {
-        font-size: 18px;
-    }
-
 }
 
 .videoMain{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top:3rem;
 }
 
 .vid{
-    border-radius: 20px;
+    border-radius:20px;
 }
 
 .The2023Container{
     padding-bottom:5rem;
+}
+
+
+
+@media screen and (max-width: 1200px) {
+    .irdcIntro{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .irdcText{
+        font-size: 18px;
+    }
+}
+@media screen and (max-width: 1150px){
+    .irdcIntro{
+        margin-top:3rem;
+    }
+    .irdcText{
+        font-size:17px;
+    }
+}
+@media screen and (max-width: 1000px){
+    .irdcText{
+        font-size: 15px;
+    }
+}
+@media screen and (max-width: 850px){
+    .irdcIntro{
+        display: flex;
+        flex-direction: column;
+        gap:30px;
+        margin-bottom: 2rem;
+    }
+    .imgggcontainer{
+        width:200px;
+    }
+    .irdcText{
+        text-align: center;
+    }
+}
+@media screen and (max-width: 760px){
+    .irdcText{
+        width:100%;
+    }
+    
+}
+@media screen and (max-width: 700px){
+    .irdcIntro{
+        gap:20px;
+    }
+    .irdcText{
+        font-size: 14px;
+        line-height: 18px;
+    }
+}
+@media screen and (max-width: 600px){
+    .irdcText{
+        font-size: 12px;
+        line-height: 16px;
+    }
+}
+@media screen and (max-width: 500px){
+    .imgggcontainer{
+        width:150px;
+    }
+    .irdcText{
+        line-height: 14px;
+    }
+}
+@media screen and (max-width: 400px){
+    .irdcText{
+        line-height: 12px;
+    }
 }
