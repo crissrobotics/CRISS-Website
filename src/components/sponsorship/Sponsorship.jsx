@@ -1,8 +1,7 @@
 import React, { useRef, useEffect } from "react";
 import "./sponsorship.scss";
 import { Helmet } from 'react-helmet';
-import FlippingCard from "../sponsorship/FlippingCard";
-import "./FlippingCard.scss";
+import SponzCard from "./SponzCard/SponzCard";
 import { motion } from "framer-motion";
 import { fadeAnimation, HeadAnimation, slideAnimation } from "../Header/Motion/Motion";
 
@@ -61,16 +60,16 @@ export default function sponsorship() {
                 </div>
 
                 <div className="total">
-                    <motion.div {...HeadAnimation("up", 0.1)}><FlippingCard photo={bits} link="https://www.bits-pilani.ac.in/"></FlippingCard> </motion.div>
-                    <motion.div {...HeadAnimation("up", 0.1)}><FlippingCard photo={altium} link="https://www.altium.com/"></FlippingCard></motion.div>
-                    <motion.div {...HeadAnimation("up", 0.1)}><FlippingCard photo={ansys} link="https://www.ansys.com/"></FlippingCard></motion.div>
-                    <motion.div {...HeadAnimation("up", 0.1)}><FlippingCard photo={autodesk} link="https://www.autodesk.com/in?mktvar002=afc_in_nmpi_ppc&AID=13084956&PID=8206971&gclsrc=3p.ds&ds_rl=1232455&ds_rl=1232461&ds_rl=1233896&gclid=a415b36419b312da0589d5fad647a89c&gclsrc=3p.ds&ds_rl=1232455&ds_rl=1232461&ds_rl=1233896&&cjevent=a415b36419b312da0589d5fad647a89c&click_id=a415b36419b312da0589d5fad647a89c&gclid=a415b36419b312da0589d5fad647a89c&gclsrc=3p.ds&msclkid=a415b36419b312da0589d5fad647a89c"></FlippingCard></motion.div>
-                    <motion.div {...HeadAnimation("up", 0.1)}><FlippingCard photo={pcb} link="https://www.pcbpower.com/"></FlippingCard></motion.div>
-                    <motion.div {...HeadAnimation("up", 0.1)}><FlippingCard photo={sigma} link="https://www.sigmaaldrich.com/IN/en?utm_source=bing&utm_medium=cpc&utm_campaign=milliporesigma%20branded_WW_(bing%20ebizbrand)&utm_campaignid=626793222&utm_content=1165483510438650&msclkid=169067f8e6bb12f29a720166369c9a69&utm_term=sigma"></FlippingCard></motion.div>
-                    <motion.div {...HeadAnimation("up", 0.1)}><FlippingCard photo={skf} link="https://www.skf.com/in"></FlippingCard></motion.div>
-                    <motion.div {...HeadAnimation("up", 0.1)}><FlippingCard photo={solidworks} link="https://www.solidworks.com/"></FlippingCard></motion.div>
-                    <motion.div {...HeadAnimation("up", 0.1)}><FlippingCard photo={speedacc} link="http://www.speedacc.co.za/about-us"></FlippingCard></motion.div>
-                    <motion.div {...HeadAnimation("up", 0.1)}><FlippingCard photo={optica} link="https://opg.optica.org/optica/home.cfm"></FlippingCard></motion.div>
+                    <motion.div {...HeadAnimation("up", 0.1)}><SponzCard photo={bits} link="https://www.bits-pilani.ac.in/"></SponzCard> </motion.div>
+                    <motion.div {...HeadAnimation("up", 0.1)}><SponzCard photo={altium} link="https://www.altium.com/"></SponzCard></motion.div>
+                    <motion.div {...HeadAnimation("up", 0.1)}><SponzCard photo={ansys} link="https://www.ansys.com/"></SponzCard></motion.div>
+                    <motion.div {...HeadAnimation("up", 0.1)}><SponzCard photo={autodesk} link="https://www.autodesk.com/in?mktvar002=afc_in_nmpi_ppc&AID=13084956&PID=8206971&gclsrc=3p.ds&ds_rl=1232455&ds_rl=1232461&ds_rl=1233896&gclid=a415b36419b312da0589d5fad647a89c&gclsrc=3p.ds&ds_rl=1232455&ds_rl=1232461&ds_rl=1233896&&cjevent=a415b36419b312da0589d5fad647a89c&click_id=a415b36419b312da0589d5fad647a89c&gclid=a415b36419b312da0589d5fad647a89c&gclsrc=3p.ds&msclkid=a415b36419b312da0589d5fad647a89c"></SponzCard></motion.div>
+                    <motion.div {...HeadAnimation("up", 0.1)}><SponzCard photo={pcb} link="https://www.pcbpower.com/"></SponzCard></motion.div>
+                    <motion.div {...HeadAnimation("up", 0.1)}><SponzCard photo={sigma} link="https://www.sigmaaldrich.com/IN/en?utm_source=bing&utm_medium=cpc&utm_campaign=milliporesigma%20branded_WW_(bing%20ebizbrand)&utm_campaignid=626793222&utm_content=1165483510438650&msclkid=169067f8e6bb12f29a720166369c9a69&utm_term=sigma"></SponzCard></motion.div>
+                    <motion.div {...HeadAnimation("up", 0.1)}><SponzCard photo={skf} link="https://www.skf.com/in"></SponzCard></motion.div>
+                    <motion.div {...HeadAnimation("up", 0.1)}><SponzCard photo={solidworks} link="https://www.solidworks.com/"></SponzCard></motion.div>
+                    <motion.div {...HeadAnimation("up", 0.1)}><SponzCard photo={speedacc} link="http://www.speedacc.co.za/about-us"></SponzCard></motion.div>
+                    <motion.div {...HeadAnimation("up", 0.1)}><SponzCard photo={optica} link="https://opg.optica.org/optica/home.cfm"></SponzCard></motion.div>
                 </div>
 
                 <div className="Brochure">
