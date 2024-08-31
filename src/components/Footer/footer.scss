@@ -171,10 +171,12 @@
 @media(max-width:500px) {
 
     .footerContainer {
+        padding-top: 3rem;
 
         .logoContainer {
             margin-left: 0;
             height: 9rem;
+            display: none;
         }
 
         .center {
