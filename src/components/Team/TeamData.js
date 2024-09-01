@@ -241,7 +241,7 @@ import vanshjain from "../../assets/images/Team/2023/Management/vanshjain.webp";
 import sannidhkumar from "../../assets/images/Team/2023/Management/sannidhkumar.webp";
 import vanshikabansal from "../../assets/images/Team/2023/Management/vanshikabansal.webp";
 import arnavsahoo from "../../assets/images/Team/2023/Management/arnavsahoo.webp";
-import khushibodhwani from "../../assets/images/Team/2023/Management/khushibodhwani.webp";
+// import khushibodhwani from "../../assets/images/Team/2023/Management/khushibodhwani.webp";
 import ayushpatel from "../../assets/images/Team/2023/Management/ayushpatel.webp";
 import bhoomimotihar from "../../assets/images/Team/2023/Management/bhoomimotihar.webp";
 import nimitgarg from "../../assets/images/Team/2023/Management/nimitgarg.webp";
@@ -415,16 +415,16 @@ export const ManagementTeam = [
         insta: "https://www.instagram.com/arnav.sahoo02?igsh=MXBlYzJkcXBmYmduaA==",
         batch: "2023"
     },
-    {
-        id: "16",
-        name: "Khushi Bodhwani",
-        img: khushibodhwani,
-        position: "Member",
-        linkedin: "https://www.linkedin.com/in/khushi-bodhwani-852158292?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
-        github: "https://github.com/Khushi-loop",
-        insta: "https://www.instagram.com/___kokonuts___/?igsh=MW53Z2x0ZXA4aHpoZw%3D%3D",
-        batch: "2023"
-    },
+    // {
+    //     id: "16",
+    //     name: "Khushi Bodhwani",
+    //     img: khushibodhwani,
+    //     position: "Member",
+    //     linkedin: "https://www.linkedin.com/in/khushi-bodhwani-852158292?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+    //     github: "https://github.com/Khushi-loop",
+    //     insta: "https://www.instagram.com/___kokonuts___/?igsh=MW53Z2x0ZXA4aHpoZw%3D%3D",
+    //     batch: "2023"
+    // },
     {
         id: "17",
         name: "Ayush Patel",
