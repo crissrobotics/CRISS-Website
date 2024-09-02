@@ -26,7 +26,7 @@ import Header from "../Header/Navbar/Navbar";
 import Footer from "../Footer/Footer";
 import TransitionEffect from "../Header/TransitionEffect/TransitionEffect";
 
-export default function sponsorship() {
+export default function Sponsorship() {
     return (
         <>
             <Helmet>
@@ -34,7 +34,7 @@ export default function sponsorship() {
             </Helmet>
             <TransitionEffect></TransitionEffect>
             <Header color="#00275B"></Header>
-            <div className="sponsorshipContainer">``
+            <div className="sponsorshipContainer">
                 <div className="teamPic">
                     <img src={SponsorshipPic1} className="Pic1" />
                 </div>
