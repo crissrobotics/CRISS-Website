@@ -60,7 +60,7 @@ export default function sponsorship() {
                     <motion.p {...slideAnimation("up", 0.3)}>Sponsors play a crucial role in the success story of CRISS Robotics. Their steadfast support, providing essential financial and technical resources, has been pivotal in driving our team forward towards achieving our objectives. We deeply appreciate the commitment and partnership of all our sponsors and look forward to nurturing and expanding these relationships in the pursuit of continued excellence and innovation. </motion.p>
                 </div>
 
-                <div className="total">
+                {/* <div className="total">
                     <motion.div {...HeadAnimation("up", 0.1)}><SponzCard photo={bits} link="https://www.bits-pilani.ac.in/"></SponzCard> </motion.div>
                     <motion.div {...HeadAnimation("up", 0.1)}><SponzCard photo={autodesk} link="https://www.autodesk.com/in?mktvar002=afc_in_nmpi_ppc&AID=13084956&PID=8206971&gclsrc=3p.ds&ds_rl=1232455&ds_rl=1232461&ds_rl=1233896&gclid=a415b36419b312da0589d5fad647a89c&gclsrc=3p.ds&ds_rl=1232455&ds_rl=1232461&ds_rl=1233896&&cjevent=a415b36419b312da0589d5fad647a89c&click_id=a415b36419b312da0589d5fad647a89c&gclid=a415b36419b312da0589d5fad647a89c&gclsrc=3p.ds&msclkid=a415b36419b312da0589d5fad647a89c"></SponzCard></motion.div>
                     <motion.div {...HeadAnimation("up", 0.1)}><SponzCard photo={optica} link="https://opg.optica.org/optica/home.cfm"></SponzCard></motion.div>
@@ -72,7 +72,7 @@ export default function sponsorship() {
                     <motion.div {...HeadAnimation("up", 0.1)}><SponzCard photo={ansys} link="https://www.ansys.com/"></SponzCard></motion.div>
                     <motion.div {...HeadAnimation("up", 0.1)}><SponzCard photo={solidworks} link="https://www.solidworks.com/"></SponzCard></motion.div>
                     <motion.div {...HeadAnimation("up", 0.1)}><SponzCard photo={skf} link="https://www.skf.com/in"></SponzCard></motion.div>
-                </div>
+                </div> */}
 
                 {/* <div className="Brochure">
                     <motion.h1 className="heading3" {...slideAnimation("up", 0.1)}>Support <span>Us</span></motion.h1>
