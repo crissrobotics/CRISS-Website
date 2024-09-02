@@ -28,6 +28,7 @@ import skf from "../../assets/images/Homepage/skf.png";
 import solidworks from "../../assets/images/Homepage/solidworks.jpg";
 import speedacc from "../../assets/images/Homepage/speedacc.png";
 import optica from "../../assets/images/Homepage/optica.webp";
+import srt from "../../assets/images/Homepage/srt.png";
 
 import bgVideo from "../../assets/images/Homepage/bgvideo.mp4";
 import backImg from "../../assets/images/Homepage/background.jpg";
@@ -129,6 +130,7 @@ export default function Home() {
                                 <SponsorCard sponsorImg={pcb} />
                                 <SponsorCard sponsorImg={sigma} />
                                 <SponsorCard sponsorImg={skf} />
+                                <SponsorCard sponsorImg={optica} />
                             </Marquee>
                         </div>
                         <div className="sponsorCardLowerRow">
@@ -140,6 +142,8 @@ export default function Home() {
                                 <SponsorCard sponsorImg={pcb} />
                                 <SponsorCard sponsorImg={ansys} />
                                 <SponsorCard sponsorImg={altium} />
+                                <SponsorCard sponsorImg={srt} />
+                                
                             </Marquee>
                         </div>
                     </div>

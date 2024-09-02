@@ -2,6 +2,7 @@ import manaschoudhary from "../../assets/images/Team/2023/Management/manaschoudh
 import sannidhkumar from "../../assets/images/Team/2023/Management/sannidhkumar.webp";
 import aishwarya from "../../assets/images/Team/2023/Management/aishwarya.webp";
 import yashwanthvarma from "../../assets/images/Team/2023/Management/yashwanthvarma.webp";
+import agrimgupta from "../../assets/images/Team/2023/Management/agrimgupta.webp";
 
 export const Developers = [
     
@@ -17,11 +18,11 @@ export const Developers = [
     {
         id: "2",
         name: "Agrim Gupta",
-        img: "",
+        img: agrimgupta,
         dev: "Frontend Developer",
-        linkedin: "",
-        github: "",
-        insta: "",
+        linkedin: "https://www.linkedin.com/in/agrim-gupta-2796ba313/",
+        github: "https://github.com/TheClusterBond",
+        insta: "https://www.instagram.com/agrim_gupta31/",
     },
     {
         id: "3",

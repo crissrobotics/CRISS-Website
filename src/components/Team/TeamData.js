@@ -245,6 +245,7 @@ import arnavsahoo from "../../assets/images/Team/2023/Management/arnavsahoo.webp
 import ayushpatel from "../../assets/images/Team/2023/Management/ayushpatel.webp";
 import bhoomimotihar from "../../assets/images/Team/2023/Management/bhoomimotihar.webp";
 import nimitgarg from "../../assets/images/Team/2023/Management/nimitgarg.webp";
+import arnavgarg from "../../assets/images/Team/2023/Management/arnavgarg.webp";
 import govindbhageria from "../../assets/images/Team/2023/Management/govindbhageria.webp";
 import rushabhshah from "../../assets/images/Team/2023/Management/rushabhshah.webp";
 import navyamgoyal from "../../assets/images/Team/2023/Management/navyamgoyal.webp";
@@ -253,6 +254,7 @@ import advaitshukla from "../../assets/images/Team/2022/Management/advaitshukla.
 import deepaksaini from "../../assets/images/Team/2022/Management/deepaksaini.webp";
 import shivtiwari from "../../assets/images/Team/2022/Management/shivtiwari.webp";
 import kashishbansal from "../../assets/images/Team/2023/Management/kashishbansal.webp";
+import agrimgupta from "../../assets/images/Team/2023/Management/agrimgupta.webp";
 
 export const ManagementTeam = [
     {
@@ -293,6 +295,16 @@ export const ManagementTeam = [
         linkedin: "https://www.linkedin.com/in/manas-choudhary-56374028b",
         github: "https://github.com/ManasChoudhary-01",
         insta: "https://www.instagram.com/manaschoudhary_?igsh=YTQwZjQ0NmI0OA==",
+        batch: "2023"
+    },
+    {
+        id: "99",
+        name: "Agrim Gupta",
+        img: agrimgupta,
+        position: "Member",
+        linkedin: "https://www.linkedin.com/in/agrim-gupta-2796ba313/",
+        github: "https://github.com/TheClusterBond",
+        insta: "https://www.instagram.com/agrim_gupta31/",
         batch: "2023"
     },
     {
@@ -473,6 +485,16 @@ export const ManagementTeam = [
         linkedin: null,
         github: null,
         insta: "https://www.instagram.com/_rushabh_26?igsh=ZXhmdDR5d2IzNHV1&utm_source=qr",
+        batch: "2023"
+    },
+    {
+        id: "88",
+        name: "Arnav Garg",
+        img: arnavgarg,
+        position: "Member",
+        linkedin: "https://www.linkedin.com/in/arnav-garg-23abbb28a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+        github: null,
+        insta: "https://www.instagram.com/arn_avgxrg?igsh=MWl1bTZscXpwOXdlOQ==",
         batch: "2023"
     },
     {
@@ -882,21 +904,21 @@ export const PayloadTeam = [
         insta: "https://www.instagram.com/sahajsethi0706/",
         batch: "2022"
     },
-    {
-        id: "2",
-        name: "Sivayogesh S",
-        img: p2,
-        position: "Probationer",
-        linkedin: "https://www.linkedin.com/in/sivayogesh-s-b08ab928b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
-        github: null,
-        insta: "https://www.instagram.com/shiv_ygxsh_10?igsh=d3RnZzBibjlhNWIw&utm_source=qr",
-        batch: "2023"
-    },
+    // {
+    //     id: "2",
+    //     name: "Sivayogesh S",
+    //     img: p2,
+    //     position: "Probationer",
+    //     linkedin: "https://www.linkedin.com/in/sivayogesh-s-b08ab928b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+    //     github: null,
+    //     insta: "https://www.instagram.com/shiv_ygxsh_10?igsh=d3RnZzBibjlhNWIw&utm_source=qr",
+    //     batch: "2023"
+    // },
     {
         id: "3",
         name: "Lakshya Jain",
         img: p3,
-        position: "Probationer",
+        position: "Member",
         linkedin: "http://linkedin.com/lakshyajainx",
         github: null,
         insta: "lakshyajainx",
@@ -906,7 +928,7 @@ export const PayloadTeam = [
         id: "4",
         name: "Ashray Saxena",
         img: p4,
-        position: "Probationer",
+        position: "Member",
         linkedin: "https://www.linkedin.com/in/ashray-saxena-052648288?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
         github: "http://github.com/iamgroot",
         insta: null,
@@ -916,7 +938,7 @@ export const PayloadTeam = [
         id: "5",
         name: "Charvi Bansal",
         img: p5,
-        position: "Probationer",
+        position: "Member",
         linkedin: "https://www.linkedin.com/in/charvi-bansal-3169022bb?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
         github: null,
         insta: "https://www.instagram.com/_char.vi_?igsh=ajE4eWtyY2x5aG16",
@@ -926,7 +948,7 @@ export const PayloadTeam = [
         id: "6",
         name: "Ashwin Singh",
         img: p6,
-        position: "Probationer",
+        position: "Member",
         linkedin: null,
         github: null,
         insta: null,

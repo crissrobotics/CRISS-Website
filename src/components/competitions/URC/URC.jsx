@@ -5,7 +5,7 @@ import URC2023 from "../../competitions/URC2023/URC2023";
 import backImg from "../../../assets/images/Homepage/background.jpg";
 import { motion } from "framer-motion";
 import { fadeAnimation, slideAnimation } from "../../Header/Motion/Motion";
-import ERCVIDEO from "../../../assets/images/Competitions/ERCVIDEO.mp4"; 
+import URCVIDEO from "../../../assets/images/Competitions/URCVIDEO.mp4"; 
 
 export default function urc(){
     return(
@@ -19,7 +19,7 @@ export default function urc(){
         </div>
 
         <motion.div className={styles.videoMain} {...slideAnimation("left", 0.3)}>
-            <video className={styles.vid} src={ERCVIDEO} autoPlay loop ></video>
+            <video className={styles.vid} src={URCVIDEO} autoPlay loop ></video>
         </motion.div>
 
         <motion.div className={styles.The2023Container}  style={{ backgroundImage: `url(${backImg})` }}    {...slideAnimation("up", 0.5)}>
