@@ -22,18 +22,18 @@ import optica from "../../assets/images/Homepage/optica.webp";
 import srt from "../../assets/images/Homepage/srt.png";
 import BROIMG from "../../assets/images/Sponsorship/image 22.png";
 
-import Header from "../Header/Navbar/Navbar";
+import Navbar from "../Header/Navbar/Navbar";
 import Footer from "../Footer/Footer";
 import TransitionEffect from "../Header/TransitionEffect/TransitionEffect";
 
-export default function Sponsorship() {
+export default function sponsorship() {
     return (
         <>
             <Helmet>
                 <title>Criss Robotics | Sponsorship</title>
             </Helmet>
             <TransitionEffect></TransitionEffect>
-            <Header color="#00275B"></Header>
+            <Navbar color="#00275B"></Navbar>
             <div className="sponsorshipContainer">
                 <div className="teamPic">
                     <img src={SponsorshipPic1} className="Pic1" />
