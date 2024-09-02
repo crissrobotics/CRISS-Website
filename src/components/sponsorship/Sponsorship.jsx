@@ -74,14 +74,14 @@ export default function sponsorship() {
                     <motion.div {...HeadAnimation("up", 0.1)}><SponzCard photo={skf} link="https://www.skf.com/in"></SponzCard></motion.div>
                 </div>
 
-                <div className="Brochure">
+                {/* <div className="Brochure">
                     <motion.h1 className="heading3" {...slideAnimation("up", 0.1)}>Support <span>Us</span></motion.h1>
                     <div className="brochureDIV">
                         <a href="https://online.fliphtml5.com/sqnfd/most/#p=1" target="_blank"><motion.img {...slideAnimation("left", 0.5)} src={BROIMG}></motion.img></a>
                         <motion.p {...slideAnimation("right", 0.5)}>We are multidisciplinary <span>space engineering and Robotics Research group</span> in BITS Pilani (Pilani campus) consisting of 60+ tech enthusiasts with a vision to innovate and develop <span>space exploration projects</span>. Our objective is to enhance on-board research and improve life-finding technologies in space while maintaining cost efficiency and innovation.</motion.p>
                     </div>
                     
-                </div> 
+                </div>  */}
             </div>
             <Footer></Footer> 
         </>
