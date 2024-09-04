@@ -41,21 +41,21 @@ export default function Home() {
     const [backgroundImage, setBackgroundImage] = useState(backImg);
 
     useEffect(() => {
-      const updateBackgroundImage = () => {
-        if (window.innerWidth > 1400) {
-          setBackgroundImage(backImg1);
-        } else {
-          setBackgroundImage(backImg);
-        }
-      };
-  
-      updateBackgroundImage();
-  
-      window.addEventListener('resize', updateBackgroundImage);
-  
-      return () => {
-        window.removeEventListener('resize', updateBackgroundImage);
-      };
+        const updateBackgroundImage = () => {
+            if (window.innerWidth > 1400) {
+                setBackgroundImage(backImg1);
+            } else {
+                setBackgroundImage(backImg);
+            }
+        };
+
+        updateBackgroundImage();
+
+        window.addEventListener('resize', updateBackgroundImage);
+
+        return () => {
+            window.removeEventListener('resize', updateBackgroundImage);
+        };
     }, []);
 
     useEffect(() => {
@@ -89,7 +89,9 @@ export default function Home() {
     }, [windowWidth]);
 
     const handleVideoLoad = () => {
-        setIsVideoLoaded(true);
+        setTimeout(() => {
+            setIsVideoLoaded(true);
+        }, 1000);
     }
 
     return (
@@ -163,7 +165,7 @@ export default function Home() {
                                 <SponsorCard sponsorImg={ansys} />
                                 <SponsorCard sponsorImg={altium} />
                                 <SponsorCard sponsorImg={srt} />
-                                
+
                             </Marquee>
                         </div>
                     </div>
