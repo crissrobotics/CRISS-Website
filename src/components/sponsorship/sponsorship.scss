@@ -1,7 +1,7 @@
 .sponsorshipContainer {
   display: flex !important;
-  align-items: center;
-  flex-direction: column;
+  align-items: center !important;
+  flex-direction: column !important;
   height: fit-content;
   width: 100%;
   overflow-x: hidden;
@@ -146,31 +146,31 @@ body {
 
 // Animations //
 
-.teamPic {
-  -webkit-animation: teamPic 1s ease-out forwards;
-  animation: teamPic 1s ease-out forwards;
-}
+// .teamPic {
+//   -webkit-animation: teamPic 1s ease-out forwards;
+//   animation: teamPic 1s ease-out forwards;
+// }
 
-@-webkit-keyframes teamPic {
-  0% {
-    -webkit-transform: translateY(0);
-    transform: translateY(0);
-  }
-  100% {
-    -webkit-transform: translateY(-100px);
-    transform: translateY(-100px);
-  }
-}
-@keyframes teamPic {
-  0% {
-    -webkit-transform: translateY(0);
-    transform: translateY(0);
-  }
-  100% {
-    -webkit-transform: translateY(-100px);
-    transform: translateY(-100px);
-  }
-}
+// @-webkit-keyframes teamPic {
+//   0% {
+//     -webkit-transform: translateY(0);
+//     transform: translateY(0);
+//   }
+//   100% {
+//     -webkit-transform: translateY(-100px);
+//     transform: translateY(-100px);
+//   }
+// }
+// @keyframes teamPic {
+//   0% {
+//     -webkit-transform: translateY(0);
+//     transform: translateY(0);
+//   }
+//   100% {
+//     -webkit-transform: translateY(-100px);
+//     transform: translateY(-100px);
+//   }
+// }
 
 // //
 .heading1 {
