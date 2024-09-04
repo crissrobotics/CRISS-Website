@@ -36,7 +36,7 @@ export default function sponsorship() {
             <header>
                 <Navbar color="#00275B" />
             </header>
-            <main className="sponsorshipContainer">
+            <main className="sponsorshipContainers">
                 
                     <div className="teamPic">
                         <img src={SponsorshipPic1} className="Pic1" />
