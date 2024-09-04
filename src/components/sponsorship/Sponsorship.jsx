@@ -34,7 +34,7 @@ export default function sponsorship() {
             </Helmet>
             <TransitionEffect></TransitionEffect>
             <header>
-                <Navbar color="black" />
+                <Navbar color="#00275B" />
             </header>
             <main className="sponsorshipContainer">
                 
