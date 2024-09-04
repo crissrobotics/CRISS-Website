@@ -38,7 +38,7 @@ const DropMenu = ({ selectedteam, handleSelect }) => {
         { value: 'software', label: 'Software' },
         { value: 'mechanical', label: 'Mechanical' },
         { value: 'electrical', label: 'Electrical' },
-        { value: 'payload', label: 'Payload' },
+        { value: 'payload', label: 'PnE' },
         { value: 'faculty', label: 'Faculty Advisor' }
     ];
 

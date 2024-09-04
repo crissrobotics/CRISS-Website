@@ -61,7 +61,7 @@ export default function Team() {
                     <TabButton isSelected={selectedteam === 'software'} onSelect={() => handleSelect('software')}>Software</TabButton>
                     <TabButton isSelected={selectedteam === 'mechanical'} onSelect={() => handleSelect('mechanical')}>Mechanical</TabButton>
                     <TabButton isSelected={selectedteam === 'electrical'} onSelect={() => handleSelect('electrical')}>Electrical</TabButton>
-                    <TabButton isSelected={selectedteam === 'payload'} onSelect={() => handleSelect('payload')}>Payload</TabButton>
+                    <TabButton isSelected={selectedteam === 'payload'} onSelect={() => handleSelect('payload')}>PnE</TabButton>
                     <TabButton isSelected={selectedteam === 'faculty'} onSelect={() => handleSelect('faculty')}>Faculty Advisor</TabButton>
                 </menu>
                 <div className="dropmenuContainer">

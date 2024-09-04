@@ -32,11 +32,31 @@ import srt from "../../assets/images/Homepage/srt.png";
 
 import bgVideo from "../../assets/images/Homepage/bgvideo.mp4";
 import backImg from "../../assets/images/Homepage/background.jpg";
+import backImg1 from "../../assets/images/Homepage/backgroundlarge.jpeg";
 
 export default function Home() {
 
     const [isVideoLoaded, setIsVideoLoaded] = useState(false);
     const [windowWidth, setWindowWidth] = useState(window.innerWidth);
+    const [backgroundImage, setBackgroundImage] = useState(backImg);
+
+    useEffect(() => {
+        const updateBackgroundImage = () => {
+            if (window.innerWidth > 1400) {
+                setBackgroundImage(backImg1);
+            } else {
+                setBackgroundImage(backImg);
+            }
+        };
+
+        updateBackgroundImage();
+
+        window.addEventListener('resize', updateBackgroundImage);
+
+        return () => {
+            window.removeEventListener('resize', updateBackgroundImage);
+        };
+    }, []);
 
     useEffect(() => {
         gsap.registerPlugin(ScrollTrigger);
@@ -69,8 +89,10 @@ export default function Home() {
     }, [windowWidth]);
 
     const handleVideoLoad = () => {
-        setIsVideoLoaded(true);
-    };
+        setTimeout(() => {
+            setIsVideoLoaded(true);
+        }, 1000);
+    }
 
     return (
         <>
@@ -110,7 +132,7 @@ export default function Home() {
                     </div>
                 </div>
 
-                <motion.div className="aboutContainer" style={{ backgroundImage: `url(${backImg})` }}>
+                <motion.div className="aboutContainer" style={{ backgroundImage: `url(${backgroundImage})` }}>
                     <About />
                 </motion.div>
 
@@ -143,7 +165,7 @@ export default function Home() {
                                 <SponsorCard sponsorImg={ansys} />
                                 <SponsorCard sponsorImg={altium} />
                                 <SponsorCard sponsorImg={srt} />
-                                
+
                             </Marquee>
                         </div>
                     </div>

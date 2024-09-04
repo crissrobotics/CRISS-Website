@@ -1,5 +1,5 @@
 import React, { useRef, useEffect } from "react";
-import "./sponsorship.scss";
+import "./sponsorship.css";
 import { Helmet } from 'react-helmet';
 import SponzCard from "./SponzCard/SponzCard";
 import { motion } from "framer-motion";
@@ -33,56 +33,60 @@ export default function sponsorship() {
                 <title>Criss Robotics | Sponsorship</title>
             </Helmet>
             <TransitionEffect></TransitionEffect>
-            <Navbar color="#00275B"></Navbar>
-            <div className="sponsorshipContainer">
-                <div className="teamPic">
-                    <img src={SponsorshipPic1} className="Pic1" />
-                </div>
-
-                <div className="text1">
-                    <motion.div  {...slideAnimation("up", 0.3)}  >
-                        <p><span className="one">CRISS</span> <span className="two">Robotics</span>, a student-led robotics and engineering company, is known for its excellence in design and innovation. The company competes in the University Rover Challenge, organized by the Mars Society, where it showcases its capabilities to leading scientists and technocrats. The company's success is attributed to its strategic partnership with partner sponsors, who are prominently featured on team merchandise and social media platforms such as Facebook, Instagram, and YouTube. CRISS Robotics also shines in <span className="three">APOGEE</span>, BITS Pilani's technical festival, where their projects attract a diverse audience of enthusiasts and industry professionals. This platform not only showcases their technical prowess but also offers opportunities for sponsor visibility and brand engagement. The company continues to push the boundaries of robotics innovation, representing BITS Pilani with pride and determination.</p>
-                    </motion.div> 
-                </div>
-
-                <div className="text2">
-                    <motion.img src={SponsorshipPic2} className="Pic2" {...slideAnimation("left", 0.5)}/>
-                    <motion.p {...slideAnimation("right", 0.5)}>Sponsoring CRISS Robotics presents a unique opportunity to align your brand with cutting-edge research and development at one of the world's most prestigious engineering institutions, <span className="three">BITS Pilani</span>. With a proud legacy of producing top-tier talent, our club exemplifies excellence in innovation and technical prowess. Your support will enable us to continue participating in international competitions, further enhance our technical capabilities, and realize groundbreaking solutions.</motion.p>
-                </div>
-
-                <div className="text3">
-                    <motion.p {...slideAnimation("left", 0.5)}>By <span className="three">partnering with us</span>, your company will gain significant visibility among bright engineering students who represent the future workforce. Sponsorship benefits include prominent placement of your company's logo on our latest rover, extensive exposure through our active social media channels, and collaborative events during major festivals. These initiatives not only enhance your brand's visibility but also position your company as a forward-thinking leader committed to driving technological advancements.</motion.p>
-                    <motion.img src={SponsorshipPic3} className="Pic3" {...slideAnimation("right", 0.5)}/>
-                </div>
-
-                <div className="OurSponsors">
-                    <h1 className="heading2" >Our <span>Sponsors</span></h1>
-                    <motion.p {...slideAnimation("up", 0.3)}>Sponsors play a crucial role in the success story of CRISS Robotics. Their steadfast support, providing essential financial and technical resources, has been pivotal in driving our team forward towards achieving our objectives. We deeply appreciate the commitment and partnership of all our sponsors and look forward to nurturing and expanding these relationships in the pursuit of continued excellence and innovation. </motion.p>
-                </div>
-
-                <div className="total">
-                    <motion.div {...HeadAnimation("up", 0.1)}><SponzCard photo={bits} link="https://www.bits-pilani.ac.in/"></SponzCard> </motion.div>
-                    <motion.div {...HeadAnimation("up", 0.1)}><SponzCard photo={autodesk} link="https://www.autodesk.com/in?mktvar002=afc_in_nmpi_ppc&AID=13084956&PID=8206971&gclsrc=3p.ds&ds_rl=1232455&ds_rl=1232461&ds_rl=1233896&gclid=a415b36419b312da0589d5fad647a89c&gclsrc=3p.ds&ds_rl=1232455&ds_rl=1232461&ds_rl=1233896&&cjevent=a415b36419b312da0589d5fad647a89c&click_id=a415b36419b312da0589d5fad647a89c&gclid=a415b36419b312da0589d5fad647a89c&gclsrc=3p.ds&msclkid=a415b36419b312da0589d5fad647a89c"></SponzCard></motion.div>
-                    <motion.div {...HeadAnimation("up", 0.1)}><SponzCard photo={optica} link="https://opg.optica.org/optica/home.cfm"></SponzCard></motion.div>
-                    <motion.div {...HeadAnimation("up", 0.1)}><SponzCard photo={srt} link="https://www.srtbus.in/"></SponzCard></motion.div>
-                    <motion.div {...HeadAnimation("up", 0.1)}><SponzCard photo={pcb} link="https://www.pcbpower.com/"></SponzCard></motion.div>
-                    <motion.div {...HeadAnimation("up", 0.1)}><SponzCard photo={speedacc} link="http://www.speedacc.co.za/about-us"></SponzCard></motion.div>
-                    <motion.div {...HeadAnimation("up", 0.1)}><SponzCard photo={sigma} link="https://www.sigmaaldrich.com/IN/en?utm_source=bing&utm_medium=cpc&utm_campaign=milliporesigma%20branded_WW_(bing%20ebizbrand)&utm_campaignid=626793222&utm_content=1165483510438650&msclkid=169067f8e6bb12f29a720166369c9a69&utm_term=sigma"></SponzCard></motion.div>
-                    <motion.div {...HeadAnimation("up", 0.1)}><SponzCard photo={altium} link="https://www.altium.com/"></SponzCard></motion.div>
-                    <motion.div {...HeadAnimation("up", 0.1)}><SponzCard photo={ansys} link="https://www.ansys.com/"></SponzCard></motion.div>
-                    <motion.div {...HeadAnimation("up", 0.1)}><SponzCard photo={solidworks} link="https://www.solidworks.com/"></SponzCard></motion.div>
-                    <motion.div {...HeadAnimation("up", 0.1)}><SponzCard photo={skf} link="https://www.skf.com/in"></SponzCard></motion.div>
-                </div>
-
-                <div className="Brochure">
-                    <motion.h1 className="heading3" {...slideAnimation("up", 0.1)}>Support <span>Us</span></motion.h1>
-                    <div className="brochureDIV">
-                        <a href="https://online.fliphtml5.com/sqnfd/most/#p=1" target="_blank"><motion.img {...slideAnimation("left", 0.5)} src={BROIMG}></motion.img></a>
-                        <motion.p {...slideAnimation("right", 0.5)}>We are multidisciplinary <span>space engineering and Robotics Research group</span> in BITS Pilani (Pilani campus) consisting of 60+ tech enthusiasts with a vision to innovate and develop <span>space exploration projects</span>. Our objective is to enhance on-board research and improve life-finding technologies in space while maintaining cost efficiency and innovation.</motion.p>
+            <header>
+                <Navbar color="#00275B" />
+            </header>
+            <main>
+                <div className="sponsorshipContainer">
+                    <div className="teamPic">
+                        <img src={SponsorshipPic1} className="Pic1" />
                     </div>
-                </div> 
-            </div>
-            <Footer></Footer> 
+
+                    <div className="text1">
+                        <motion.div  {...slideAnimation("up", 0.3)}  >
+                            <p><span className="one">CRISS</span> <span className="two">Robotics</span>, a student-led robotics and engineering company, is known for its excellence in design and innovation. The company competes in the University Rover Challenge, organized by the Mars Society, where it showcases its capabilities to leading scientists and technocrats. The company's success is attributed to its strategic partnership with partner sponsors, who are prominently featured on team merchandise and social media platforms such as Facebook, Instagram, and YouTube. CRISS Robotics also shines in <span className="three">APOGEE</span>, BITS Pilani's technical festival, where their projects attract a diverse audience of enthusiasts and industry professionals. This platform not only showcases their technical prowess but also offers opportunities for sponsor visibility and brand engagement. The company continues to push the boundaries of robotics innovation, representing BITS Pilani with pride and determination.</p>
+                        </motion.div>
+                    </div>
+
+                    <div className="text2">
+                        <motion.img src={SponsorshipPic2} className="Pic2" {...slideAnimation("left", 0.5)} />
+                        <motion.p {...slideAnimation("right", 0.5)}>Sponsoring CRISS Robotics presents a unique opportunity to align your brand with cutting-edge research and development at one of the world's most prestigious engineering institutions, <span className="three">BITS Pilani</span>. With a proud legacy of producing top-tier talent, our club exemplifies excellence in innovation and technical prowess. Your support will enable us to continue participating in international competitions, further enhance our technical capabilities, and realize groundbreaking solutions.</motion.p>
+                    </div>
+
+                    <div className="text3">
+                        <motion.p {...slideAnimation("left", 0.5)}>By <span className="three">partnering with us</span>, your company will gain significant visibility among bright engineering students who represent the future workforce. Sponsorship benefits include prominent placement of your company's logo on our latest rover, extensive exposure through our active social media channels, and collaborative events during major festivals. These initiatives not only enhance your brand's visibility but also position your company as a forward-thinking leader committed to driving technological advancements.</motion.p>
+                        <motion.img src={SponsorshipPic3} className="Pic3" {...slideAnimation("right", 0.5)} />
+                    </div>
+
+                    <div className="OurSponsors">
+                        <h1 className="heading2" >Our <span>Sponsors</span></h1>
+                        <motion.p {...slideAnimation("up", 0.3)}>Sponsors play a crucial role in the success story of CRISS Robotics. Their steadfast support, providing essential financial and technical resources, has been pivotal in driving our team forward towards achieving our objectives. We deeply appreciate the commitment and partnership of all our sponsors and look forward to nurturing and expanding these relationships in the pursuit of continued excellence and innovation. </motion.p>
+                    </div>
+
+                    <div className="total">
+                        <motion.div {...HeadAnimation("up", 0.1)}><SponzCard photo={bits} link="https://www.bits-pilani.ac.in/"></SponzCard> </motion.div>
+                        <motion.div {...HeadAnimation("up", 0.1)}><SponzCard photo={autodesk} link="https://www.autodesk.com/in?mktvar002=afc_in_nmpi_ppc&AID=13084956&PID=8206971&gclsrc=3p.ds&ds_rl=1232455&ds_rl=1232461&ds_rl=1233896&gclid=a415b36419b312da0589d5fad647a89c&gclsrc=3p.ds&ds_rl=1232455&ds_rl=1232461&ds_rl=1233896&&cjevent=a415b36419b312da0589d5fad647a89c&click_id=a415b36419b312da0589d5fad647a89c&gclid=a415b36419b312da0589d5fad647a89c&gclsrc=3p.ds&msclkid=a415b36419b312da0589d5fad647a89c"></SponzCard></motion.div>
+                        <motion.div {...HeadAnimation("up", 0.1)}><SponzCard photo={optica} link="https://opg.optica.org/optica/home.cfm"></SponzCard></motion.div>
+                        <motion.div {...HeadAnimation("up", 0.1)}><SponzCard photo={srt} link="https://www.srtbus.in/"></SponzCard></motion.div>
+                        <motion.div {...HeadAnimation("up", 0.1)}><SponzCard photo={pcb} link="https://www.pcbpower.com/"></SponzCard></motion.div>
+                        <motion.div {...HeadAnimation("up", 0.1)}><SponzCard photo={speedacc} link="http://www.speedacc.co.za/about-us"></SponzCard></motion.div>
+                        <motion.div {...HeadAnimation("up", 0.1)}><SponzCard photo={sigma} link="https://www.sigmaaldrich.com/IN/en?utm_source=bing&utm_medium=cpc&utm_campaign=milliporesigma%20branded_WW_(bing%20ebizbrand)&utm_campaignid=626793222&utm_content=1165483510438650&msclkid=169067f8e6bb12f29a720166369c9a69&utm_term=sigma"></SponzCard></motion.div>
+                        <motion.div {...HeadAnimation("up", 0.1)}><SponzCard photo={altium} link="https://www.altium.com/"></SponzCard></motion.div>
+                        <motion.div {...HeadAnimation("up", 0.1)}><SponzCard photo={ansys} link="https://www.ansys.com/"></SponzCard></motion.div>
+                        <motion.div {...HeadAnimation("up", 0.1)}><SponzCard photo={solidworks} link="https://www.solidworks.com/"></SponzCard></motion.div>
+                        <motion.div {...HeadAnimation("up", 0.1)}><SponzCard photo={skf} link="https://www.skf.com/in"></SponzCard></motion.div>
+                    </div>
+
+                    <div className="Brochure">
+                        <motion.h1 className="heading3" {...slideAnimation("up", 0.1)}>Support <span>Us</span></motion.h1>
+                        <div className="brochureDIV">
+                            <a href="https://online.fliphtml5.com/sqnfd/most/#p=1" target="_blank"><motion.img {...slideAnimation("left", 0.5)} src={BROIMG}></motion.img></a>
+                            <motion.p {...slideAnimation("right", 0.5)}>We are multidisciplinary <span>space engineering and Robotics Research group</span> in BITS Pilani (Pilani campus) consisting of 60+ tech enthusiasts with a vision to innovate and develop <span>space exploration projects</span>. Our objective is to enhance on-board research and improve life-finding technologies in space while maintaining cost efficiency and innovation.</motion.p>
+                        </div>
+                    </div>
+                </div>
+            </main>
+            <Footer></Footer>
         </>
 
     )
