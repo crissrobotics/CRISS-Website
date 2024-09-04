@@ -6,7 +6,6 @@ import backImg from "../../../assets/images/Homepage/background.jpg";
 import backImg1 from "../../../assets/images/Homepage/backgroundlarge.jpeg";
 import { motion } from "framer-motion";
 import { fadeAnimation, slideAnimation } from "../../Header/Motion/Motion";
-import IRCVIDEO from "../../../assets/images/Competitions/IRCVIDEO.mp4";
 
 export default function irc() {
 
@@ -40,9 +39,22 @@ export default function irc() {
                 <motion.p  {...slideAnimation("right", 0.5)} className={styles.ircText}><span>The International Rover Challenge</span> (formerly known as the Indian Rover Challenge), organized by the Space Robotics Society, is an annual robotics competition designed to provide students worldwide with an engineering challenge in the realm of space exploration. Distinguished as the sole competition of its kind in the Asia-Pacific region, the IRC serves the critical objective of fostering innovation and inspiring aspiring engineers. Participants are tasked with the mission of designing and constructing advanced Mars Rovers, with the ultimate goal of competing in simulated Martian conditions. This competition serves as a platform for college students to showcase their skills and ingenuity in the pursuit of advancing space exploration technologies.</motion.p>
             </div>
 
-            <motion.div className={styles.videoMain} {...slideAnimation("left", 0.3)}>
+            <div className={styles.videoMain} {...slideAnimation("left", 0.3)}>
+                <iframe
+                    className={styles.vid}
+
+                    src="https://www.youtube.com/embed/gIik18I17i8?si=bntKgGhQpQnOOaTQ" 
+                    title="YouTube video player" 
+                    frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                    referrerpolicy="strict-origin-when-cross-origin" 
+                    allowfullscreen>
+                </iframe>
+            </div>
+
+            {/* <motion.div className={styles.videoMain} {...slideAnimation("left", 0.3)}>
                 <video className={styles.vid} src={IRCVIDEO} autoPlay loop></video>
-            </motion.div>
+            </motion.div> */}
 
             <motion.div className={styles.The2023Container} style={{ backgroundImage: `url(${backgroundImage})` }}  {...slideAnimation("up", 0.5)}  >
                 <IRC2023></IRC2023>

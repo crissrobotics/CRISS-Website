@@ -10,14 +10,14 @@ header {
   
 }
 
-.sponsorshipContainer {
+.sponsorshipContainers {
   display: flex !important;
   align-items: center !important;
   flex-direction: column !important;
-  height: fit-content;
-  width: 100%;
+  height: fit-content; 
+  width: 100%; 
   overflow-x: hidden;
-  background-color: #ffffff;
+  background-color: #ffffff; 
 }
 
 .total {

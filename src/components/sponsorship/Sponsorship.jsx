@@ -36,8 +36,8 @@ export default function sponsorship() {
             <header>
                 <Navbar color="#00275B" />
             </header>
-            <main>
-                <div className="sponsorshipContainer">
+            <main className="sponsorshipContainers">
+                
                     <div className="teamPic">
                         <img src={SponsorshipPic1} className="Pic1" />
                     </div>
@@ -84,7 +84,6 @@ export default function sponsorship() {
                             <motion.p {...slideAnimation("right", 0.5)}>We are multidisciplinary <span>space engineering and Robotics Research group</span> in BITS Pilani (Pilani campus) consisting of 60+ tech enthusiasts with a vision to innovate and develop <span>space exploration projects</span>. Our objective is to enhance on-board research and improve life-finding technologies in space while maintaining cost efficiency and innovation.</motion.p>
                         </div>
                     </div>
-                </div>
             </main>
             <Footer></Footer>
         </>
