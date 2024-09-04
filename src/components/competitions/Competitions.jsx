@@ -26,6 +26,7 @@ export default function competitions(){
         <div>
              <Helmet>
                 <title>Criss Robotics | Competitions</title>
+                <meta name="description" content="The International Rover Design Challenge (IRDC) is an online space engineering design and research oriented competition organised by Mars Society South Asia." />
             </Helmet>
             <TransitionEffect></TransitionEffect>
             <Header color="#00275B"></Header>
