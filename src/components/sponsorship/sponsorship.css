@@ -34,11 +34,15 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-left: 15%;
-  margin-right: 15%;
-  height: fit-content;
   margin-bottom: 4rem;
+  width: 80%;
+  max-width: 1200px;
   transition: all 0.2s ease-in-out;
+}
+
+.teamPic img {
+  height: 100%;
+  width: 100%;
 }
 
 .Pic1 {
