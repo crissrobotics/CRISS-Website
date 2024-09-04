@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import styles from "./URC.module.scss";
 import URCLOGO from "../../../assets/images/Competitions/logo-urc.png";
 import URC2023 from "../../competitions/URC2023/URC2023";
