@@ -1,5 +1,5 @@
 import React, { useRef, useEffect } from "react";
-import "./sponsorship.scss";
+import "./sponsorship.css";
 import { Helmet } from 'react-helmet';
 import SponzCard from "./SponzCard/SponzCard";
 import { motion } from "framer-motion";
@@ -33,7 +33,9 @@ export default function sponsorship() {
                 <title>Criss Robotics | Sponsorship</title>
             </Helmet>
             <TransitionEffect></TransitionEffect>
-            <Navbar color="#00275B"></Navbar>
+            <header>
+                <Navbar color="#00275B" />
+            </header>
             <main>
                 <div className="sponsorshipContainer">
                     <div className="teamPic">
