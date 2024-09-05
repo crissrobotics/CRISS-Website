@@ -69,7 +69,7 @@ export default function sponsorship() {
                         <motion.div {...HeadAnimation("up", 0.1)}><SponzCard photo={optica} link="https://www.opticsindia.com/?srsltid=AfmBOopuqBhsJTXnQ8T3o_woMLNCIr3rGvuJ4t-7Yf_85pwPLK6AmXzg"></SponzCard></motion.div>
                         <motion.div {...HeadAnimation("up", 0.1)}><SponzCard photo={srt} link="https://www.shreerapid.com"></SponzCard></motion.div>
                         <motion.div {...HeadAnimation("up", 0.1)}><SponzCard photo={pcb} link="https://www.pcbpower.com/"></SponzCard></motion.div>
-                        <motion.div {...HeadAnimation("up", 0.1)}><SponzCard photo={speedacc} link="http://www.speedacc.co.za/about-us"></SponzCard></motion.div>
+                        <motion.div {...HeadAnimation("up", 0.1)}><SponzCard photo={speedacc} link=""></SponzCard></motion.div>
                         <motion.div {...HeadAnimation("up", 0.1)}><SponzCard photo={sigma} link="https://sigmaclothing.in"></SponzCard></motion.div>
                         <motion.div {...HeadAnimation("up", 0.1)}><SponzCard photo={altium} link="https://www.altium.com/"></SponzCard></motion.div>
                         <motion.div {...HeadAnimation("up", 0.1)}><SponzCard photo={ansys} link="https://www.ansys.com/"></SponzCard></motion.div>
