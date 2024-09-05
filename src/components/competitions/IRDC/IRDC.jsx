@@ -40,9 +40,22 @@ export default function irdc() {
                 <motion.p {...slideAnimation("right", 0.5)} className={styles.irdcText}><span>The International Rover Design Challenge</span> is a competition for university students which challenges to design Mars rovers which shall be fully equipped and mission ready for Operation on Mars. Teams are supposed to carefully plan each subsystem of the rover considering various extra-terrestrial parameters in design. This competition is designed for students to explore their mind and spark the innovative design thinking of Individuals without putting any constraints on available physical resources. Students are encouraged to be as imaginative, creative and insightful as possible within practical implementable limits for the human race.</motion.p>
             </div>
 
-            <motion.div className={styles.videoMain} {...slideAnimation("left", 0.5)} >
+            <div className={styles.videoMain} {...slideAnimation("left", 0.3)}>
+                <iframe
+                    className={styles.vid}
+
+                    src="https://www.youtube.com/embed/gIik18I17i8?si=bntKgGhQpQnOOaTQ" 
+                    title="YouTube video player" 
+                    frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                    referrerpolicy="strict-origin-when-cross-origin" 
+                    allowfullscreen>
+                </iframe>
+            </div>
+            
+            {/* <motion.div className={styles.videoMain} {...slideAnimation("left", 0.5)} >
                 <video className={styles.vid} src={IRDCVID} autoPlay muted loop></video>
-            </motion.div>
+            </motion.div> */}
 
             <motion.div className={styles.The2023Container} style={{ backgroundImage: `url(${backgroundImage})` }} {...slideAnimation("up", 0.5)} >
                 <IRDC2023></IRDC2023>

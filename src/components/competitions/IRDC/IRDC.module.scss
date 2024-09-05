@@ -1,6 +1,6 @@
 .imgggcontainer{
     width: 400px;
-    overflow:hidden;
+    // overflow:hidden;
 }
 
 .irdcIntro{
@@ -31,10 +31,13 @@
     justify-content: center;
     align-items: center;
     margin-top:3rem;
+    border-radius:20px;
 }
 
 .vid{
-    border-radius:20px;
+    width: 60vw;
+    height:60vh;
+    border-radius: 20px;
 }
 
 .The2023Container{
