@@ -21,7 +21,7 @@ import SponsorCard from "./SponsorCard/SponsorCard";
 import bits from "../../assets/images/Homepage/bits.png";
 import altium from "../../assets/images/Homepage/altium.png";
 import ansys from "../../assets/images/Homepage/ansys.png";
-import autodesk from "../../assets/images/Homepage/autodesk.png";
+import autodesk from "../../assets/images/Homepage/autodesk.jpeg";
 import pcb from "../../assets/images/Homepage/pcb.png";
 import sigma from "../../assets/images/Homepage/sigma.png";
 import skf from "../../assets/images/Homepage/skf.png";
