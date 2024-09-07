@@ -38,9 +38,9 @@ export default function sponsorship() {
             </header>
             <main className="sponsorshipContainers">
                 
-                    <div className="teamPic">
-                        <img src={SponsorshipPic1} className="Pic1" />
-                    </div>
+                    <motion.div className="teamPic" {...HeadAnimation("up", 0.1)}>
+                        <img src={SponsorshipPic1} className="PicOne" />
+                    </motion.div>
 
                     <div className="text1">
                         <motion.div  {...slideAnimation("up", 0.3)}  >
@@ -59,7 +59,7 @@ export default function sponsorship() {
                     </div>
 
                     <div className="OurSponsors">
-                        <h1 className="heading2" >Our <span>Sponsors</span></h1>
+                        <motion.h1 className="heading2" {...slideAnimation("up", 0.1)}>Our <span>Sponsors</span></motion.h1>
                         <motion.p {...slideAnimation("up", 0.3)}>Sponsors play a crucial role in the success story of CRISS Robotics. Their steadfast support, providing essential financial and technical resources, has been pivotal in driving our team forward towards achieving our objectives. We deeply appreciate the commitment and partnership of all our sponsors and look forward to nurturing and expanding these relationships in the pursuit of continued excellence and innovation. </motion.p>
                     </div>
 
@@ -80,8 +80,8 @@ export default function sponsorship() {
                     <div className="Brochure">
                         <motion.h1 className="heading3" {...slideAnimation("up", 0.1)}>Support <span>Us</span></motion.h1>
                         <div className="brochureDIV">
-                            <a href="https://online.fliphtml5.com/sqnfd/most/#p=1" target="_blank"><motion.img {...slideAnimation("left", 0.5)} src={BROIMG}></motion.img></a>
-                            <motion.p {...slideAnimation("right", 0.5)}>We are multidisciplinary <span>space engineering and Robotics Research group</span> in BITS Pilani (Pilani campus) consisting of 60+ tech enthusiasts with a vision to innovate and develop <span>space exploration projects</span>. Our objective is to enhance on-board research and improve life-finding technologies in space while maintaining cost efficiency and innovation.</motion.p>
+                            <a href="https://online.fliphtml5.com/zusvs/vefu/" target="_blank"><motion.img {...slideAnimation("left", 0.5)} src={BROIMG}></motion.img></a>
+                            <motion.p {...slideAnimation("right", 0.5)} className="BrochurePara">We are multidisciplinary <span>space engineering and Robotics Research group</span> in BITS Pilani (Pilani campus) consisting of 60+ tech enthusiasts with a vision to innovate and develop <span>space exploration projects</span>. Our objective is to enhance on-board research and improve life-finding technologies in space while maintaining cost efficiency and innovation.</motion.p>
                         </div>
                     </div>
             </main>

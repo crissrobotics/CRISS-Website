@@ -1,6 +1,10 @@
 .imgggcontainer{
     width: 400px;
     // overflow:hidden;
+    img{
+        height:100%;
+        width: 100%;
+    }
 }
 
 .urcIntro{
@@ -36,7 +40,7 @@
 
 .vid{
     width: 60vw;
-    height:60vh;
+    height: 400px;
     border-radius: 20px;
 }
 
@@ -47,6 +51,9 @@
 
 
 @media screen and (max-width: 1200px) {
+    .vid{
+        height:380px;
+    }
     .urcIntro{
         margin-left: 5%;
         margin-right: 5%;
@@ -64,11 +71,18 @@
     }
 }
 @media screen and (max-width: 1000px){
+    .vid{
+        height:330px;
+    }
     .urcText{
         font-size: 15px;
     }
 }
 @media screen and (max-width: 850px){
+    .vid{
+        height:310px;
+        width:65vw;
+    }
     .urcIntro{
         display: flex;
         flex-direction: column;
@@ -89,6 +103,9 @@
     
 }
 @media screen and (max-width: 700px){
+    .vid{
+        height:280px;
+    }
     .urcIntro{
         gap:20px;
     }
@@ -98,12 +115,19 @@
     }
 }
 @media screen and (max-width: 600px){
+    .vid{
+        height:250px;
+        width:75vw;
+    }
     .urcText{
         font-size: 12px;
         line-height: 16px;
     }
 }
 @media screen and (max-width: 500px){
+    .vid{
+        height:210px;
+    }
     .imgggcontainer{
         width:150px;
     }
@@ -112,7 +136,15 @@
     }
 }
 @media screen and (max-width: 400px){
+    .vid{
+        height:180px;
+    }
     .urcText{
         line-height: 12px;
+    }
+}
+@media screen and (min-width: 1500px){
+    .vid{
+        height:500px;
     }
 }

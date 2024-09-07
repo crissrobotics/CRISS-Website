@@ -31,32 +31,33 @@ import optica from "../../assets/images/Homepage/optica.webp";
 import srt from "../../assets/images/Homepage/srt.png";
 
 import bgVideo from "../../assets/images/Homepage/bgvideo.mp4";
-import backImg from "../../assets/images/Homepage/background.jpg";
-import backImg1 from "../../assets/images/Homepage/backgroundlarge.jpeg";
+// import backImg from "../../../assets/images/Homepage/background.jpg";
+// import backImg1 from "../../../assets/images/Homepage/backgroundlarge.jpeg";
+import backgroundImage from "../../assets/images/Competitions/backgroundImage.jpg"
 
 export default function Home() {
 
     const [isVideoLoaded, setIsVideoLoaded] = useState(false);
     const [windowWidth, setWindowWidth] = useState(window.innerWidth);
-    const [backgroundImage, setBackgroundImage] = useState(backImg);
+    // const [backgroundImage, setBackgroundImage] = useState(backImg);
 
-    useEffect(() => {
-        const updateBackgroundImage = () => {
-            if (window.innerWidth > 1400) {
-                setBackgroundImage(backImg1);
-            } else {
-                setBackgroundImage(backImg);
-            }
-        };
+    // useEffect(() => {
+    //     const updateBackgroundImage = () => {
+    //         if (window.innerWidth > 1400) {
+    //             setBackgroundImage(backImg1);
+    //         } else {
+    //             setBackgroundImage(backImg);
+    //         }
+    //     };
 
-        updateBackgroundImage();
+    //     updateBackgroundImage();
 
-        window.addEventListener('resize', updateBackgroundImage);
+    //     window.addEventListener('resize', updateBackgroundImage);
 
-        return () => {
-            window.removeEventListener('resize', updateBackgroundImage);
-        };
-    }, []);
+    //     return () => {
+    //         window.removeEventListener('resize', updateBackgroundImage);
+    //     };
+    // }, []);
 
     useEffect(() => {
         gsap.registerPlugin(ScrollTrigger);

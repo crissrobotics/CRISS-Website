@@ -86,7 +86,7 @@ export const BoardTeam = [
         name: "KANAK GUPTA",
         img: b4,
         position1: "Sponsorship Head",
-        position2: null,
+        position2: "BOSM Coordinator",
         position3: null,
         linkedin: "https://www.linkedin.com/in/kanak-gupta-a6684427b/",
         github: null,

@@ -37,18 +37,21 @@ header {
   margin-bottom: 4rem;
   width: 80%;
   max-width: 1200px;
-  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+  /* transition: transform 2s; */
+  overflow: hidden;
 }
 
-.teamPic img {
+.PicOne {
+  border-radius: 2rem;
   height: 100%;
   width: 100%;
+  /* transition: transform 2s; */
 }
 
-.Pic1 {
-  border-radius: 2rem;
-  transition: all 0.2s ease-in-out;
-}
+/* .PicOne:hover{
+  transform: scale(1.1);
+} */
 
 .text1 {
   background-color: #d5dfef;
@@ -97,11 +100,16 @@ header {
 }
 
 .Pic2 {
-  position: relative;
+  /* position: relative; */
   width: 38rem;
   border-radius: 1rem;
-  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+  /* transition: transform 0.2s; */
 }
+
+/* .Pic2:hover{
+  transform: scale(1.1);
+} */
 
 .text3 {
   margin-top: 10rem;
@@ -113,7 +121,6 @@ header {
   font-weight: 500;
   padding-right: 10%;
   word-break: keep-all;
-
   padding-bottom: 6rem;
   background-color: #d5dfef;
   align-items: center;
@@ -123,8 +130,13 @@ header {
 .Pic3 {
   width: 38rem;
   border-radius: 2rem;
-  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+  /* transition: transform ease-in-out; */
 }
+
+/* .Pic3:hover{
+  transform: scaleY(1.5);
+} */
 
 .OurSponsors {
   text-align: center;
@@ -133,7 +145,6 @@ header {
 .OurSponsors p {
   padding: 0% 15%;
   font-size: 2rem;
-  /* // font-family:Arial, Helvetica, sans-serif; */
   font-family: Inter;
   font-weight: 400;
   margin-bottom: 12rem;
@@ -143,34 +154,6 @@ header {
   background-color: #d5dfef;
   margin-bottom: 8rem;
 }
-
-/* // Animations //
-
-// .teamPic {
-//   -webkit-animation: teamPic 1s ease-out forwards;
-//   animation: teamPic 1s ease-out forwards;
-// }
-
-// @-webkit-keyframes teamPic {
-//   0% {
-//     -webkit-transform: translateY(0);
-//     transform: translateY(0);
-//   }
-//   100% {
-//     -webkit-transform: translateY(-100px);
-//     transform: translateY(-100px);
-//   }
-// }
-// @keyframes teamPic {
-//   0% {
-//     -webkit-transform: translateY(0);
-//     transform: translateY(0);
-//   }
-//   100% {
-//     -webkit-transform: translateY(-100px);
-//     transform: translateY(-100px);
-//   }
-// } */
 
 .heading1 {
   text-align: center;
@@ -215,6 +198,7 @@ h1 span {
   align-items: center;
   padding-bottom: 10rem;
   gap: 20%;
+
   p {
     width: 45%;
     text-align: center;
@@ -224,6 +208,11 @@ h1 span {
     cursor: pointer;
   }
 
+  img:hover{
+    transition-delay: 0.3s;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+  }
+
   span {
     color: #00275b;
     font-weight: bolder;
@@ -231,8 +220,7 @@ h1 span {
 }
 
 @media (max-width: 600px) {
-  .sponsorshipContainer {
-    
+
     .total {
       gap: 2rem 3rem;
       margin-bottom: 5rem;
@@ -245,10 +233,6 @@ h1 span {
     .heading1 {
       margin-top: 8rem;
     }
-    .teamPic {
-      margin-top: 18rem;
-      margin-bottom: 0px;
-    }
     .text1,
     .text2,
     .text3,
@@ -256,59 +240,47 @@ h1 span {
       font-size: 12px;
       line-height: 18px;
     }
-    .text1 {
-      margin-top: -20px;
-    }
     .text2 {
       margin-top: 5rem;
-
-      p {
-        margin-top: 4rem;
-      }
+    }
+    .text2 p {
+      margin-top: 4rem;
     }
     .text3 {
       margin-top: 5rem;
-
-      p {
-        margin-top: 4rem;
-      }
+    }
+    .text3 p {
+      margin-top: 4rem;
     }
     .one,
     .two {
       font-size: 18px;
     }
-    .OurSponsors {
-      p {
-        margin-bottom: 4rem;
-      }
-      .heading2 {
-        margin-top: 4rem;
-        margin-bottom: 2rem;
-      }
+    .OurSponsors  p {
+      margin-bottom: 4rem;
+    }
+    .OurSponsors .heading2 {
+      margin-top: 4rem;
+      margin-bottom: 2rem;
     }
     .brochureDIV {
       font-size: 15px;
       line-height: 18px;
       padding-left: 15%;
       padding-right: 15%;
-
-      p {
-        width: 100%;
-      }
-
-      .heading3 {
-        margin-bottom: 3rem;
-      }
+    }
+    .brochureDIV p {
+      width: 100%;
+    }
+    .brochureDIV .heading3 {
+      margin-bottom: 3rem;
     }
   }
-}
 
 @media (max-width: 900px) {
+
   .text1 {
     margin-top: -5rem;
-  }
-  .teamPic {
-    margin-top: 10rem;
   }
   .text1 {
     margin-left: 0px;
@@ -340,7 +312,7 @@ h1 span {
 }
 
 @media (max-width: 750px) {
-  .sponsorshipContainer {
+  .sponsorshipContainers {
     .heading1 {
       margin-top: 9rem;
     }
@@ -349,10 +321,6 @@ h1 span {
       font-size: 36px;
     }
 
-    .teamPic {
-      margin-top: 18rem;
-      margin-bottom: -20px;
-    }
     .OurSponsors {
       p {
         margin-bottom: 9rem;
@@ -371,9 +339,7 @@ h1 span {
 }
 
 @media (max-width: 1000px) {
-  .teamPic {
-    margin-top: 28rem;
-  }
+
   .text1 {
     margin-top: -3rem;
   }
@@ -462,9 +428,6 @@ h1 span {
     line-height: 27px;
     font-size: 20px;
   }
-  .teamPic {
-    margin-top: 18rem;
-  }
 }
 
 @media (max-width: 1050px) {
@@ -477,9 +440,6 @@ h1 span {
 @media (max-width: 900px) {
   .brochureDIV {
     line-height: 23px;
-  }
-  .teamPic {
-    margin-top: 18rem;
   }
 }
 
@@ -511,10 +471,7 @@ h1 span {
 
 @media(max-width: 400px) {
 
-  .sponsorshipContainer {
-    
     .total {
       gap: 1.5rem 2rem;
     }
   }
-}

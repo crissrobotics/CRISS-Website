@@ -9,7 +9,7 @@ export default function URC2023() {
             <h2>URC<span>2023</span></h2>
             <div className={styles.details}>
                 <div className={styles.imgContainer}><img src={aboutPic} width={500}></img></div>
-                <p>The <span>European Rover Challenge (ERC)</span> is an annual international competition where university students and recent graduates design and build <span>Mars rovers</span>. It features both physical and remote challenges that mimic real Mars exploration missions. In the physical competition, teams bring their rovers to a <span>Mars-like environment</span> and complete tasks such as navigation, scientific research, and maintenance. The remote competition involves programming rovers to perform tasks autonomously while being controlled from afar.</p> 
+                <p><span>Organized by The Mars Society</span>, the challenge tasks students with developing rovers capable of performing complex missions that astronauts would face on <span>Mars</span>. These missions typically include terrain traversal, equipment servicing, autonomous navigation, and scientific exploration such as soil analysis for signs of life.<span>URC</span> emphasizes practical engineering, innovation, and teamwork, allowing students to apply classroom knowledge in a competitive, real-world environment. </p> 
              </div>
         </div>
     )
