@@ -43,7 +43,7 @@ export default function irc() {
             <div className={styles.videoMain} {...slideAnimation("up", 0.5)}>
                 <iframe
                     className={styles.vid}
-                    src="https://www.youtube.com/embed/gIik18I17i8?si=bntKgGhQpQnOOaTQ" 
+                    src="https://www.youtube.com/embed/Lyqm1RDACO8?si=_tD9ClRxcVGcsCnu" 
                     title="YouTube video player" 
                     frameborder="0" 
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
