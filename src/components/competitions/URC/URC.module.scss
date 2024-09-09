@@ -1,8 +1,10 @@
 .imgggcontainer{
-    width: 400px;
-    // overflow:hidden;
-    img{
-        height:100%;
+    width: 250px;
+    height: auto;
+    object-fit: contain;
+    img {
+        object-fit: contain;
+        height: 100%;
         width: 100%;
     }
 }

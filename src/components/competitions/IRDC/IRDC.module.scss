@@ -1,13 +1,19 @@
 .imgggcontainer{
-    width: 400px;
-    // overflow:hidden;
+    width: 250px;
+    height: auto;
+    object-fit: contain;
+    img {
+        object-fit: contain;
+        height: 100%;
+        width: 100%;
+    }
 }
 
 .irdcIntro{
     margin-top: 2rem;
     align-items: center;
     display: flex;
-    gap:50px;
+    gap:70px;
     justify-content: center;
     span{
         font-weight: 700;
