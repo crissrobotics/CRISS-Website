@@ -149,10 +149,11 @@ export default function Home() {
                                 <SponsorCard sponsorImg={bits} />
                                 <SponsorCard sponsorImg={altium} />
                                 <SponsorCard sponsorImg={ansys} />
+                                <SponsorCard sponsorImg={optica} />
                                 <SponsorCard sponsorImg={autodesk} />
                                 <SponsorCard sponsorImg={pcb} />
                                 <SponsorCard sponsorImg={sigma} />
-                                <SponsorCard sponsorImg={skf} />
+                                <SponsorCard sponsorImg={srt} />
                                 <SponsorCard sponsorImg={optica} />
                             </Marquee>
                         </div>
@@ -161,6 +162,7 @@ export default function Home() {
                                 <SponsorCard sponsorImg={skf} />
                                 <SponsorCard sponsorImg={optica} />
                                 <SponsorCard sponsorImg={solidworks} />
+                                <SponsorCard sponsorImg={srt} />
                                 <SponsorCard sponsorImg={speedacc} />
                                 <SponsorCard sponsorImg={pcb} />
                                 <SponsorCard sponsorImg={ansys} />
