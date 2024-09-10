@@ -20,6 +20,7 @@ import solidworks from "../../assets/images/Homepage/solidworks.jpg";
 import speedacc from "../../assets/images/Homepage/speedacc.png";
 import optica from "../../assets/images/Homepage/optica.webp";
 import srt from "../../assets/images/Homepage/srt.png";
+import dwart from "../../assets/images/Homepage/dwart.jpg";
 import BROIMG from "../../assets/images/Sponsorship/image 22.png";
 
 import Navbar from "../Header/Navbar/Navbar";
@@ -67,6 +68,7 @@ export default function sponsorship() {
                         <motion.div {...HeadAnimation("up", 0.1)}><SponzCard photo={bits} link="https://www.bits-pilani.ac.in/"></SponzCard> </motion.div>
                         <motion.div {...HeadAnimation("up", 0.1)}><SponzCard photo={optica} link="https://www.opticsindia.com/?srsltid=AfmBOopuqBhsJTXnQ8T3o_woMLNCIr3rGvuJ4t-7Yf_85pwPLK6AmXzg"></SponzCard></motion.div>
                         <motion.div {...HeadAnimation("up", 0.1)}><SponzCard photo={srt} link="https://www.shreerapid.com"></SponzCard></motion.div>
+                        <motion.div {...HeadAnimation("up", 0.1)}><SponzCard photo={dwart} link="https://dwartindustries.com/"></SponzCard></motion.div>
                         <motion.div {...HeadAnimation("up", 0.1)}><SponzCard photo={autodesk} link="https://www.autodesk.com/in?mktvar002=afc_in_nmpi_ppc&AID=13084956&PID=8206971&gclsrc=3p.ds&ds_rl=1232455&ds_rl=1232461&ds_rl=1233896&gclid=a415b36419b312da0589d5fad647a89c&gclsrc=3p.ds&ds_rl=1232455&ds_rl=1232461&ds_rl=1233896&&cjevent=a415b36419b312da0589d5fad647a89c&click_id=a415b36419b312da0589d5fad647a89c&gclid=a415b36419b312da0589d5fad647a89c&gclsrc=3p.ds&msclkid=a415b36419b312da0589d5fad647a89c"></SponzCard></motion.div>
                         <motion.div {...HeadAnimation("up", 0.1)}><SponzCard photo={pcb} link="https://www.pcbpower.com/"></SponzCard></motion.div>
                         <motion.div {...HeadAnimation("up", 0.1)}><SponzCard photo={speedacc} link=""></SponzCard></motion.div>
