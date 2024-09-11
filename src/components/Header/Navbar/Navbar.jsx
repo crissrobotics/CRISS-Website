@@ -64,6 +64,9 @@ export default function Navbar({ color }) {
             <li>
               <NavLink to="/alumni" activeclassname="active">Alumni</NavLink>
             </li>
+            <li>
+              <NavLink to="/events" activeclassname="active">Events</NavLink>
+            </li>
           </ul>
         </div>
 
@@ -92,6 +95,9 @@ export default function Navbar({ color }) {
             </li>
             <li>
               <NavLink to="/alumni" activeclassname="active" onClick={handleHamOpen}>Alumni</NavLink>
+            </li>
+            <li>
+              <NavLink to="/events" activeclassname="active" onClick={handleHamOpen}>Events</NavLink>
             </li>
           </ul>
         </div>

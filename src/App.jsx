@@ -8,6 +8,7 @@ const Sponsorship = lazy(() => import("./components/sponsorship/Sponsorship"));
 const Competitions = lazy(() => import("./components/competitions/Competitions"));
 import Loader from "./components/Loader/Loader";
 const Developer = lazy(() => import("./components/Developer/Developer"));
+const Events = lazy(() => import("./components/Events/Events"));
 
 
 
@@ -35,6 +36,7 @@ function App() {
                       <Route path="/team" element={<Team />} />
                       <Route path="/alumni" element={<Alumni />} />
                       <Route path="/developers" element={<Developer />} />
+                      <Route path="/events" element={<Events />} />
                   </Routes>
               </Suspense>
           )}

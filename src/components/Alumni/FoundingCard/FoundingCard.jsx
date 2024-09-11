@@ -11,6 +11,18 @@ export default function FoundingCard({ profile, name, para1, para2, para3, para4
         setIsModalOpen(!isModalOpen);
     };
 
+    useEffect(() => {
+        if (isModalOpen) {
+            document.body.style.overflow = "hidden";
+        } else {
+            document.body.style.overflow = "auto";
+        }
+        
+        return () => {
+            document.body.style.overflow = "auto";
+        };
+    }, [isModalOpen]);
+
     return (
         <>
             <motion.div {...HeadAnimation("up", 0.1)} >
