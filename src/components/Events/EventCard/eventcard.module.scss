@@ -111,24 +111,24 @@
     }
 }
 
-@media(max-width: 500px) {
+// @media(max-width: 500px) {
 
-    .card {
-        display: none;
-    }
+//     .card {
+//         display: none;
+//     }
 
-    .mobileCard {
-        display: block;
-        width: 75vw;
-        height: fit-content;
+//     .mobileCard {
+//         display: block;
+//         width: 75vw;
+//         height: fit-content;
     
-        .imgContainer {
-            height: 370px;
-            width: 75vw;
-        }
+//         .imgContainer {
+//             height: 370px;
+//             width: 75vw;
+//         }
     
-        .registerButton {
-            width: 75vw;
-        }
-    }
-}
+//         .registerButton {
+//             width: 75vw;
+//         }
+//     }
+// }
