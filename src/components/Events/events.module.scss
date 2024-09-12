@@ -58,6 +58,8 @@ header {
 @media(max-width: 1000px) {
 
     .main {
+        
+        padding-top: 1.5rem;
 
         .eventContainer {
             gap: 6vw;
@@ -72,6 +74,14 @@ header {
         .eventContainer {
             flex-wrap: wrap;
         }
+    }
+}
+
+
+@media(max-width: 600px){
+
+    .main{
+        padding-top:1rem;
     }
 }
 
