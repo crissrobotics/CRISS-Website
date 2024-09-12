@@ -13,7 +13,7 @@
             border-radius: 14px 0 0 0;
             height: 100%;
             width: 100%;
-            object-fit: cover;
+            object-fit:cover;
         }
     }
 
@@ -98,15 +98,15 @@
 @media(max-width: 1000px) {
 
     .card {
-        width: 220px;
+        width: 250px;
     
         .imgContainer {
-            height: 350px;
-            width: 220px;
+            height: 370px;
+            width: 250px;
         }
     
         .registerButton {
-            width: 220px;
+            width: 250px;
         }
     }
 }

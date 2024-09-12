@@ -5,8 +5,12 @@ import { Helmet } from 'react-helmet';
 import Navbar from "../Header/Navbar/Navbar";
 import TransitionEffect from "../Header/TransitionEffect/TransitionEffect";
 import Footer from "../Footer/Footer";
-import EventCrad from "./EventCard/EventCard";
-import pic from "../../assets/images/Events/fifa.png";
+import EventCard from "./EventCard/EventCard";
+import fifa from "../../assets/images/Events/fifa.png";
+import shuttle from "../../assets/images/Events/shuttle.png";
+import bgmi from "../../assets/images/Events/bgmi.jpg";
+import background from "../../assets/images/Events/backgro.png";
+import logo from "../../assets/images/Events/bosmlogo.png";
 
 export default function Events() {
 
@@ -17,22 +21,24 @@ export default function Events() {
             </Helmet>
             <TransitionEffect></TransitionEffect>
             <header>
-                <Navbar color="#00275B" />
+                <Navbar color="black" />
             </header>
-            <main className={styles.main}>
-                <h2>BOSM<span>'24</span></h2>
+            <main className={styles.main} style={{ backgroundImage: `url(${background})` }}>
+                <img src={logo} className={styles.bosmlogo} ></img>
+                {/* <h2><span>BOSM '24</span></h2> */}
                 <div className={styles.eventContainer}>
-                    <EventCrad
-                        eventImg={pic}
-                        form=""
+                    <EventCard
+                        eventImg={shuttle}
+                        form="https://docs.google.com/forms/d/e/1FAIpQLSdigHGPHTDPRmBiatYWamBRLo_9lcrxUUvCBqcbmwnOzR4NLg/viewform"
                     />
-                    <EventCrad
-                        eventImg={pic}
-                        form=""
+                    <EventCard
+                        eventImg={fifa}
+                        form="https://forms.gle/jgGWzk2Nw52wp6969"
+
                     />
-                    <EventCrad
-                        eventImg={pic}
-                        form=""
+                    <EventCard
+                        eventImg={bgmi}
+                        form="https://docs.google.com/forms/d/e/1FAIpQLSd2m0-bjOJEGAiHiKCFBjWQeIcsrCEKONP3e2ABPLkKIF2dyg/viewform"
                     />
                 </div>
             </main>
@@ -40,3 +46,5 @@ export default function Events() {
         </>
     )
 }
+
+//color="#00275B"
