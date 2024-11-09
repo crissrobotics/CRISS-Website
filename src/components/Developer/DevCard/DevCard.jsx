@@ -1,15 +1,42 @@
-import React from "react";
+import React, { useState } from "react";
 import styles from "./devcard.module.scss";
 import { motion } from "framer-motion";
 import { HeadAnimation } from "../../Header/Motion/Motion";
 
-export default function DevCard({ profile, name, dev, linkedin, github, insta}) {
+export default function DevCard({ profile, name, dev, linkedin, github, insta }) {
+
+    const [isLoaded, setIsLoaded] = useState(false);
 
     return (
         <motion.div {...HeadAnimation("up", 0.1)} >
             <div className={styles.devCard}>
-                <div className={styles.imgContainer}>
-                    <img src={profile}></img>
+                <div className={styles.imgContainer} style={{ position: "relative" }}>
+                    {!isLoaded && (
+                        <div
+                            style={{
+                                backgroundColor: "#e0e0e0",
+                                width: "100%",
+                                height: "100%",
+                                position: "absolute",
+                                top: 0,
+                                left: 0,
+                            }}
+                        />
+                    )}
+                    <img
+                        src={profile}
+                        alt={name}
+                        onLoad={() => setIsLoaded(true)}
+                        style={{
+                            opacity: isLoaded ? 1 : 0,
+                            transition: "opacity 0.1s ease-in-out",
+                            width: "100%",
+                            height: "100%",
+                            objectFit: "cover",
+                            position: "relative",
+                            zIndex: 1,
+                        }}
+                    />
                 </div>
                 <div className={styles.details}>
                     <div className={styles.name}>{name}</div>

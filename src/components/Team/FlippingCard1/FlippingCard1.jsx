@@ -6,6 +6,7 @@ import { HeadAnimation } from "../../Header/Motion/Motion";
 
 export default function FlippingCard1({ profile, name, position, email, website, dept }) {
     const [isFlipped, setIsFlipped] = useState(false);
+    const [isLoaded, setIsLoaded] = useState(false);
 
     const handleMouseEnter = () => {
         setIsFlipped(true);
@@ -20,8 +21,34 @@ export default function FlippingCard1({ profile, name, position, email, website,
             <div className="flipCard1">
                 <ReactCardFlip isFlipped={isFlipped} flipDirection="horizontal">
                     <div className="front" key="front" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
-                        <div className="imgContainer">
-                            <img src={profile}></img>
+                        <div className="imgContainer" style={{ position: "relative" }}>
+                            {!isLoaded && (
+                                <div
+                                    style={{
+                                        backgroundColor: "#e0e0e0",
+                                        width: "100%",
+                                        height: "100%",
+                                        borderRadius: "50%",
+                                        position: "absolute",
+                                        top: 0,
+                                        left: 0,
+                                    }}
+                                />
+                            )}
+                            <img
+                                src={profile}
+                                alt={name}
+                                onLoad={() => setIsLoaded(true)}
+                                style={{
+                                    opacity: isLoaded ? 1 : 0,
+                                    transition: "opacity 0.1s ease-in-out",
+                                    width: "100%",
+                                    height: "100%",
+                                    objectFit: "cover",
+                                    position: "relative",
+                                    zIndex: 1,
+                                }}
+                            />
                         </div>
                         <div className="name">{name}</div>
                     </div>
