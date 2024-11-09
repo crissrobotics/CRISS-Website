@@ -1,5 +1,6 @@
 import React, { lazy, Suspense, useState, useEffect } from "react";
 import { Routes, Route } from "react-router-dom";
+import ReactGA from "react-ga4";
 
 const Team = lazy(() => import("./components/Team/Team"));
 import Home from "./components/Home/Home";
@@ -10,7 +11,7 @@ import Loader from "./components/Loader/Loader";
 const Developer = lazy(() => import("./components/Developer/Developer"));
 // const Events = lazy(() => import("./components/Events/Events"));
 
-
+ReactGA.initialize("G-N42MZLRJ3F");
 
 function App() {
   const [showLoader, setShowLoader] = useState(true);
