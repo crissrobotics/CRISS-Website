@@ -252,6 +252,8 @@ import navyamgoyal from "../../assets/images/Team/2023/Management/navyamgoyal.we
 import aditiagarwal from "../../assets/images/Team/2023/Management/aditiagarwal.webp";
 import advaitshukla from "../../assets/images/Team/2022/Management/advaitshukla.webp";
 import deepaksaini from "../../assets/images/Team/2022/Management/deepaksaini.webp";
+import mansimittal from "../../assets/images/Team/2023/Management/mansimittal.webp";
+import unnatigoyal from "../../assets/images/Team/2023/Management/unnatigoyal.webp";
 import shivtiwari from "../../assets/images/Team/2022/Management/shivtiwari.webp";
 import kashishbansal from "../../assets/images/Team/2023/Management/kashishbansal.webp";
 import agrimgupta from "../../assets/images/Team/2023/Management/agrimgupta.webp";
@@ -278,7 +280,7 @@ export const ManagementTeam = [
         batch: "2022"
     },
     {
-        id: "24",
+        id: "26",
         name: "Shiv Tiwari",
         img: shivtiwari,
         position: "Member",
@@ -325,6 +327,26 @@ export const ManagementTeam = [
         linkedin: "https://www.linkedin.com/in/vanshika-agarwal-7a4535291",
         github: null,
         insta: "https://www.instagram.com/vanshika_agarwal_17?igsh=MWIwZXo0bnRsM2R5bA==",
+        batch: "2023"
+    },
+    {
+        id: "28",
+        name: "Mansi Mittal",
+        img: mansimittal,
+        position: "Member",
+        linkedin: "https://www.linkedin.com/in/mansi-mittal-0742bb2b1?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+        github: null,
+        insta: "https://www.instagram.com/m_mittal14/",
+        batch: "2023"
+    },
+    {
+        id: "29",
+        name: "Unnati Goyal",
+        img: unnatigoyal,
+        position: "Member",
+        linkedin: "http://linkedin.com/in/unnati-goyal-b124a224a",
+        github: null,
+        insta: "https://www.instagram.com/__unnati.goyal__/",
         batch: "2023"
     },
     {
@@ -488,7 +510,7 @@ export const ManagementTeam = [
         batch: "2023"
     },
     {
-        id: "88",
+        id: "27",
         name: "Arnav Garg",
         img: arnavgarg,
         position: "Member",
