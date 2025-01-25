@@ -1,0 +1,27 @@
+header {
+    height: 8rem;
+
+    @media screen and (max-width: 1000px) {
+        height: 7rem;
+    }
+}
+
+.ircpage {
+    width: 100%;
+}
+
+.infoSection {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+@media(max-width: 600px) {
+    .infoSection {
+        margin-top: 2.2rem;
+        margin-bottom: 2.2rem;
+        gap: 15px;
+    }
+}
