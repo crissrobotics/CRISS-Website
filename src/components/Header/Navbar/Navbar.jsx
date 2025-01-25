@@ -53,6 +53,9 @@ export default function Navbar({ color }) {
               <NavLink to="/" activeclassname="active">Home</NavLink>
             </li>
             <li>
+              <NavLink to="/irc" activeclassname="active">IRC</NavLink>
+            </li>
+            <li>
               <NavLink to="/sponsorship" activeclassname="active">Sponsorship</NavLink>
             </li>
             <li>
@@ -83,6 +86,9 @@ export default function Navbar({ color }) {
           <ul className="ham-list">
             <li>
               <NavLink to="/" activeclassname="active" onClick={handleHamOpen}>Home</NavLink>
+            </li>
+            <li>
+              <NavLink to="/irc" activeclassname="active" onClick={handleHamOpen}>IRC</NavLink>
             </li>
             <li>
               <NavLink to="/sponsorship" activeclassname="active" onClick={handleHamOpen}>Sponsorship</NavLink>
