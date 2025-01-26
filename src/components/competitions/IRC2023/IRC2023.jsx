@@ -6,7 +6,7 @@ export default function IRC2023() {
 
     return (
         <div className={styles.The2023Container}>
-            <h2>IRC<span>2023</span></h2>
+            <h2>IRC<span>Finals</span></h2>
             <div className={styles.details}>
                 <div className={styles.imgContainer}><img src={aboutPic}></img></div>
                 <p>Our team had a remarkable showing at the International Rover Challenge (IRC), 2024, held in Coimbatore. With participation from over 22 international and national teams and more than 1200 participants, the competition was fierce. We proudly unveiled '<span>Eklavya</span>' , our latest creation, which surpassed teams from renowned institutions like IIT Bombay and IIT Roorkee. Our achievements include: Best Business Plan Award (<span>Space Entrepreneur Award</span>) 2nd position in Project Implementation and Management (<span>PIMA</span>) 10th Rank overall at the IRC.
