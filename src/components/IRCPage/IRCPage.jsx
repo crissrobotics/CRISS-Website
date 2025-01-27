@@ -88,7 +88,7 @@ export default function IRCPage() {
   return (
     <>
       <Helmet>
-        <title>Criss Robotics | Alumni</title>
+        <title>Criss Robotics | IRC</title>
       </Helmet>
       <TransitionEffect></TransitionEffect>
       <header>
