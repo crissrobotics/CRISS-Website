@@ -61,7 +61,7 @@ export const BoardTeam = [
         id: "2",
         name: "Aarya Jindal",
         img: b2,
-        position1: "Video Produnction Head",
+        position1: "Video Production Head",
         position2: "Web Dev Head",
         position3: null,
         linkedin: "https://www.linkedin.com/in/aarya-jindal/",
