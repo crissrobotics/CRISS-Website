@@ -245,6 +245,7 @@ import unnatigoyal from "../../assets/images/Team/2023/Management/unnatigoyal.we
 import shivtiwari from "../../assets/images/Team/2022/Management/shivtiwari.webp";
 import kashishbansal from "../../assets/images/Team/2023/Management/kashishbansal.webp";
 import agrimgupta from "../../assets/images/Team/2023/Management/agrimgupta.webp";
+import swapnil from "../../assets/images/Team/2023/Management/swapnil.webp";
 
 export const ManagementTeam = [
     {
@@ -457,16 +458,6 @@ export const ManagementTeam = [
         insta: "https://www.instagram.com/arnav.sahoo02?igsh=MXBlYzJkcXBmYmduaA==",
         batch: "2023"
     },
-    // {
-    //     id: "16",
-    //     name: "Khushi Bodhwani",
-    //     img: khushibodhwani,
-    //     position: "Member",
-    //     linkedin: "https://www.linkedin.com/in/khushi-bodhwani-852158292?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
-    //     github: "https://github.com/Khushi-loop",
-    //     insta: "https://www.instagram.com/___kokonuts___/?igsh=MW53Z2x0ZXA4aHpoZw%3D%3D",
-    //     batch: "2023"
-    // },
     {
         id: "18",
         name: "Bhoomi Motihar",
@@ -555,6 +546,16 @@ export const ManagementTeam = [
         linkedin: "https://www.linkedin.com/in/shrey-thakkar-27867228b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
         github: null,
         insta: "https://www.instagram.com/shretz_t20?igsh=cW5ydDQ4b2Z2NHp1",
+        batch: "2023"
+    },
+        {
+        id: "30",
+        name: "Swapnil Chattopadhyay",
+        img: swapnil,
+        position: "Member",
+        linkedin: "https://www.linkedin.com/in/swapnil-chattopadhyay-9b2099282/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+        github: null,
+        insta: "https://www.instagram.com/swapnil.chattopadhyay/profilecard/?igsh=ZHRxcmZtd2xvbnk3",
         batch: "2023"
     },
    
