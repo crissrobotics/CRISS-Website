@@ -219,7 +219,7 @@ export const BoardTeam = [
 import manaschoudhary from "../../assets/images/Team/2023/Management/manaschoudhary.webp";
 import aayushdhingra from "../../assets/images/Team/2023/Management/aayushdhingra.webp";
 import vanshikaagarwal from "../../assets/images/Team/2023/Management/vanshikaagarwal.webp";
-import yashwanthvarma from "../../assets/images/Team/2023/Management/yashwanthvarma.webp";
+// import yashwanthvarma from "../../assets/images/Team/2023/Management/yashwanthvarma.webp";
 import aishwarya from "../../assets/images/Team/2023/Management/aishwarya.webp";
 import lakshayjain from "../../assets/images/Team/2023/Management/lakshayjain.webp";
 import aditikamal from "../../assets/images/Team/2023/Management/aditikamal.webp";
@@ -235,13 +235,13 @@ import bhoomimotihar from "../../assets/images/Team/2023/Management/bhoomimotiha
 import nimitgarg from "../../assets/images/Team/2023/Management/nimitgarg.webp";
 import arnavgarg from "../../assets/images/Team/2023/Management/arnavgarg.webp";
 import govindbhageria from "../../assets/images/Team/2023/Management/govindbhageria.webp";
-import rushabhshah from "../../assets/images/Team/2023/Management/rushabhshah.webp";
+// import rushabhshah from "../../assets/images/Team/2023/Management/rushabhshah.webp";
 import navyamgoyal from "../../assets/images/Team/2023/Management/navyamgoyal.webp";
-import aditiagarwal from "../../assets/images/Team/2023/Management/aditiagarwal.webp";
+// import aditiagarwal from "../../assets/images/Team/2023/Management/aditiagarwal.webp";
 import advaitshukla from "../../assets/images/Team/2022/Management/advaitshukla.webp";
 import deepaksaini from "../../assets/images/Team/2022/Management/deepaksaini.webp";
 import mansimittal from "../../assets/images/Team/2023/Management/mansimittal.webp";
-import unnatigoyal from "../../assets/images/Team/2023/Management/unnatigoyal.webp";
+// import unnatigoyal from "../../assets/images/Team/2023/Management/unnatigoyal.webp";
 import shivtiwari from "../../assets/images/Team/2022/Management/shivtiwari.webp";
 import kashishbansal from "../../assets/images/Team/2023/Management/kashishbansal.webp";
 import agrimgupta from "../../assets/images/Team/2023/Management/agrimgupta.webp";
@@ -338,26 +338,26 @@ export const ManagementTeam = [
         insta: "https://www.instagram.com/m_mittal14/",
         batch: "2023"
     },
-    {
-        id: "29",
-        name: "Unnati Goyal",
-        img: unnatigoyal,
-        position: "Member",
-        linkedin: "http://linkedin.com/in/unnati-goyal-b124a224a",
-        github: null,
-        insta: "https://www.instagram.com/__unnati.goyal__/",
-        batch: "2023"
-    },
-    {
-        id: "6",
-        name: "Yashwanth Varma",
-        img: yashwanthvarma,
-        position: "Member",
-        linkedin: "https://www.linkedin.com/in/yashwanth-varma-dandu-2b3608292?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-        github: null,
-        insta: "https://www.instagram.com/yashwanth2118?igsh=eHB5cTNzaTdtdTVh",
-        batch: "2023"
-    },
+    // {
+    //     id: "29",
+    //     name: "Unnati Goyal",
+    //     img: unnatigoyal,
+    //     position: "Member",
+    //     linkedin: "http://linkedin.com/in/unnati-goyal-b124a224a",
+    //     github: null,
+    //     insta: "https://www.instagram.com/__unnati.goyal__/",
+    //     batch: "2023"
+    // },
+    // {
+    //     id: "6",
+    //     name: "Yashwanth Varma",
+    //     img: yashwanthvarma,
+    //     position: "Member",
+    //     linkedin: "https://www.linkedin.com/in/yashwanth-varma-dandu-2b3608292?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    //     github: null,
+    //     insta: "https://www.instagram.com/yashwanth2118?igsh=eHB5cTNzaTdtdTVh",
+    //     batch: "2023"
+    // },
     {
         id: "7",
         name: "Aishwarya",
@@ -488,16 +488,16 @@ export const ManagementTeam = [
         insta: "https://www.instagram.com/go_withthe_vind?igsh=MXR3dGYxeWQ5MXA4MQ==",
         batch: "2023"
     },
-    {
-        id: "21",
-        name: "Rushabh Shah",
-        img: rushabhshah,
-        position: "Member",
-        linkedin: null,
-        github: null,
-        insta: "https://www.instagram.com/_rushabh_26?igsh=ZXhmdDR5d2IzNHV1&utm_source=qr",
-        batch: "2023"
-    },
+    // {
+    //     id: "21",
+    //     name: "Rushabh Shah",
+    //     img: rushabhshah,
+    //     position: "Member",
+    //     linkedin: null,
+    //     github: null,
+    //     insta: "https://www.instagram.com/_rushabh_26?igsh=ZXhmdDR5d2IzNHV1&utm_source=qr",
+    //     batch: "2023"
+    // },
     {
         id: "27",
         name: "Arnav Garg",
@@ -518,16 +518,16 @@ export const ManagementTeam = [
         insta: "https://www.instagram.com/navyamgoyal?igsh=MWhlMXIyM24ybmtoYg==",
         batch: "2023"
     },
-    {
-        id: "23",
-        name: "Aditi Agarwal",
-        img: aditiagarwal,
-        position: "Member",
-        linkedin: "https://www.linkedin.com/in/aditi-agarwal-6012142a3?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-        github: null,
-        insta: "https://www.instagram.com/aditiag_07?igsh=aHIyNTQ4aGFqejE0",
-        batch: "2023"
-    },
+    // {
+    //     id: "23",
+    //     name: "Aditi Agarwal",
+    //     img: aditiagarwal,
+    //     position: "Member",
+    //     linkedin: "https://www.linkedin.com/in/aditi-agarwal-6012142a3?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    //     github: null,
+    //     insta: "https://www.instagram.com/aditiag_07?igsh=aHIyNTQ4aGFqejE0",
+    //     batch: "2023"
+    // },
     {
         id: "24",
         name: "Kashish Bansal",
