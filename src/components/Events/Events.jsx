@@ -36,7 +36,7 @@ export default function Events() {
                     /> */}
                     <EventCard
                         eventImg={robowars}
-                        form="https://forms.gle/jgGWzk2Nw52wp6969"
+                        form="https://docs.google.com/forms/d/e/1FAIpQLSffKaLz3AE1OKxQfgpHb10iJrw0eTcK_BqO7z9BjqCwVPjC8w/viewform"
                         eventImg2={robowars2}
                     />
                     {/* <EventCard
