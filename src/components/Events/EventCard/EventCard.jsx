@@ -2,7 +2,7 @@ import React from "react";
 import styles from "./eventcard.module.scss";
 import Tilt from 'react-parallax-tilt';
 
-export default function EventCard({ eventImg, form }) {
+export default function EventCard({ eventImg, form, eventImg2}) {
 
     return (
         <>
@@ -18,7 +18,7 @@ export default function EventCard({ eventImg, form }) {
             </Tilt>
             <div className={styles.mobileCard}>
                 <div className={styles.imgContainer}>
-                    <img src={eventImg} ></img>
+                    <img src={eventImg2} ></img>
                 </div>
                 <button className={styles.registerButton}>
                     <a href={form} target="_blank">Register Now!</a>

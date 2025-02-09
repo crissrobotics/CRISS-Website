@@ -10,20 +10,20 @@ header {
     // background-color: #F1F8FF;
     height: fit-content;
     min-height: calc(100vh - 8rem);
-    padding-top: 3rem;
-    padding-bottom: 6rem;
+    // padding-top: 6rem;
+    // padding-bottom: 6rem;
     width: 100%;
     display: flex;
-    flex-direction: column;
+    // flex-direction: column;
     justify-content: center;
     align-items: center;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 
-    .bosmlogo{
-        height:150px;
-    }
+    // .bosmlogo{
+    //     height:150px;
+    // }
 
     // h2 {
     //     text-align: center;
@@ -50,49 +50,50 @@ header {
         max-width: 1200px;
         display: flex;
         flex-direction: row;
-        gap: 15%;
+        // gap: 15%;
         justify-content: center;
+        align-items: center;
     }
 }  
 
-@media(max-width: 1000px) {
+// @media(max-width: 1000px) {
 
-    .main {
+//     .main {
         
-        padding-top: 1.5rem;
+//         padding-top: 1.5rem;
 
-        .eventContainer {
-            gap: 6vw;
-        }
-    }
-}
+//         .eventContainer {
+//             gap: 6vw;
+//         }
+//     }
+// }
 
-@media(max-width: 900px) {
+// @media(max-width: 900px) {
 
-    .main {
+//     .main {
 
-        .eventContainer {
-            flex-wrap: wrap;
-        }
-    }
-}
+//         .eventContainer {
+//             flex-wrap: wrap;
+//         }
+//     }
+// }
 
 
-@media(max-width: 600px){
+// @media(max-width: 600px){
 
-    .main{
-        padding-top:1rem;
-    }
-}
+//     .main{
+//         padding-top:1rem;
+//     }
+// }
 
-@media(max-width: 500px) {
+// @media(max-width: 500px) {
 
-    .main {
+//     .main {
 
-        .eventContainer {
-            flex-wrap: nowrap;
-            flex-direction: column;
-            row-gap: 2rem;
-        }
-    }
-}
+//         .eventContainer {
+//             flex-wrap: nowrap;
+//             flex-direction: column;
+//             row-gap: 2rem;
+//         }
+//     }
+// }
