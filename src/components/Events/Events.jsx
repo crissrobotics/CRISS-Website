@@ -20,7 +20,7 @@ export default function Events() {
     return (
         <>
             <Helmet>
-                <title>Criss Robotics | Events</title>
+                <title>Criss Robotics | Robowars</title>
             </Helmet>
             <TransitionEffect></TransitionEffect>
             <header>
