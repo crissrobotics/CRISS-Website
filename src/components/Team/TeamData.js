@@ -732,16 +732,6 @@ export const PayloadTeam = [
         insta: "https://www.instagram.com/shiv_ygxsh_10?igsh=d3RnZzBibjlhNWIw&utm_source=qr",
         batch: "2023"
     },
-    {
-        id: "6",
-        name: "Ashwin Singh",
-        img: p6,
-        position: "Member",
-        linkedin: null,
-        github: null,
-        insta: null,
-        batch: "2023"
-    }
 ];
 
 
