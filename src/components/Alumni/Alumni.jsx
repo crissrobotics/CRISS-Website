@@ -6,7 +6,7 @@ import Navbar from "../Header/Navbar/Navbar";
 import TransitionEffect from "../Header/TransitionEffect/TransitionEffect";
 import AlumniCard from "./AlumniCard/AlumniCard";
 import Footer from "../Footer/Footer";
-import { Alumnis21, Alumnis20, FoundingMembers } from "./alumniData";
+import {Alumnis22, Alumnis21, Alumnis20, FoundingMembers } from "./alumniData";
 import FoundingCard from "./FoundingCard/FoundingCard";
 
 export default function Alumni() {
@@ -25,7 +25,7 @@ export default function Alumni() {
                     <h6>Founding Members</h6>
                     <div className={styles.members}>
                         {FoundingMembers.map(data => (
-                            <FoundingCard
+                         <FoundingCard
                                 key={data.id}
                                 name={data.name}
                                 profile={data.img}
@@ -38,9 +38,10 @@ export default function Alumni() {
                             />
                         ))}
                     </div>
-                    <h6>Batch of 2020</h6>
+
+                    <h6>Batch of 2022</h6>
                     <div className={styles.members}>
-                        {Alumnis20.map(data => (
+                        {Alumnis22.map(data => (
                             <AlumniCard
                                 key={data.id}
                                 name={data.name}
@@ -51,9 +52,24 @@ export default function Alumni() {
                             />
                         ))}
                     </div>
+
                     <h6>Batch of 2021</h6>
                     <div className={styles.members}>
                         {Alumnis21.map(data => (
+                            <AlumniCard
+                                key={data.id}
+                                name={data.name}
+                                profile={data.img}
+                                position={data.position}
+                                linkedin={data.linkedin}
+                                team={data.team}
+                            />
+                        ))}
+                    </div>
+
+                    <h6>Batch of 2020</h6>
+                    <div className={styles.members}>
+                        {Alumnis20.map(data => (
                             <AlumniCard
                                 key={data.id}
                                 name={data.name}

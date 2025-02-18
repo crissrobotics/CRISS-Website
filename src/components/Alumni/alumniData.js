@@ -336,7 +336,140 @@ export const Alumnis21 = [
     }
 ]
 
+import l1 from "../../assets/images/Team/2022/Boards/l1.webp";
+import b8 from "../../assets/images/Team/2022/Boards/b8.webp";
+import b9 from "../../assets/images/Team/2022/Boards/b9.webp";
+import b10 from "../../assets/images/Team/2022/Boards/b10.webp";
+import b11 from "../../assets/images/Team/2022/Boards/b11.webp";
+import b12 from "../../assets/images/Team/2022/Boards/b12.webp";
+import b13 from "../../assets/images/Team/2022/Boards/b13.webp";
+import b14 from "../../assets/images/Team/2022/Boards/b14.webp";
+import b15 from "../../assets/images/Team/2022/Boards/b15.webp";
+import s1 from "../../assets/images/Team/2022/Software/s1.webp";
+import m1 from "../../assets/images/Team/2022/Mechanical/m1.webp";
+import e1 from "../../assets/images/Team/2022/Electrical/e1.webp";
+import p1 from "../../assets/images/Team/2022/Payload/p1.webp";
 
+export const Alumnis22 = [
+
+    {
+        id: "1",
+        name: "Nikhil Handa",
+        img: l1,
+        position: "Team Captain",
+        linkedin: "https://www.linkedin.com/in/nikhil-handa-6b42b2257/",
+        team: "",
+        batch: "2022"
+    },
+    {
+        id: "8",
+        name: "Jash Karani",
+        img: b8,
+        position: "Software Lead",
+        linkedin: "https://www.linkedin.com/in/jash-karani-247996173/",
+        team: "",
+        batch: "2022"
+    },
+    {
+        id: "9",
+        name: "Ritvik Mongia",
+        img: b9,
+        position: "Software Integration Engineer",
+        linkedin: "https://www.linkedin.com/in/ritvikmongia/",
+        team: "",
+        batch: "2022"
+     },
+     {
+        id: "10",
+        name: "Amarthya Guru",
+        img: b10,
+        position: "Mechanical Lead",
+        linkedin: "https://www.linkedin.com/in/amarthya-guru/",
+        team: "",
+        batch: "2022"
+     },
+     {
+        id: "11",
+        name: "Sanjeiv Suresh ",
+        img: b11,
+        position: "Mechanical Integration Engineer",
+        linkedin: "https://www.linkedin.com/in/sanjeiv-suresh-460524255?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+        team: "",
+        batch: "2022"
+    },
+    {
+        id: "12",
+        name: "HARSHITH REDDY",
+        img: b12,
+        position: "Electrical Lead",
+        linkedin: "https://www.linkedin.com/in/harshith-reddy-358275312",
+        team: "",
+        batch: "2022"
+    },
+    {
+        id: "13",
+        name: "Vidyarenu Swamy",
+        img: b13,
+        position: "Electrical Vice Lead",
+        linkedin: "https://www.linkedin.com/in/vidyarenu-swamy-8a4940319?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+        team: "",
+        batch: "2022"
+    },
+    {
+        id: "14",
+        name: "Sohan Pattanayak",
+        img: b14,
+        position: "Payload Lead",
+        linkedin: "https://www.linkedin.com/in/psohanp/",
+        team: "",
+        batch: "2022"
+    },
+    {
+        id: "15",
+        name: "Shubhang Gautam",
+        img: b15,
+        position: "Experimentation Lead",
+        linkedin: "https://www.linkedin.com/in/shubhang-gautam-821b09251/",
+        team: "",
+        batch: "2022"
+    },
+    {
+        id: "1",
+        name: "Abhimanyu Bhowmik",
+        img: s1,
+        position: "Core Engineer",
+        linkedin: "https://www.linkedin.com/in/abhimanyu-bhowmik-734326256/",
+        team: "",
+        batch: "2022"
+    },
+    {
+        id: "1",
+        name: "Shivang Shandilya",
+        img: m1,
+        position: "Core Engineer",
+        linkedin: null,
+        team: "",
+        batch: "2022"
+    },  
+    {
+        id: "1",
+        name: "Pranav Sud",
+        img: e1,
+        position: "Core Engineer",
+        linkedin: "https://www.linkedin.com/in/pranav-sud-3a136b285?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+        team: "",
+        batch: "2022"
+    },
+    {
+        id: "1",
+        name: "Sahaj Sethi",
+        img: p1,
+        position: "Core Engineer",
+        linkedin: "https://www.linkedin.com/in/sahaj-sethi-67568a201",
+        team: "",
+        batch: "2022"
+    },      
+];
 
 import fd1 from "../../assets/images/Alumni/Founding/fd1.webp";
 import fd2 from "../../assets/images/Alumni/Founding/fd2.webp";
