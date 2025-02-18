@@ -607,6 +607,16 @@ export const MechanicalTeam = [
         batch: "2022"
     },
     {
+        id: "13",
+        name: "Mukil J.K",
+        img: m13,
+        position: "Design Engineer",
+        linkedin: "https://www.linkedin.com/in/mukiljk?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+        github: null,
+        insta: null,
+        batch: "2023"
+    },
+    {
         id: "10",
         name: "Shrey Thakkar",
         img: m10,
@@ -614,16 +624,6 @@ export const MechanicalTeam = [
         linkedin: "https://www.linkedin.com/in/shrey-thakkar-27867228b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
         github: null,
         insta: "https://www.instagram.com/shretz_t20?igsh=cW5ydDQ4b2Z2NHp1",
-        batch: "2023"
-    },
-    {
-        id: "13",
-        name: "Mukil J.K",
-        img: m13,
-        position: "Member",
-        linkedin: "https://www.linkedin.com/in/mukiljk?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
-        github: null,
-        insta: null,
         batch: "2023"
     }
 ]
