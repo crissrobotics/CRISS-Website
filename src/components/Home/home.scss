@@ -118,6 +118,8 @@
 @media(max-width: 600px) {
 
   .heroContainer {
+    height: 100lvh;
+
     .heading {
       h1 {
         font-size: 80px;
