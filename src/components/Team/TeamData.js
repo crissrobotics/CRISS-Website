@@ -494,14 +494,24 @@ export const ManagementTeam = [
         insta: "https://www.instagram.com/shretz_t20?igsh=cW5ydDQ4b2Z2NHp1",
         batch: "2023"
     },
-        {
-        id: "30",
-        name: "Swapnil Chattopadhyay",
-        img: swapnil,
+    //     {
+    //     id: "30",
+    //     name: "Swapnil Chattopadhyay",
+    //     img: swapnil,
+    //     position: "Member",
+    //     linkedin: "https://www.linkedin.com/in/swapnil-chattopadhyay-9b2099282/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+    //     github: null,
+    //     insta: "https://www.instagram.com/swapnil.chattopadhyay/profilecard/?igsh=ZHRxcmZtd2xvbnk3",
+    //     batch: "2023"
+    // },
+    {
+        id: "3",
+        name: "Manas Choudhary",
+        img: manaschoudhary,
         position: "Member",
-        linkedin: "https://www.linkedin.com/in/swapnil-chattopadhyay-9b2099282/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
-        github: null,
-        insta: "https://www.instagram.com/swapnil.chattopadhyay/profilecard/?igsh=ZHRxcmZtd2xvbnk3",
+        linkedin: "https://www.linkedin.com/in/manas-choudhary-56374028b",
+        github: "https://github.com/ManasChoudhary-01",
+        insta: "https://www.instagram.com/manaschoudhary_?igsh=YTQwZjQ0NmI0OA==",
         batch: "2023"
     },
     {
