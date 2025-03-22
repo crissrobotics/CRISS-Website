@@ -503,16 +503,6 @@ export const ManagementTeam = [
         insta: "https://www.instagram.com/swapnil.chattopadhyay/profilecard/?igsh=ZHRxcmZtd2xvbnk3",
         batch: "2023"
     },
-    {
-        id: "30",
-        name: "Swapnil Chattopadhyay",
-        img: swapnil,
-        position: "Member",
-        linkedin: "https://www.linkedin.com/in/swapnil-chattopadhyay-9b2099282/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
-        github: null,
-        insta: "https://www.instagram.com/swapnil.chattopadhyay/profilecard/?igsh=ZHRxcmZtd2xvbnk3",
-        batch: "2023"
-    },
 ];
 
 
