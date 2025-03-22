@@ -251,6 +251,7 @@ import shivtiwari from "../../assets/images/Team/2022/Management/shivtiwari.webp
 import kashishbansal from "../../assets/images/Team/2023/Management/kashishbansal.webp";
 import agrimgupta from "../../assets/images/Team/2023/Management/agrimgupta.webp";
 import swapnil from "../../assets/images/Team/2023/Management/swapnil.webp";
+import hardik from "../../assets/images/Team/2023/Management/hardik.jpg";
 
 export const ManagementTeam = [
     {
@@ -503,7 +504,16 @@ export const ManagementTeam = [
         insta: "https://www.instagram.com/swapnil.chattopadhyay/profilecard/?igsh=ZHRxcmZtd2xvbnk3",
         batch: "2023"
     },
-   
+    {
+        id: "31",
+        name: "Hardik Agrawal",
+        img: hardik,
+        position: "Member",
+        linkedin: "https://www.linkedin.com/in/hardik-agrawal-59422329b/",
+        github: null,
+        insta: "https://www.instagram.com/hardikag104/",
+        batch: "2023"
+    }
 ];
 
 
