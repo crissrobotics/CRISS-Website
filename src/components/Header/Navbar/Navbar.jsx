@@ -55,9 +55,9 @@ export default function Navbar({ color }) {
             {/* <li>
               <NavLink to="/irc" activeclassname="active">IRC</NavLink>
             </li> */}
-            <li>
+            {/* <li>
               <NavLink to="/events" activeclassname="active">Robowars</NavLink>
-            </li>
+            </li> */}
             <li>
               <NavLink to="/sponsorship" activeclassname="active">Sponsorship</NavLink>
             </li>
