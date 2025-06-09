@@ -471,6 +471,161 @@ export const Alumnis22 = [
     },      
 ];
 
+import b1 from "../../assets/images/Team/2022/Boards/b1.webp";
+import b2 from "../../assets/images/Team/2022/Boards/b2.webp";
+import b3 from "../../assets/images/Team/2022/Boards/b3.webp";
+import b4 from "../../assets/images/Team/2022/Boards/b4.webp";
+import b5 from "../../assets/images/Team/2022/Boards/b5.webp";
+import b6 from "../../assets/images/Team/2022/Boards/b6.webp";
+import b7 from "../../assets/images/Team/2022/Boards/b7.webp";
+import m6 from "../../assets/images/Team/2023/Mechanical/m6.webp";
+import p6 from "../../assets/images/Team/2023/Payload/p6.webp";
+import e10 from "../../assets/images/Team/2023/Electrical/e10.webp";
+import s2 from "../../assets/images/Team/2023/Software/s2.webp";
+import m2 from "../../assets/images/Team/2023/Mechanical/m2.webp";
+import p5 from "../../assets/images/Team/2023/Payload/p5.webp";
+import e9 from "../../assets/images/Team/2023/Electrical/e9.webp";
+import s8 from "../../assets/images/Team/2023/Software/s8.webp";
+import m5 from "../../assets/images/Team/2023/Mechanical/m5.webp";
+
+export const Alumnis23 = [
+    {
+        id: "1",
+        name: "Moksh Gupta",
+        img: b1,
+        position: "APOGEE Coordinator",
+        linkedin: "https://www.linkedin.com/in/moksh-gupta-b09440249/",
+        team: "management",
+        batch: "2022"
+    },
+    {
+        id: "2",
+        name: "Aarya Jindal",
+        img: b2,
+        position: "Web Dev Head",
+        linkedin: "https://www.linkedin.com/in/aarya-jindal/",
+        team: "management",
+        batch: "2022"
+    },
+    {
+        id: "3",
+        name: "ADITYA THOLE",
+        img: b3,
+        position: "Sponsorship Head",
+        linkedin: "https://www.linkedin.com/in/aditya-thole-a80889269/",
+        team: "management",
+        batch: "2022"
+    },
+    {
+        id: "4",
+        name: "KANAK GUPTA",
+        img: b4,
+        position: "BOSM Coordinator",
+        linkedin: "https://www.linkedin.com/in/kanak-gupta-a6684427b/",
+        team: "management",
+        batch: "2022"
+    },
+    {
+        id: "5",
+        name: "Ayush Singla",
+        img: b5,
+        position: "Business Relations Head",
+        linkedin: "https://www.linkedin.com/in/ayush-singla-370147268?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+        team: "management",
+        batch: "2022"
+    },
+    {
+        id: "6",
+        name: "Shravan Gupta",
+        img: b6,
+        position: "Events and Marketing Head",
+        linkedin: "https://www.linkedin.com/in/shravan-gupta-701b4925a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+        team: "management",
+        batch: "2022"
+    },
+    {
+        id: "7",
+        name: "Vidit Shah",
+        img: m6,
+        position: "Mechanical Lead",
+        linkedin: "https://www.linkedin.com/in/vidit-shah-2198a02aa/",
+        team: "tech",
+        batch: "2023"
+    },
+    {
+        id: "8",
+        name: "Ashwin Singh",
+        img: p6,
+        position: "Payload & Experimentation Lead",
+        linkedin: null,
+        team: "tech",
+        batch: "2023"
+    },
+    {
+        id: "9",
+        name: "Achyuthan Raghavan",
+        img: e10,
+        position: "Electrical Lead",
+        linkedin: "http://www.linkedin.com/in/achyuthan-raghavan-8863402b6",
+        team: "tech",
+        batch: "2023"
+    },
+    {
+        id: "10",
+        name: "Gautham Balachandran",
+        img: s2,
+        position: "Software Lead",
+        linkedin: "https://www.linkedin.com/in/gautham-balachandran-82bab5291",
+        team: "tech",
+        batch: "2023"
+    },
+    {
+        id: "11",
+        name: "Janak Matharu",
+        img: m2,
+        position: "Mechanical Vice Lead",
+        linkedin: "https://in.linkedin.com/in/janaksingh-matharu-1431b2224",
+        team: "tech",
+        batch: "2023"
+    },
+    {
+        id: "12",
+        name: "Charvi Bansal",
+        img: p5,
+        position1: "Payload & Experimentation Vice Lead",
+        linkedin: "https://www.linkedin.com/in/charvi-bansal-3169022bb?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+        team: "tech",
+        batch: "2023"
+    },
+    {
+        id: "13",
+        name: "Arsheya Singh Parmar",
+        img: e9,
+        position: "Electrical Vice Lead",
+        linkedin: null,
+        team: "tech",
+        batch: "2023"
+    },
+    {
+        id: "14",
+        name: "Aryan Chaudhary",
+        img: s8,
+        position: "Software Vice Lead",
+        linkedin: "Aryan Chaudhary",
+        team: "tech",
+        batch: "2023"
+    },
+    {
+        id: "15",
+        name: "Akshay Kumar",
+        img: m5,
+        position: "Research and Development Lead",
+        linkedin: "https://www.linkedin.com/in/akshay-kumar-gururajan-2415592a1?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+        team: "tech",
+        batch: "2023"
+    }
+];
+
 import fd1 from "../../assets/images/Alumni/Founding/fd1.webp";
 import fd2 from "../../assets/images/Alumni/Founding/fd2.webp";
 import fd3 from "../../assets/images/Alumni/Founding/fd3.webp";
