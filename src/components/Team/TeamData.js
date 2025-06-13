@@ -289,7 +289,6 @@ export const BoardTeam = [
         insta: "https://www.instagram.com/akshay_gmsbsjk?igsh=MXg2YXB5bHo1N3Vqdg==",
         team: "tech"
     }
-
 ];
 
 import aditikamal from "../../assets/images/Team/2023/Management/aditikamal.webp";
