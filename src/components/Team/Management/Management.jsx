@@ -9,7 +9,7 @@ export default function Management() {
 
     return (
         <div className="memberContainer">
-            <h6>Batch of 2022</h6>
+            {/* <h6>Batch of 2022</h6>
             <div className="members">
                 {batch2022.map(data => (
                     <TeamCard
@@ -24,7 +24,7 @@ export default function Management() {
                 ))}
             </div>
             <br></br>
-            <br></br>
+            <br></br> */}
             <h6>Batch of 2023</h6>
             <div className="members">
                 {batch2023.map(data => (
