@@ -373,7 +373,7 @@ export const Alumnis22 = [
         batch: "2022"
     },
     {
-        id: "1",
+        id: "2",
         name: "Chaitanya Agrawal",
         img: l2,
         position: "Team Manager",
@@ -382,7 +382,7 @@ export const Alumnis22 = [
         batch: "2022"
     },
     {
-        id: "1",
+        id: "3",
         name: "Moksh Gupta",
         img: b1,
         position: "APOGEE Coordinator",
@@ -391,7 +391,7 @@ export const Alumnis22 = [
         batch: "2022"
     },
     {
-        id: "6",
+        id: "4",
         name: "Shravan Gupta",
         img: b6,
         position: "Events and Marketing Head",
@@ -400,7 +400,7 @@ export const Alumnis22 = [
         batch: "2022"
     },
     {
-        id: "4",
+        id: "5",
         name: "KANAK GUPTA",
         img: b4,
         position: "BOSM Coordinator",
@@ -409,7 +409,7 @@ export const Alumnis22 = [
         batch: "2022"
     },
     {
-        id: "2",
+        id: "6",
         name: "Aarya Jindal",
         img: b2,
         position: "Web Dev Head",
@@ -418,7 +418,7 @@ export const Alumnis22 = [
         batch: "2022"
     },
     {
-        id: "5",
+        id: "7",
         name: "Ayush Singla",
         img: b5,
         position: "Business Relations Head",
@@ -427,7 +427,7 @@ export const Alumnis22 = [
         batch: "2022"
     },
     {
-        id: "3",
+        id: "8",
         name: "ADITYA THOLE",
         img: b3,
         position: "Sponsorship Head",
@@ -436,7 +436,7 @@ export const Alumnis22 = [
         batch: "2022"
     },
     {
-        id: "8",
+        id: "9",
         name: "Jash Karani",
         img: b8,
         position: "Software Lead",
@@ -445,7 +445,7 @@ export const Alumnis22 = [
         batch: "2022"
     },
     {
-        id: "9",
+        id: "10",
         name: "Ritvik Mongia",
         img: b9,
         position: "Software Integration Engineer",
@@ -454,7 +454,7 @@ export const Alumnis22 = [
         batch: "2022"
     },
     {
-        id: "10",
+        id: "11",
         name: "Amarthya Guru",
         img: b10,
         position: "Mechanical Lead",
@@ -463,7 +463,7 @@ export const Alumnis22 = [
         batch: "2022"
     },
     {
-        id: "11",
+        id: "12",
         name: "Sanjeiv Suresh ",
         img: b11,
         position: "Mechanical Integration Engineer",
@@ -472,7 +472,7 @@ export const Alumnis22 = [
         batch: "2022"
     },
     {
-        id: "12",
+        id: "13",
         name: "HARSHITH REDDY",
         img: b12,
         position: "Electrical Lead",
@@ -481,7 +481,7 @@ export const Alumnis22 = [
         batch: "2022"
     },
     {
-        id: "13",
+        id: "14",
         name: "Vidyarenu Swamy",
         img: b13,
         position: "Electrical Vice Lead",
@@ -490,7 +490,7 @@ export const Alumnis22 = [
         batch: "2022"
     },
     {
-        id: "14",
+        id: "15",
         name: "Sohan Pattanayak",
         img: b14,
         position: "Payload Lead",
@@ -499,7 +499,7 @@ export const Alumnis22 = [
         batch: "2022"
     },
     {
-        id: "15",
+        id: "16",
         name: "Shubhang Gautam",
         img: b15,
         position: "Experimentation Lead",
@@ -508,7 +508,7 @@ export const Alumnis22 = [
         batch: "2022"
     },
     {
-        id: "1",
+        id: "17",
         name: "Abhimanyu Bhowmik",
         img: s1,
         position: "Core Engineer",
@@ -517,7 +517,7 @@ export const Alumnis22 = [
         batch: "2022"
     },
     {
-        id: "1",
+        id: "18",
         name: "Shivang Shandilya",
         img: m1,
         position: "Core Engineer",
@@ -526,7 +526,7 @@ export const Alumnis22 = [
         batch: "2022"
     },
     {
-        id: "1",
+        id: "19",
         name: "Pranav Sud",
         img: e1,
         position: "Core Engineer",
@@ -535,7 +535,7 @@ export const Alumnis22 = [
         batch: "2022"
     },
     {
-        id: "1",
+        id: "20",
         name: "Sahaj Sethi",
         img: p1,
         position: "Core Engineer",
@@ -544,7 +544,7 @@ export const Alumnis22 = [
         batch: "2022"
     },
     {
-        id: "1",
+        id: "21",
         name: "Advait Shukla",
         img: advaitshukla,
         position: "Management Team",
@@ -553,7 +553,7 @@ export const Alumnis22 = [
         batch: "2022"
     },
     {
-        id: "2",
+        id: "22",
         name: "Deepak Saini",
         img: deepaksaini,
         position: "Management Team",
@@ -562,7 +562,7 @@ export const Alumnis22 = [
         batch: "2022"
     },
     {
-        id: "26",
+        id: "23",
         name: "Shiv Tiwari",
         img: shivtiwari,
         position: "Management Team",
@@ -571,7 +571,7 @@ export const Alumnis22 = [
         batch: "2022"
     },
     {
-        id: "27",
+        id: "24",
         name: "Vedant Sindhwani",
         img: b7,
         position: "Management Team",

@@ -14,7 +14,7 @@ export const BoardLead = [
     },
 
     {
-        id: "1",
+        id: "2",
         name: "Vanshika Agarwal",
         img: vanshikaagarwal,
         position1: "Team Manager",
@@ -50,7 +50,7 @@ import m5 from "../../assets/images/Team/2023/Mechanical/m5.webp";
 export const BoardTeam = [
 
     {
-        id: "2",
+        id: "1",
         name: "Saniddh Kumar",
         img: sannidhkumar,
         position1: "Events & Marketing Head",
@@ -61,9 +61,8 @@ export const BoardTeam = [
         insta: "https://www.instagram.com/_saniddh_?igsh=Yjd3djF2dXdmdXNi&utm_source=qr",
         team: "management"
     },
-
     {
-        id: "3",
+        id: "2",
         name: "Aishwarya",
         img: aishwarya,
         position1: "Events & Marketing Head",
@@ -74,9 +73,8 @@ export const BoardTeam = [
         insta: "https://www.instagram.com/instanssb?igsh=MW5vcDQ5bTA5eTBtNw==",
         team: "management"
     },
-
     {
-        id: "8",
+        id: "3",
         name: "Manas Choudhary",
         img: manaschoudhary,
         position1: "Web Development Head",
@@ -87,9 +85,8 @@ export const BoardTeam = [
         insta: "https://www.instagram.com/manaschoudhary_?igsh=YTQwZjQ0NmI0OA==",
         team: "management"
     },
-
     {
-        id: "9",
+        id: "4",
         name: "Agrim Gupta",
         img: agrimgupta,
         position1: "Web Development Head",
@@ -100,9 +97,8 @@ export const BoardTeam = [
         insta: "https://www.instagram.com/agrim_gupta31/",
         team: "management"
     },
-
     {
-        id: "4",
+        id: "5",
         name: "Niharika Sharma",
         img: niharikasharma,
         position1: "Operations & Logistics Head",
@@ -113,9 +109,8 @@ export const BoardTeam = [
         insta: "https://www.instagram.com/_niharikasharma_72?igsh=MTYyNncwcnN0bnQxNQ==",
         team: "management"
     },
-
     {
-        id: "5",
+        id: "6",
         name: "Shrey Thakkar",
         img: m10,
         position1: "Operations & Logistics Head",
@@ -126,9 +121,8 @@ export const BoardTeam = [
         insta: "https://www.instagram.com/shretz_t20?igsh=cW5ydDQ4b2Z2NHp1",
         team: "management"
     },
-
     {
-        id: "6",
+        id: "7",
         name: "Aayush Dhingra",
         img: aayushdhingra,
         position1: "Sponsorship & Outreach Head",
@@ -139,9 +133,8 @@ export const BoardTeam = [
         insta: "https://www.instagram.com/_aayushd_27/",
         team: "management"
     },
-
     {
-        id: "7",
+        id: "8",
         name: "Lakshya Jain",
         img: p3,
         position1: "Sponsorship & Outreach Head",
@@ -152,9 +145,8 @@ export const BoardTeam = [
         insta: "lakshyajainx",
         team: "management"
     },
-
     {
-        id: "10",
+        id: "9",
         name: "Kashish Bansal",
         img: kashishbansal,
         position1: "Video Production Head",
@@ -165,9 +157,8 @@ export const BoardTeam = [
         insta: "https://www.instagram.com/kash_.u/",
         team: "management"
     },
-
     {
-        id: "11",
+        id: "10",
         name: "Mansi Mittal",
         img: mansimittal,
         position1: "BOSM Coordinator",
@@ -178,9 +169,8 @@ export const BoardTeam = [
         insta: "https://www.instagram.com/m_mittal14/",
         team: "management"
     },
-
     {
-        id: "12",
+        id: "11",
         name: "Ayush Patel",
         img: ayushpatel,
         position1: "BOSM Joint Coordinator",
@@ -191,9 +181,8 @@ export const BoardTeam = [
         insta: "https://www.instagram.com/han_wahi_iyush?igsh=cDJkbHEzcGxzaWQw",
         team: "management"
     },
-
     {
-        id: "7",
+        id: "12",
         name: "Vidit Shah",
         img: m6,
         position1: "Mechanical Lead",
@@ -205,7 +194,7 @@ export const BoardTeam = [
         team: "tech"
     },
     {
-        id: "8",
+        id: "13",
         name: "Ashwin Singh",
         img: p6,
         position1: "Payload & Experimentation Lead",
@@ -217,7 +206,7 @@ export const BoardTeam = [
         team: "tech"
     },
     {
-        id: "9",
+        id: "14",
         name: "Achyuthan Raghavan",
         img: e10,
         position1: "Electrical Lead",
@@ -229,7 +218,7 @@ export const BoardTeam = [
         team: "tech"
     },
     {
-        id: "10",
+        id: "15",
         name: "Gautham Balachandran",
         img: s2,
         position1: "Software Lead",
@@ -241,7 +230,7 @@ export const BoardTeam = [
         team: "tech"
     },
     {
-        id: "11",
+        id: "16",
         name: "Janak Matharu",
         img: m2,
         position1: "Mechanical Vice Lead",
@@ -253,7 +242,7 @@ export const BoardTeam = [
         team: "tech"
     },
     {
-        id: "12",
+        id: "17",
         name: "Charvi Bansal",
         img: p5,
         position1: "Payload & Experimentation Vice Lead",
@@ -265,7 +254,7 @@ export const BoardTeam = [
         team: "tech"
     },
     {
-        id: "13",
+        id: "18",
         name: "Arsheya Singh Parmar",
         img: e9,
         position1: "Electrical Vice Lead",
@@ -277,7 +266,7 @@ export const BoardTeam = [
         team: "tech"
     },
     {
-        id: "14",
+        id: "19",
         name: "Aryan Chaudhary",
         img: s8,
         position1: "Software Vice Lead",
@@ -289,7 +278,7 @@ export const BoardTeam = [
         team: "tech"
     },
     {
-        id: "15",
+        id: "20",
         name: "Akshay Kumar",
         img: m5,
         position1: "Research and Development Lead",
