@@ -19,7 +19,7 @@ export const BoardLead = [
         img: vanshikaagarwal,
         position1: "Team Manager",
         linkedin: "https://www.linkedin.com/in/vanshika-agarwal-7a4535291",
-        github: null,
+        github: "https://github.com/Vans-17",
         insta: "https://www.instagram.com/vanshika_agarwal_17?igsh=MWIwZXo0bnRsM2R5bA==",
         batch: "2023"
     }
