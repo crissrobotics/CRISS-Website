@@ -50,7 +50,7 @@ import m5 from "../../assets/images/Team/2023/Mechanical/m5.webp";
 export const BoardTeam = [
 
     {
-        id: "3",
+        id: "1",
         name: "Manas Choudhary",
         img: manaschoudhary,
         position1: "Web Development Head",
@@ -62,7 +62,7 @@ export const BoardTeam = [
         team: "management"
     },
     {
-        id: "4",
+        id: "2",
         name: "Agrim Gupta",
         img: agrimgupta,
         position1: "Web Development Head",
@@ -74,7 +74,7 @@ export const BoardTeam = [
         team: "management"
     },
     {
-        id: "1",
+        id: "3",
         name: "Saniddh Kumar",
         img: sannidhkumar,
         position1: "Events & Marketing Head",
@@ -86,7 +86,7 @@ export const BoardTeam = [
         team: "management"
     },
     {
-        id: "2",
+        id: "4",
         name: "Aishwarya",
         img: aishwarya,
         position1: "Events & Marketing Head",
