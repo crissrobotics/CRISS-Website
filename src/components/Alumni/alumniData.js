@@ -131,7 +131,7 @@ export const Alumnis21 = [
         id: "3",
         name: "Shuswabhit Shadangi",
         img: a3,
-        position: "Chief Technical Officer",
+        position: "CTO & Team Director",
         linkedin: "https://www.linkedin.com/in/shuswabhit-shadangi/",
         team: "",
         batch: "2021"
