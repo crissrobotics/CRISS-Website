@@ -8,7 +8,7 @@ export const BoardLead = [
         img: p4,
         position1: "Team Captain",
         linkedin: "https://www.linkedin.com/in/ashray-saxena-052648288?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-        github: "http://github.com/iamgroot",
+        github: "https://github.com/i4mGr0ot",
         insta: null,
         batch: "2023"
     },
