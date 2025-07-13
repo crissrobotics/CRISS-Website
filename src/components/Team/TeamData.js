@@ -50,30 +50,6 @@ import m5 from "../../assets/images/Team/2023/Mechanical/m5.webp";
 export const BoardTeam = [
 
     {
-        id: "1",
-        name: "Saniddh Kumar",
-        img: sannidhkumar,
-        position1: "Events & Marketing Head",
-        position2: "APOGEE Coordinator",
-        position3: null,
-        linkedin: "https://www.linkedin.com/in/saniddh-kumar-729069281?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
-        github: null,
-        insta: "https://www.instagram.com/_saniddh_?igsh=Yjd3djF2dXdmdXNi&utm_source=qr",
-        team: "management"
-    },
-    {
-        id: "2",
-        name: "Aishwarya",
-        img: aishwarya,
-        position1: "Events & Marketing Head",
-        position2: null,
-        position3: null,
-        linkedin: "https://www.linkedin.com/in/aishwarya-singh-k",
-        github: null,
-        insta: "https://www.instagram.com/instanssb?igsh=MW5vcDQ5bTA5eTBtNw==",
-        team: "management"
-    },
-    {
         id: "3",
         name: "Manas Choudhary",
         img: manaschoudhary,
@@ -95,6 +71,30 @@ export const BoardTeam = [
         linkedin: "https://www.linkedin.com/in/agrim-gupta-2796ba313/",
         github: "https://github.com/TheClusterBond",
         insta: "https://www.instagram.com/agrim_gupta31/",
+        team: "management"
+    },
+    {
+        id: "1",
+        name: "Saniddh Kumar",
+        img: sannidhkumar,
+        position1: "Events & Marketing Head",
+        position2: "APOGEE Coordinator",
+        position3: null,
+        linkedin: "https://www.linkedin.com/in/saniddh-kumar-729069281?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+        github: null,
+        insta: "https://www.instagram.com/_saniddh_?igsh=Yjd3djF2dXdmdXNi&utm_source=qr",
+        team: "management"
+    },
+    {
+        id: "2",
+        name: "Aishwarya",
+        img: aishwarya,
+        position1: "Events & Marketing Head",
+        position2: null,
+        position3: null,
+        linkedin: "https://www.linkedin.com/in/aishwarya-singh-k",
+        github: null,
+        insta: "https://www.instagram.com/instanssb?igsh=MW5vcDQ5bTA5eTBtNw==",
         team: "management"
     },
     {
