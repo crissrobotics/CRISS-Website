@@ -8,8 +8,13 @@ import AlumniCard from "./AlumniCard/AlumniCard";
 import Footer from "../Footer/Footer";
 import {Alumnis22, Alumnis21, Alumnis20, FoundingMembers } from "./alumniData";
 import FoundingCard from "./FoundingCard/FoundingCard";
+import TabButton from "../Team/TabButton/TabButton";
+
+import { useState } from "react";
 
 export default function Alumni() {
+    const [selectedBatch, setSelectedBatch] = useState('founders'); 
+
 
     return (
         <>
@@ -22,10 +27,19 @@ export default function Alumni() {
             </header>
             <main className={styles.mainContainer}>
                 <div className={styles.alumniContainer}>
-                    <h6>Founding Members</h6>
-                    <div className={styles.members}>
-                        {FoundingMembers.map(data => (
-                         <FoundingCard
+                    <menu>
+                        <TabButton isSelected={selectedBatch === 'founders'} onSelect={() => setSelectedBatch('founders')}>Founders</TabButton>
+                        <TabButton isSelected={selectedBatch === '2020'} onSelect={() => setSelectedBatch('2020')}>Batch 2020</TabButton>
+                        <TabButton isSelected={selectedBatch === '2021'} onSelect={() => setSelectedBatch('2021')}>Batch 2021</TabButton>
+                        <TabButton isSelected={selectedBatch === '2022'} onSelect={() => setSelectedBatch('2022')}>Batch 2022</TabButton>
+                    </menu>
+                    
+                    {selectedBatch === 'founders' && (
+                     <>
+                        <h6>Founding Members</h6>
+                        <div className={styles.members}>
+                          {FoundingMembers.map(data => (
+                            <FoundingCard
                                 key={data.id}
                                 name={data.name}
                                 profile={data.img}
@@ -36,12 +50,16 @@ export default function Alumni() {
                                 para5={data.para5}
                                 linkedin={data.linkedin}
                             />
-                        ))}
-                    </div>
+                          ))}
+                        </div>
+                     </>
+                    )}
 
-                    <h6>Batch of 2022</h6>
-                    <div className={styles.members}>
-                        {Alumnis22.map(data => (
+                   {selectedBatch === '2022' && (
+                     <>
+                        <h6>Batch of 2022</h6>
+                        <div className={styles.members}>
+                          {Alumnis22.map(data => (
                             <AlumniCard
                                 key={data.id}
                                 name={data.name}
@@ -50,12 +68,34 @@ export default function Alumni() {
                                 linkedin={data.linkedin}
                                 team={data.team}
                             />
-                        ))}
-                    </div>
+                           ))}
+                        </div>
+                    </>
+                   )}
 
-                    <h6>Batch of 2021</h6>
-                    <div className={styles.members}>
-                        {Alumnis21.map(data => (
+                    {selectedBatch === '2021' && (
+                    <>
+                        <h6>Batch of 2021</h6>
+                        <div className={styles.members}>
+                          {Alumnis21.map(data => (
+                            <AlumniCard
+                                key={data.id}
+                                name={data.name}
+                                profile={data.img}
+                                position={data.position}
+                                linkedin={data.linkedin}
+                                team={data.team}    
+                            />
+                          ))}
+                        </div>
+                    </>
+                    )}
+
+                    {selectedBatch === '2020' && (
+                     <>
+                        <h6>Batch of 2020</h6>
+                        <div className={styles.members}>
+                          {Alumnis20.map(data => (
                             <AlumniCard
                                 key={data.id}
                                 name={data.name}
@@ -64,22 +104,11 @@ export default function Alumni() {
                                 linkedin={data.linkedin}
                                 team={data.team}
                             />
-                        ))}
-                    </div>
-
-                    <h6>Batch of 2020</h6>
-                    <div className={styles.members}>
-                        {Alumnis20.map(data => (
-                            <AlumniCard
-                                key={data.id}
-                                name={data.name}
-                                profile={data.img}
-                                position={data.position}
-                                linkedin={data.linkedin}
-                                team={data.team}
-                            />
-                        ))}
-                    </div>
+                          ))}
+                        </div>
+                     </>
+                    )}
+                
                 </div>
             </main>
             <Footer />
