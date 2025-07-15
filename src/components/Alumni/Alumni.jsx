@@ -9,11 +9,16 @@ import Footer from "../Footer/Footer";
 import {Alumnis22, Alumnis21, Alumnis20, FoundingMembers } from "./alumniData";
 import FoundingCard from "./FoundingCard/FoundingCard";
 import TabButton from "../Team/TabButton/TabButton";
+import AlumniDropMenu from "./alumniDropMenu/alumniDropMenu";
 
 import { useState } from "react";
 
 export default function Alumni() {
     const [selectedBatch, setSelectedBatch] = useState('founders'); 
+
+    function handleSelect(selectedButton) {
+        setSelectedBatch(selectedButton);
+    }
 
 
     return (
@@ -27,12 +32,21 @@ export default function Alumni() {
             </header>
             <main className={styles.mainContainer}>
                 <div className={styles.alumniContainer}>
+                    
+                    <h2>The<span>Alumni</span></h2>
                     <menu>
                         <TabButton isSelected={selectedBatch === 'founders'} onSelect={() => setSelectedBatch('founders')}>Founders</TabButton>
-                        <TabButton isSelected={selectedBatch === '2020'} onSelect={() => setSelectedBatch('2020')}>Batch 2020</TabButton>
-                        <TabButton isSelected={selectedBatch === '2021'} onSelect={() => setSelectedBatch('2021')}>Batch 2021</TabButton>
-                        <TabButton isSelected={selectedBatch === '2022'} onSelect={() => setSelectedBatch('2022')}>Batch 2022</TabButton>
+                        <TabButton isSelected={selectedBatch === '2020'} onSelect={() => setSelectedBatch('2020')}>Batch of 2020</TabButton>
+                        <TabButton isSelected={selectedBatch === '2021'} onSelect={() => setSelectedBatch('2021')}>Batch of 2021</TabButton>
+                        <TabButton isSelected={selectedBatch === '2022'} onSelect={() => setSelectedBatch('2022')}>Batch of 2022</TabButton>
                     </menu>
+
+                    <div className={styles.dropmenuContainer}>
+                         <AlumniDropMenu selectedBatch={selectedBatch} handleSelect={setSelectedBatch} />
+                    </div>
+
+                    
+
                     
                     {selectedBatch === 'founders' && (
                      <>

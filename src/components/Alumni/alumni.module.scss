@@ -102,3 +102,33 @@ menu {
         flex-wrap: wrap;
         gap: 2rem 2vw;
     }
+
+    .dropmenuContainer {
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        display: none;
+    }
+
+ @media(max-width :900px) {
+
+    main {
+
+        menu {
+            display: none;
+        }
+
+        .dropmenuContainer {
+            display: block;
+        }
+    }
+}
+
+h2 {
+        text-align: center;
+        font-family: Inter;
+        color: #000;
+        font-size: 40px;
+        font-weight: 800;
+        margin-bottom: 40px;
+    }
