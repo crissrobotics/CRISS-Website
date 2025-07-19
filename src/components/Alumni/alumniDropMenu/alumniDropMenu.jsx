@@ -1,5 +1,5 @@
 import React, { useState, useRef, useEffect } from 'react';
-import './alumniDropMenu.scss'; 
+import './alumnidropmenu.scss'; 
 
 const AlumniDropMenu = ({ selectedBatch, handleSelect }) => {
     const [isOpen, setIsOpen] = useState(false);
